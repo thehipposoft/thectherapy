@@ -30,7 +30,6 @@ const SKINBALANCE_DATA = {
 export default function SkinBalancePage() {
     return (
         <div>
-            <Header />
             <FacialLayout props={SKINBALANCE_DATA} />
             <ImageTextLayout data={SKINBALANCE_DATA.sections} />
         </div>

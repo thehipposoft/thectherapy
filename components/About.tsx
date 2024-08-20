@@ -14,7 +14,7 @@ const About = ({ aboutPage }:any) => {
             >
                 <div className='flex md:flex-row flex-col justify-between md:w-[1150px] md:pl-28 gap-12'>
                     <div className='md:w-[525px] md:h-[435px] relative z-10'>
-                        <Image fill alt='Caro picture' src={'/assets/images/about/about.webp'} objectFit='cover'/>
+                        <Image fill alt='Caro picture' src={'/assets/images/about/about.webp'} className='object-cover'/>
                     </div>
                     <div className='flex flex-col justify-center gap-6'>
                         <p className='text-sm'>the.c.therapy studio</p>
@@ -35,17 +35,7 @@ const About = ({ aboutPage }:any) => {
                                 </div>
                                 <Link href={'/about'} className='flex justify-between items-center gap-6 border border-[#CDCBC0] w-fit px-5 py-4 bg-[#ffffff2a]'>
                                     <p>Read More</p>
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clipPath="url(#clip0_354_234)">
-                                            <path d="M3.75 12H20.25" stroke="#333333" strokeLinecap="round" strokeLinejoin="round"/>
-                                            <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="#333333" strokeLinecap="round" strokeLinejoin="round"/>
-                                        </g>
-                                        <defs>
-                                        <clipPath id="clip0_354_234">
-                                        <rect width="24" height="24" fill="#333333"/>
-                                        </clipPath>
-                                        </defs>
-                                    </svg>
+                                    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#333"><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                                 </Link>
                             </div>
                         }

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -10,8 +11,8 @@ const Footer = () => {
                 </div>
                 <div className='flex gap-32'>
                     <ul className='flex flex-col gap-4'>
-                        <li className='text-[#FFFFFF]'>About</li>
-                        <li className='text-[#FFFFFF]'>Main Services</li>
+                        <Link href={'/about'} className='text-[#FFFFFF]'>About</Link>
+                        <Link href={'/services'} className='text-[#FFFFFF]'>Main Services</Link>
                         <li className='text-[#FFFFFF]'>Journal</li>
                     </ul>
                     <ul className='flex flex-col gap-4'>
@@ -26,10 +27,14 @@ const Footer = () => {
                 <div className='flex flex-col gap-4'>
                     <p className='text-[#FFFFFF]'>FOLLOW US</p>
                     <div className='flex gap-4'>
-                        <Image src={'/assets/vectors/Instagram.svg'} alt='Instagram logo' width={30} height={30}/>
-                        <Image src={'/assets/vectors/TikTok.svg'} alt='Instagram logo' width={30} height={30} />
+                        <Link href={'https://www.instagram.com/the.c.therapy/'}>
+                            <Image src={'/assets/vectors/Instagram.svg'} alt='Instagram logo' width={30} height={30} className='object-contain'/>
+                        </Link>
+                        <Link href={'https://www.tiktok.com/@the.c.therapy'}>
+                            <Image src={'/assets/vectors/TikTok.svg'} alt='TikTok logo' width={30} height={30} />
+                        </Link>
                     </div>
-                    <p className='text-[#FFFFFF]'>Contact</p>
+                    <Link href={'/contact'} className='text-[#FFFFFF]'>Contact</Link>
                 </div>
             </div>
             <div className='flex justify-center py-5'>

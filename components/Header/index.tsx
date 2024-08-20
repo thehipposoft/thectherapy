@@ -3,7 +3,7 @@ import React from 'react';
 import Nav from './Nav';
 import Link from 'next/link';
 
-const Header = ({}) => {
+const Header = () => {
     return (
         <div className='flex items-center justify-between w-[1300px] mx-auto bg-[#FBFEFB] py-2'>
             <Nav />

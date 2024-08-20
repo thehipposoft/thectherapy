@@ -112,7 +112,7 @@ const Nav = () => {
                 </div>
 
             </div>
-            <Link href={'/'}>
+            <Link href={'/contact'}>
                 Contact
             </Link>
             <div>

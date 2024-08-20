@@ -6,7 +6,6 @@ import Header from "@/components/Header";
 export default function ServicesPage() {
     return (
         <div>
-            <Header />
             <FacialCareBanner />
             <FacialGrid />
         </div>
