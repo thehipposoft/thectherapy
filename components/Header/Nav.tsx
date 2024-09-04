@@ -59,7 +59,7 @@ const Nav = () => {
             <Link href={'/about'}>
                 About
             </Link>
-            <Link href={'/'}>
+            <Link href={'/'} className='hidden'>
                 Journal
             </Link>
             <div className=' flex flex-col relative'>

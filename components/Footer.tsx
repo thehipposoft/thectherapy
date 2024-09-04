@@ -4,29 +4,29 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-nav h-[430px] flex flex-col justify-between'>
-            <div className='flex w-[1300px] justify-between items-center mx-auto py-12'>
+        <div className='bg-nav md:h-[400px] flex flex-col justify-between'>
+            <div className='flex md:flex-row flex-col md:w-[1300px] justify-between items-center mx-auto py-12 gap-8 md:gap-0'>
                 <div className='w-[265px] h-[180px] relative'>
                     <Image src={'/logo-blanco-1.svg'} fill alt='C-therapy logo' />
                 </div>
-                <div className='flex gap-32'>
+                <div className='flex md:gap-32 gap-20 mx-auto md:mx-0 w-[85vw] md:w-auto'>
                     <ul className='flex flex-col gap-4'>
-                        <Link href={'/about'} className='text-[#FFFFFF]'>About</Link>
-                        <Link href={'/services'} className='text-[#FFFFFF]'>Main Services</Link>
-                        <li className='text-[#FFFFFF]'>Journal</li>
+                        <Link href={'/about'} className='text-[#FFFFFF] text-sm'>About</Link>
+                        <Link href={'/services'} className='text-[#FFFFFF] text-sm'>Main Services</Link>
+                        <li className='text-[#FFFFFF] text-sm'>Journal</li>
                     </ul>
                     <ul className='flex flex-col gap-4'>
-                        <li className='text-[#FFFFFF]'>Services</li>
-                        <li className='text-[#FFFFFF]'>Facial</li>
-                        <li className='text-[#FFFFFF]'>Body</li>
+                        <li className='text-[#FFFFFF] text-sm'>Services</li>
+                        <li className='text-[#FFFFFF] text-sm'>Facial</li>
+                        <li className='text-[#FFFFFF] text-sm'>Body</li>
                     </ul>
                     <ul>
-                        <li className='text-[#FFFFFF]'>TCT Store</li>
+                        <li className='text-[#FFFFFF] text-sm'>TCT Store</li>
                     </ul>
                 </div>
-                <div className='flex flex-col gap-4'>
+                <div className='flex md:flex-col flex-row gap-4 w-[85vw] justify-between md:justify-start mx-auto md:w-auto md:mx-0'>
                     <p className='text-[#FFFFFF]'>FOLLOW US</p>
-                    <div className='flex gap-4'>
+                    <div className='flex gap-8 md:gap-4'>
                         <Link href={'https://www.instagram.com/the.c.therapy/'}>
                             <Image src={'/assets/vectors/Instagram.svg'} alt='Instagram logo' width={30} height={30} className='object-contain'/>
                         </Link>
@@ -34,7 +34,7 @@ const Footer = () => {
                             <Image src={'/assets/vectors/TikTok.svg'} alt='TikTok logo' width={30} height={30} />
                         </Link>
                     </div>
-                    <Link href={'/contact'} className='text-[#FFFFFF]'>Contact</Link>
+                    <Link href={'/contact'} className='text-[#FFFFFF] text-sm'>Contact</Link>
                 </div>
             </div>
             <div className='flex justify-center py-5'>
