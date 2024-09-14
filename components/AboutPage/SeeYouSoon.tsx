@@ -12,7 +12,7 @@ const SeeYouSoon = () => {
                         <p>I can't wait to welcome you to the.c.therapy and embark on this transformative journey of mind, skin, body & soul together.</p>
                         <p>Let's uncover the radiant, confident you that's been waiting to shine.</p>
                     </div>
-                    <p> See you soon!</p>
+                    <h3 className='text-xl'> See you soon!</h3>
                 </div>
             </div>
         </div>

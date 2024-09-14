@@ -8,9 +8,9 @@ const ImageTextLayout = ({data}:any) => {
             {
                 data.map((val:any, index:any) => {
                     return(
-                        <div key={index} className='flex md:flex-row flex-col md:min-h-[600px] even:md:flex-col even:flex-row-reverse'>
-                            <div className='md:w-[50vw] w-[100vw] h-[300px] relative'>
-                                <Image src={val.image} alt='' fill />
+                        <div key={index} className='flex md:flex-row flex-col md:min-h-[600px] md:even:flex-row-reverse'>
+                            <div className='md:w-[50vw] w-[100vw] md:min-h-[600px] md:h-auto h-[300px] relative'>
+                                <Image src={val.image} alt='' fill className='object-cover' />
                             </div>
                             <div className='md:w-[50vw] bg-[#F5F5F5] flex flex-col justify-center items-center py-12'>
                                 <div className='flex flex-col gap-6 w-9/12 mx-auto'>

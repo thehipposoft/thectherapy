@@ -8,7 +8,7 @@ const ServicesLayout = ({props} :any) => {
         <div className='flex flex-col'>
             <div className='md:h-[560px] h-[400px] relative bg-[#363636]'>
                 <Image src={props.image} alt='' fill  className='object-cover object-[35%] md:object-center'/>
-                <div className='flex flex-col relative z-10 md:w-[1300px] w-[75vw] mx-auto gap-2 top-[75%]'>
+                <div className='flex flex-col relative z-10 md:w-[1300px] w-[75vw] mx-auto gap-2 top-[70%]'>
                     <p className={`text-[${props.textColor}]`}>{props.category}</p>
                     <h2 className={`text-4xl uppercase text-[${props.textColor}]`}>{props.title}</h2>
                 </div>

@@ -1,12 +1,32 @@
+'use client'
 import Image from 'next/image';
-import React from 'react';
+import React, { useRef } from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 const BodyMindSoul = () => {
+
+    const container = useRef(null);
+
+    useGSAP(() => {
+        gsap.from('.circles > *', {
+            scrollTrigger: {
+                trigger: container.current,
+                start: '15% center',
+            },
+            opacity: 0,
+            y: -100,
+            duration: 1.3,
+            stagger: 0.5,
+            ease: 'power2.inOut'
+        })
+    }, {scope: container})
+
     return (
-        <div className='md:h-[560px] relative flex items-center justify-center pb-20'>
+        <div ref={container} className='md:h-[560px] relative flex items-center justify-center pb-20'>
             <Image src={'/assets/images/about/bodymindsoul.webp'} fill alt='Background'  />
             <div className='md:w-[1250px] relative z-10 flex flex-col md:flex-row items-center md:gap-12 gap-8'>
-                <div className='flex flex-col'>
+                <div className='flex flex-col circles'>
                     <div className='border border-[#6E6460] rounded-full w-[150px] h-[150px] flex justify-center items-center relative top-10'>
                         <h3 className='text-[#6E6460] text-xl'>Body</h3>
                     </div>

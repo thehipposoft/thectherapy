@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Header = () => {
     return (
-        <div className='md:flex items-center justify-between md:w-[1300px] hidden mx-auto bg-[#FBFEFB] py-2'>
+        <div className='md:flex items-center justify-between md:w-[1300px] hidden mx-auto bg-[#FBFEFB] '>
             <Nav />
             <Link href={'/'} className='flex items-center gap-2 pr-28'>
                 <div className='bg-nav rounded-full w-16 h-16 flex justify-center relative'>

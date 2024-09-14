@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React, { useState, useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import AnchorLink from '../commons/AnchorLink';
 
 
 const NAV_DATA =[
@@ -52,34 +53,24 @@ const Nav = () => {
     });
 
     return (
-        <div ref={container} className='flex gap-6 text-sm'>
-            <Link href={'/'}>
+        <div ref={container} className='flex gap-6 text-sm md:h-20 items-center'>
+            <AnchorLink href={'#products'}>
                 Products
-            </Link>
+            </AnchorLink>
             <Link href={'/about'}>
                 About
             </Link>
             <Link href={'/'} className='hidden'>
                 Journal
             </Link>
-            <div className=' flex flex-col relative'>
-                <Link href={'/services'} >Services</Link>
-                <div className='services hidden px-4 py-4'>
-                    <div className='px-4 opacity-1 absolute bg-nav flex justify-center items-center text-[#FFFFFF] border-b-[1px]'>
-                        <div className='flex justify-between'>
-                            <p>Facials</p>
-                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clipPath="url(#clip0_106_1349)">
-                                <path d="M3.125 10.5H16.875" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                                <path d="M10 3.625V17.375" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_106_1349">
-                                <rect width="20" height="20" fill="white" transform="translate(0 0.5)"/>
-                                </clipPath>
-                                </defs>
-                            </svg>
-                        </div>
+            <div className='group flex flex-col relative h-full justify-center'>
+                <p>Services</p>
+                <div className='absolute group-hover:z-30 w-52 top-16 bg-nav overflow-hidden translate-y-12 opacity-0 duration-500  group-hover:translate-y-0 group-hover:opacity-100'>
+                    <div className='opacity-1 flex items-center text-[#FFFFFF] cursor-pointer px-4 hover:bg-[#cdc6bad5] duration-500'>
+                        <Link href={'/facial'} className='flex justify-between w-full py-6'>
+                            <p className='text-[#FFFFFF]'>Facials</p>
+                            <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                        </Link>
                         
                         <ul className='absolute left-32 opacity-0'>
                             <li>Skin Consultation</li>
@@ -89,28 +80,17 @@ const Nav = () => {
                             <li>Skin Consultation</li>
                         </ul>
                     </div>
-                    <div className='opacity-1 absolute bg-nav top-24 flex justify-center items-center text-[#FFFFFF]'>
-                        <div className='flex justify-between'>
-                            <p>Body</p>
-                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clipPath="url(#clip0_106_1349)">
-                                <path d="M3.125 10.5H16.875" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                                <path d="M10 3.625V17.375" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_106_1349">
-                                <rect width="20" height="20" fill="white" transform="translate(0 0.5)"/>
-                                </clipPath>
-                                </defs>
-                            </svg>
-                        </div>
+                    <div className='opacity-1 flex items-center text-[#FFFFFF] px-4 cursor-pointer hover:bg-[#cdc6bad5] duration-500'>
+                        <Link href={'/body'} className='flex justify-between w-full py-6'>
+                            <p className='text-[#FFFFFF]'>Body</p>
+                            <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                        </Link>
                         <ul className='absolute left-32 opacity-0'>
                             <li>Body Treatment</li>
                             <li>Skin & Body relax</li>
                         </ul>
                     </div>
                 </div>
-
             </div>
             <Link href={'/contact'}>
                 Contact

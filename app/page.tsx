@@ -6,10 +6,13 @@ import Testimonials from "@/components/Testimonials";
 import Treatments from "@/components/Treatments";
 import VoucherBanner from "@/components/VoucherBanner";
 import Transition from "@/components/Transition"
+import MobileMenu from "@/components/commons/MobileMenu";
+import PopUp from "@/components/commons/PopUp";
 
 export default function Home({}) {
   return (
-      <Transition>
+      <div>
+        <MobileMenu />
         <Banner />
         <About />
         <Products />
@@ -17,6 +20,6 @@ export default function Home({}) {
         <Testimonials />
         <SocialMedia />
         <VoucherBanner />
-      </Transition>
+      </div>
   );
 }

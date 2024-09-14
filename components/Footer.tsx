@@ -12,13 +12,13 @@ const Footer = () => {
                 <div className='flex md:gap-32 gap-20 mx-auto md:mx-0 w-[85vw] md:w-auto'>
                     <ul className='flex flex-col gap-4'>
                         <Link href={'/about'} className='text-[#FFFFFF] text-sm'>About</Link>
-                        <Link href={'/services'} className='text-[#FFFFFF] text-sm'>Main Services</Link>
+                        <Link href={'/services'} className='text-[#FFFFFF] text-sm hidden'>Main Services</Link>
                         <li className='text-[#FFFFFF] text-sm'>Journal</li>
                     </ul>
                     <ul className='flex flex-col gap-4'>
                         <li className='text-[#FFFFFF] text-sm'>Services</li>
-                        <li className='text-[#FFFFFF] text-sm'>Facial</li>
-                        <li className='text-[#FFFFFF] text-sm'>Body</li>
+                        <Link href={'/facial'} className='text-[#FFFFFF] text-sm'>Facial</Link>
+                        <Link href={'/body'} className='text-[#FFFFFF] text-sm'>Body</Link>
                     </ul>
                     <ul>
                         <li className='text-[#FFFFFF] text-sm'>TCT Store</li>
@@ -27,10 +27,10 @@ const Footer = () => {
                 <div className='flex md:flex-col flex-row gap-4 w-[85vw] justify-between md:justify-start mx-auto md:w-auto md:mx-0'>
                     <p className='text-[#FFFFFF]'>FOLLOW US</p>
                     <div className='flex gap-8 md:gap-4'>
-                        <Link href={'https://www.instagram.com/the.c.therapy/'}>
+                        <Link rel='noreferrer' target='_blank' href={'https://www.instagram.com/the.c.therapy/'}>
                             <Image src={'/assets/vectors/Instagram.svg'} alt='Instagram logo' width={30} height={30} className='object-contain'/>
                         </Link>
-                        <Link href={'https://www.tiktok.com/@the.c.therapy'}>
+                        <Link rel='noreferrer' target='_blank'  href={'https://www.tiktok.com/@the.c.therapy'}>
                             <Image src={'/assets/vectors/TikTok.svg'} alt='TikTok logo' width={30} height={30} />
                         </Link>
                     </div>

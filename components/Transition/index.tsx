@@ -10,7 +10,9 @@ export default function index({children}:any) {
     const container = useRef(null)
 
     useGSAP(() => {
-        
+        gsap.to(container.current, {opacity: 0}).then( () => {
+            setDisplayChildren(children)
+        })
     }, [children])
 
     return (

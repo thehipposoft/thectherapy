@@ -1,9 +1,9 @@
-import VoucherForm from "@/components/VoucherForm";
+import VoucherPage from "@/components/VoucherPage";
 
 export default function ServicesPage() {
     return (
         <div>
-            <VoucherForm />
+            <VoucherPage />
         </div>
     );
 }
