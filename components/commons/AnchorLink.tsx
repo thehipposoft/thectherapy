@@ -7,6 +7,7 @@ const AnchorLink = ({href, children}:any) => {
  
   return (
         <Link
+            className='hover:underline'
             href={href}
             onClick={() => {
                 lenis?.scrollTo(`${href}`)

@@ -1,9 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 
 const SeeYouSoon = () => {
     return (
         <div className='md:h-[560px] h-[80vh] flex flex-col-reverse md:flex-row items-center'>
-            <div className='md:w-1/2 bg-nav h-full'>
+            <div className='md:w-[50vw] relative bg-nav h-full'>
+                <Image src={'/assets/images/about/about-heaven.webp'} alt={''} fill className='object-cover object-bottom' />
             </div>
             <div className='md:w-1/2 w-[75vw] mx-auto md:mx-0 py-20 md:py-0 justify-center items-center'>
                 <div className='md:w-[420px] mx-auto flex gap-6 flex-col'>

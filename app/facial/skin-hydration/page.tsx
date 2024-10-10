@@ -6,11 +6,11 @@ const SKINHYDRATION_DATA = {
     title: 'Skin Hydration',
     category: 'Facials',
     textColor: '#333333',
-    image: '/assets/images/facials/skinHydration.webp',
+    image: '/assets/images/facials/skin-hydration.webp',
     text: `A range of facial treatments to meet your skin's needs, from anti-aging and hydration-boosting LED light therapy, skin detoxifying facial, relaxing facial massages to our Go-to facial treatment for a deep cleansing anti-blemishes, hydrating & sooting one.`,
     sections: [
         {
-            image: '/assets/images/facials/skinBalance.webp',
+            image: '/assets/images/facials/skin-hydration/express-glow.webp',
             title: 'Express Glow',
             paragraphs: <div className='flex flex-col gap-2'>
                 <p>Dermalux LED Phototherapy is a non-invasive treatement that uses a clincally proven therapeutic light energy to trigger the skins natural rejuvenation and repair processes without pain or downtime.</p>
@@ -21,8 +21,8 @@ const SKINHYDRATION_DATA = {
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true'
         },
         {
-            image: '/assets/images/facials/skinBalance.webp',
-            title: 'The Organic Facial',
+            image: '/assets/images/facials/skin-hydration/glass-facial.webp',
+            title: 'The Glass Skin Facial',
             paragraphs: <div className='flex flex-col gap-2'>
                 <p>This is one of our go-to treatment as is a great option for all types of skin in needs of improve hydration, calm redness/ inflammation, acne/ breakouts and give that glass skin effect, your skin will be glowy and plumped than ever.</p>
                 <p>Enjoy a fluffy brush enzyme exfoliation & LED therapy some luxury me-time with a unique combination production, increase hydration & proven mood enhacing effects, energising skin cells to kick start regeneration, calm redness & irritation or restore radiance by melanin inhibition blitz blemish causing bacteria.</p>
@@ -32,7 +32,7 @@ const SKINHYDRATION_DATA = {
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true'
         },
         {
-            image: '/assets/images/facials/skinBalance.webp',
+            image: '/assets/images/facials/skin-hydration/detox-facial.webp',
             title: 'The Detox Facial',
             paragraphs: <div className='flex flex-col gap-4'>
                 <p>This a great Lymphatic drainage facial that treats holistically the skin concerns from inside out creating a tightening effect on the skin. This constricted function stimulates internal skin processes such as reversal osmosis; bringing nutrients to the upper layers of the skin while promoting beneficial fluid excess clearing and blockages within the circulatory system. Giving you a dewy effect and contoured face look!</p>
@@ -41,7 +41,7 @@ const SKINHYDRATION_DATA = {
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true'
         },
         {
-            image: '/assets/images/facials/skinBalance.webp',
+            image: '/assets/images/facials/skin-hydration/facial-massage.webp',
             title: 'The Facial Massage',
             paragraphs: <div className='flex flex-col gap-2'>
                 <p>Indulge in our luxurious manual facial, designed especially for massage lovers.This treatment is perfect for those seeking relaxation while targeting fine lines, wrinkles, and expression marks.</p>

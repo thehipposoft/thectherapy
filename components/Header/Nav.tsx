@@ -1,8 +1,5 @@
-'use client'
 import Link from 'next/link';
-import React, { useState, useRef } from 'react';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
+import React from 'react';
 import AnchorLink from '../commons/AnchorLink';
 
 
@@ -41,23 +38,13 @@ const NAV_DATA =[
 
 const Nav = () => {
 
-    const container = useRef<HTMLDivElement>(null);
-    const { contextSafe } = useGSAP({ scope: container }); 
-    
-    const onMouseEnterFunc = contextSafe(() => {
-        gsap.to('.services', { opacity: 1, y: 0, duration: 1, ease: 'power3.inOut' });
-    });
-
-    const onMouseLeaveFunc = contextSafe(() => {
-        gsap.to('.services', { opacity: 0, y: -100, duration: 1, ease: 'power3.inOut' });
-    });
 
     return (
-        <div ref={container} className='flex gap-6 text-sm md:h-20 items-center'>
+        <div className='flex gap-6 text-sm md:h-20 items-center'>
             <AnchorLink href={'#products'}>
                 Products
             </AnchorLink>
-            <Link href={'/about'}>
+            <Link href={'/about'} className='hover:underline'>
                 About
             </Link>
             <Link href={'/'} className='hidden'>
@@ -92,7 +79,7 @@ const Nav = () => {
                     </div>
                 </div>
             </div>
-            <Link href={'/contact'}>
+            <Link href={'/contact'} className='hover:underline'>
                 Contact
             </Link>
             <div>

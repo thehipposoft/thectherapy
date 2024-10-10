@@ -6,11 +6,11 @@ const SKINRENEWAL_DATA = {
     title: 'Skin Renewal',
     category: 'Facials',
     textColor: '#FFFFFF',
-    image: '/assets/images/facials/skinRenewal.webp',
+    image: '/assets/images/facials/skin-renewal.webp',
     text: 'Find a range of mechanical and chemical peels such as Dermaplaning and a range of chemical peels from the brand Medik8, perfect for renewing your skin and keeping it glowy and youthful.',
     sections: [
         {
-            image: '/assets/images/facials/skinBalance.webp',
+            image: '/assets/images/facials/skin-renewal/express-dermaplaning.webp',
             title: 'Express Dermaplaning',
             paragraphs: <div className='flex flex-col gap-2'>
                 <p>Enjoy the professional Dermaplaning pro treatment. Removing dead skin cells and vellum hair leaves you with instant glowing smooth results. Reduce the sings of fine lines and wrinkles, pigmentation and dullness with this express renewal facial.</p>
