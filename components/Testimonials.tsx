@@ -42,9 +42,11 @@ const Testimonials = () => {
                                         <path fill-rule="evenodd" clipRule="evenodd" d="M12.908 0.580999C12.828 0.407536 12.6999 0.260629 12.539 0.15766C12.3781 0.0546912 12.191 -3.05176e-05 12 -3.05176e-05C11.809 -3.05176e-05 11.6219 0.0546912 11.461 0.15766C11.3001 0.260629 11.172 0.407536 11.092 0.580999L8.222 6.801L1.421 7.608C1.23125 7.6304 1.05189 7.7067 0.904148 7.82786C0.756406 7.94902 0.646466 8.10996 0.587341 8.29165C0.528216 8.47334 0.522379 8.66817 0.570523 8.85307C0.618666 9.03797 0.718774 9.20521 0.858999 9.335L5.889 13.985L4.554 20.705C4.51692 20.8923 4.53425 21.0864 4.60394 21.2641C4.67364 21.4419 4.79278 21.596 4.94729 21.7083C5.10179 21.8205 5.2852 21.8861 5.47582 21.8974C5.66645 21.9087 5.85632 21.8652 6.023 21.772L12 18.426L17.977 21.772C18.1438 21.8656 18.3339 21.9094 18.5248 21.8982C18.7157 21.887 18.8994 21.8214 19.0542 21.709C19.2089 21.5965 19.3281 21.4421 19.3978 21.264C19.4674 21.0859 19.4845 20.8915 19.447 20.704L18.112 13.986L23.141 9.335C23.2812 9.20521 23.3813 9.03797 23.4295 8.85307C23.4776 8.66817 23.4718 8.47334 23.4127 8.29165C23.3535 8.10996 23.2436 7.94902 23.0958 7.82786C22.9481 7.7067 22.7687 7.6304 22.579 7.608L15.777 6.8L12.908 0.580999Z" fill="#C0BEB3"/>
                                     </svg>
                                 </div>
-                                <p className='text-sm'>Isabel M.</p>
-                                <h2 className='text-3xl'>"Excellent service. Lovely person"</h2>
-                                <p>I wish I could get the pink quartz facil every week. So luminious and relaxing that it feels like a C mini retreat</p>
+                                <h2 className='text-3xl'>"I absolute loved this place"</h2>
+                                <p>It was not just a skin treatment but a treat to the soul. Caro is so passionate about natural skincare, and she goes out of the way to make sure we make the most of the treatment and can still use some of the products we already have with her guidance. My skin changed so much after my first full facial that couldn't stop looking at the mirror.</p>
+                                <div className='flex justify-end pt-4'>
+                                    <p>Maria Helguera</p>
+                                </div>
                             </div>
                             <div className={`${swipe ? '-translate-x-full' : ''} duration-1000 flex flex-col justify-center gap-4 md:min-w-[720px] min-w-[70vw] mx-auto md:mx-0 h-full`}>
                                 <div className='flex gap-1'>
@@ -64,9 +66,11 @@ const Testimonials = () => {
                                         <path fill-rule="evenodd" clipRule="evenodd" d="M12.908 0.580999C12.828 0.407536 12.6999 0.260629 12.539 0.15766C12.3781 0.0546912 12.191 -3.05176e-05 12 -3.05176e-05C11.809 -3.05176e-05 11.6219 0.0546912 11.461 0.15766C11.3001 0.260629 11.172 0.407536 11.092 0.580999L8.222 6.801L1.421 7.608C1.23125 7.6304 1.05189 7.7067 0.904148 7.82786C0.756406 7.94902 0.646466 8.10996 0.587341 8.29165C0.528216 8.47334 0.522379 8.66817 0.570523 8.85307C0.618666 9.03797 0.718774 9.20521 0.858999 9.335L5.889 13.985L4.554 20.705C4.51692 20.8923 4.53425 21.0864 4.60394 21.2641C4.67364 21.4419 4.79278 21.596 4.94729 21.7083C5.10179 21.8205 5.2852 21.8861 5.47582 21.8974C5.66645 21.9087 5.85632 21.8652 6.023 21.772L12 18.426L17.977 21.772C18.1438 21.8656 18.3339 21.9094 18.5248 21.8982C18.7157 21.887 18.8994 21.8214 19.0542 21.709C19.2089 21.5965 19.3281 21.4421 19.3978 21.264C19.4674 21.0859 19.4845 20.8915 19.447 20.704L18.112 13.986L23.141 9.335C23.2812 9.20521 23.3813 9.03797 23.4295 8.85307C23.4776 8.66817 23.4718 8.47334 23.4127 8.29165C23.3535 8.10996 23.2436 7.94902 23.0958 7.82786C22.9481 7.7067 22.7687 7.6304 22.579 7.608L15.777 6.8L12.908 0.580999Z" fill="#C0BEB3"/>
                                     </svg>
                                 </div>
-                                <p className='text-sm'>Camila A.</p>
-                                <h2 className='text-3xl'>"Excellent service. Lovely person"</h2>
-                                <p>My facial was great. I was really pleased with the experience and Carolina was just beautiful!.</p>
+                                <h2 className='text-3xl'>"Such a Lovely experience with Carolina"</h2>
+                                <p>The ambience she has created in the music, warm tea, comfortable and clean space; helped me to feel very relaxed. I appreciate Carolina's knowledge and extra care for my skin and health. I'm looking forward to coming back.</p>
+                                <div className='flex justify-end pt-4'>
+                                    <p>Joanne Mejia Hooi</p>
+                                </div>
                             </div>
                         </div> 
                     <button onClick={SwipeFunc} className={`${swipe ? 'hidden' : 'block'} hover:opacity-40 duration-500 absolute top-1/2 md:right-32 -right-10 md:h-8 h-7 md:w-8 w-7`}>
@@ -79,8 +83,8 @@ const Testimonials = () => {
                     </div>
                 </div>
                 <div className='w-full relative mt-16'>
-                    <div onClick={SwipeFunc} className='h-[3px] bg-nav bg-opacity-50 w-full absolute left-0 ' />
-                    <div className={`${swipe ? 'translate-x-full' : ''} duration-700 h-[3px] bg-[#000000] w-1/2 absolute left-0 z-10 cursor-pointer`} />
+                    <div onClick={SwipeFunc} className='h-[3px] cursor-pointer bg-nav bg-opacity-50 w-full absolute left-0 ' />
+                    <div className={`${swipe ? 'translate-x-full' : ''}  duration-700 h-[3px] bg-[#000000] w-1/2 absolute left-0 z-10 cursor-pointer`} />
                 </div>
             </div>
         </div>

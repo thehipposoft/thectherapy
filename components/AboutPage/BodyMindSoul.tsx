@@ -24,7 +24,7 @@ const BodyMindSoul = () => {
 
     return (
         <div ref={container} className='md:h-[560px] relative flex items-center justify-center pb-20'>
-            <Image src={'/assets/images/about/bodymindsoul.webp'} fill alt='Background'  />
+            <Image src={'/assets/images/about/bodymindsoul.webp'} fill alt='Texture Background'  />
             <div className='md:w-[1250px] relative z-10 flex flex-col md:flex-row items-center md:gap-12 gap-8'>
                 <div className='flex flex-col circles'>
                     <div className='border border-[#6E6460] rounded-full w-[150px] h-[150px] flex justify-center items-center relative top-10'>

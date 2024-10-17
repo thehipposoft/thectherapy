@@ -41,6 +41,9 @@ const Nav = () => {
 
     return (
         <div className='flex gap-6 text-sm md:h-20 items-center'>
+            <Link href={'/'} className='hover:underline'>
+                Home
+            </Link>
             <AnchorLink href={'#products'}>
                 Products
             </AnchorLink>
@@ -50,21 +53,35 @@ const Nav = () => {
             <Link href={'/'} className='hidden'>
                 Journal
             </Link>
-            <div className='group flex flex-col relative h-full justify-center'>
+            <div className='group/nav-father flex flex-col relative h-full justify-center'>
                 <p>Services</p>
-                <div className='absolute group-hover:z-30 w-52 top-16 bg-nav overflow-hidden translate-y-12 opacity-0 duration-500  group-hover:translate-y-0 group-hover:opacity-100'>
-                    <div className='opacity-1 flex items-center text-[#FFFFFF] cursor-pointer px-4 hover:bg-[#cdc6bad5] duration-500'>
+                <div className='absolute group-hover/nav-father:z-30 w-52 bg-nav translate-y-32 opacity-0 duration-500 group-hover/nav-father:translate-y-24 group-hover/nav-father:opacity-100'>
+                    <div className='group/child flex items-center text-[#FFFFFF] cursor-pointer px-4 hover:bg-[#cdc6bad5] duration-500'>
                         <Link href={'/facial'} className='flex justify-between w-full py-6'>
                             <p className='text-[#FFFFFF]'>Facials</p>
                             <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
                         </Link>
-                        
-                        <ul className='absolute left-32 opacity-0'>
-                            <li>Skin Consultation</li>
-                            <li>Skin Consultation</li>
-                            <li>Skin Consultation</li>
-                            <li>Skin Consultation</li>
-                            <li>Skin Consultation</li>
+                        <ul className='absolute duration-500 translate-x-48 w-52 bg-nav group-hover/child:z-30 group-hover/child:opacity-100 translate-y-44 group-hover/child:translate-y-36 opacity-0'>
+                            <Link href={'/skin-consultation'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>
+                                <p className='text-[#FFFFFF]'>Skin Consultation</p>
+                                <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                            </Link>
+                            <Link href={'/facial/skin-balance'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>
+                                <p className='text-[#FFFFFF]'>Skin Balance</p>
+                                <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                            </Link>
+                            <Link href={'/facial/skin-hydration'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>
+                                <p className='text-[#FFFFFF]'>Skin Hydration</p>
+                                <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                            </Link>
+                            <Link href={'/facial/skin-renewal'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>
+                                <p className='text-[#FFFFFF]'>Skin Renewal</p>
+                                <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                            </Link>
+                            <Link href={'/facial/skin-ageless'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>
+                                <p className='text-[#FFFFFF]'>Skin Ageless</p>
+                                <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                            </Link>
                         </ul>
                     </div>
                     <div className='opacity-1 flex items-center text-[#FFFFFF] px-4 cursor-pointer hover:bg-[#cdc6bad5] duration-500'>
@@ -82,24 +99,8 @@ const Nav = () => {
             <Link href={'/contact'} className='hover:underline'>
                 Contact
             </Link>
-            <div>
-                <p>More</p>
-                <ul>
-                    <li></li>
-                </ul>
-            </div>
         </div>
     );
 };
 
 export default Nav;
-
-/*
-            {
-                NAV_DATA.map((value, index) => (
-                    <Link href={value.href} key={index}>
-                        {value.label}
-                    </Link>
-                ))
-            }
-*/

@@ -7,6 +7,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 import Announcement from "@/components/Announcement";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import SchemaOrg from "@/components/SchemaOrg";
+import MobileMenu from "@/components/commons/MobileMenu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,7 @@ export default function RootLayout({
           <SchemaOrg />
           <SmoothScroll>
             <header>
-              <Announcement />
+              <MobileMenu />
               <Header />
             </header>
               {children}

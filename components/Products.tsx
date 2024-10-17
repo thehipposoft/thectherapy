@@ -50,7 +50,7 @@ const Products = () => {
                     </div>
                 </div>
                 <div className='flex md:justify-end justify-center pt-10'>
-                    <Link rel='noreferrer' target='_blank' className='py-4 px-24 text-[#FFFFFF] bg-nav underline' href={'https://www.fresha.com/es/store/the-c-therapy-store-yhbo595r'}>
+                    <Link rel='noreferrer' target='_blank' className='py-4 px-24 duration-500 text-[#FFFFFF] border bg-nav hover:underline hover:bg-[#ffffff] hover:text-[#333333] hover:border-nav' href={'https://store.thectherapy.com.au/'}>
                         See product in store
                     </Link>
                 </div>

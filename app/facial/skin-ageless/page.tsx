@@ -11,17 +11,17 @@ const SKINAGELESS_DATA = {
     sections: [
         {
             image: '/assets/images/facials/skin-ageless/infusion-facial.webp',
-            title: 'The Infusion Facil',
+            title: 'The Infusion Facial',
             paragraphs: <div className='flex flex-col gap-2'>
                 <p>A rejuvenating treatment that delivers a custom blend of active ingredients directly into your skin for maximum effectiveness. Using a specialized nano infusion device, we apply a custom blend of hyaluronic acid, DMAE, vitamin C+E, Argilerine, stem cells, peptides, and epidermal growth factors to your skin. These potent ingredients are delivered through microneedle channels, gently created by pyramid-shaped silicone or steel needles ensure the deep penetration of these powerful serums. Also provides gentle exfoliation to reveal smoother, more radiant skin. Say goodbye to fine lines, wrinkles, and dullness as your skin is revitalized from within.</p>
                 <p>Experience the transformative power of our Nano Infusion Facial and uncover a more youthful, glowing complexion. </p>
                 <p className='pt-4'>Double cleanse | enzyme peel | nano infusion on face and neck with actives serums | Hydrojelly mask | scalp or neck & arms massage | Skincare & SPF.</p>
             </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true'
+            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16830214&dppub=true&employeeId=1482022&pId=474146'
         },
         {
             image: '/assets/images/facials/skin-ageless/radiofrecuency.webp',
-            title: 'The Organic Facial',
+            title: 'Radiofrequency',
             paragraphs: <div className='flex flex-col gap-2'>
                 <p>Radiofrequency facial rejuvenation manages to tighten the skin through controlled thermal damage to its deepest layers, which produces a reduction in fine wrinkles, deep wrinkles, scars, stretch marks with a lifting effect.</p>
                 <p>Double cleanse | exfoliation | Radiofrequency | Cream mask | SPF application</p>

@@ -1,5 +1,4 @@
 import React from 'react';
-import VoucherForm from '../VoucherForm';
 import Image from 'next/image';
 
 const PopUp = () => {

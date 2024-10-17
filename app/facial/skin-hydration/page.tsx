@@ -12,13 +12,14 @@ const SKINHYDRATION_DATA = {
         {
             image: '/assets/images/facials/skin-hydration/express-glow.webp',
             title: 'Express Glow',
-            paragraphs: <div className='flex flex-col gap-2'>
+            paragraphs: <div className='flex flex-col gap-1'>
                 <p>Dermalux LED Phototherapy is a non-invasive treatement that uses a clincally proven therapeutic light energy to trigger the skins natural rejuvenation and repair processes without pain or downtime.</p>
                 <p>Dermalux uses unique combinations of clinaclly proven Blue, Red and Near Infrared wavelenghts to boost collagen production, increase hydration, calm redness and irritation and blemish causing bacteria.</p>
                 <p>As the light triggers a whole cascade of skin enhancing processes, the benefits continue even after the treatment ahs finished.</p>
                 <p className='pt-4'>Double cleanse | exfoliation | hydrating mask | dermalux led | scalp massage | SPF</p>
             </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true'
+            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16828109&dppub=true&employeeId=1482022&pId=474146'
+            
         },
         {
             image: '/assets/images/facials/skin-hydration/glass-facial.webp',
@@ -29,7 +30,7 @@ const SKINHYDRATION_DATA = {
                 <p>As the light triggers a whole cascade of skin enhacing processes, the benefits continue even after the treatment has finished.</p>
                 <p className='pt-4'>Doubble cleanse | enzyme peel powder | hot towel | serum infusion | dermalux led | Hydrojelly mask | extraction or choose one: scalp or arm massage | skincare application & SPF</p>
             </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true'
+            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16828141&dppub=true&employeeId=1482022&pId=474146'
         },
         {
             image: '/assets/images/facials/skin-hydration/detox-facial.webp',
@@ -49,7 +50,7 @@ const SKINHYDRATION_DATA = {
                 <p>Includes: Double cleanse | exfoliation| hydrating cream mask application| hand & tools Face,Neck & décolletage massage| sculpting Cryosticks | Hydrojelly mask | SPF Application.</p>
                 <p>This treatment is popular & perfect for “Bride to be” a week before the Big Day Please note that Is Not indicated for skins with active Rosacea.</p>
             </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true'
+            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A8360839&dppub=true&employeeId=1482022&pId=474146'
         },
     ],
 }

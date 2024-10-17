@@ -11,7 +11,6 @@ const SKINBALANCE_DATA = {
     sections: [
         {
             image: '/assets/images/facials/skin-balance/express-plant-peel.webp',
-            imagePosition: 'center',
             title: 'Express Plant Peel',
             paragraphs: <div className='flex flex-col gap-4'>
                 <p>A certified organic professional peel blended with enzyme and fruit acid exfoliants. Infused with brightening & antioxidant actives to help improve skin damage whilst natural moisturising factors leave the skin feeling rehydrated with no downtime.</p>
@@ -21,7 +20,7 @@ const SKINBALANCE_DATA = {
         },
         {
             image: '/assets/images/facials/skin-balance/organic-facial.webp',
-            imagePosition: 'bottom',
+            imagePosition: 'object-bottom',
             title: 'The Organic Facial',
             paragraphs: <div className='flex flex-col gap-4'>
                 <p>This organic facial is created to restore your skin while support the skin microbiome providing antioxidants & essential fatty acids necessaries for a healthier skin function.</p>
