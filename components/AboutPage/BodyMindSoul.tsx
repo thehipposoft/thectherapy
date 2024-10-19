@@ -45,8 +45,8 @@ const BodyMindSoul = () => {
                     </div>
                     <p className='text-3xl text-[#6E6460]'>connect</p>
                 </div>
-                <div className='md:w-full flex justify-center mx-auto md:mx-0'>
-                    <h2 className='text-3xl'>
+                <div className='md:w-full flex justify-center w-[75vw] mx-auto md:mx-0'>
+                    <h2 className='text-3xl '>
                         Passion for Natural Healing.
                     </h2>
                 </div>

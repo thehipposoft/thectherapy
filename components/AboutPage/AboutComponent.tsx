@@ -60,13 +60,9 @@ const AboutComponent = () => {
         <div ref={container} className='pb-20 flex flex-col md:gap-56'>
             <div 
                 ref={trigger}
-                className='h-screen md:flex items-center md:bg-right bg-top'
-                style={{
-                    backgroundImage: 'url(/assets/images/about/background-2.webp)',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'contain',
-                }}
+                className='h-screen md:flex items-center md:bg-right bg-top relative'
             >
+                <Image src={'/assets/images/about/background-2.webp'} alt='' fill  className=' object-contain md:object-right object-top'/>
                 <div  className='flex md:flex-row-reverse flex-col justify-between md:w-[1250px] md:pl-28 pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
                     <div className='image md:w-[540px] w-[340px] md:h-[475px] h-[375px] relative z-10'>
                         <Image fill alt='Carolina picture' src={'/assets/images/about/about-3.webp'} className='object-cover' />
@@ -86,12 +82,9 @@ const AboutComponent = () => {
             </div>
             <div
                 ref={triggerTwo}
-                className='h-screen md:flex items-center md:bg-right bg-top'
-                style={{
-                    backgroundImage: 'url(/assets/images/about/background-3.webp)',
-                    backgroundRepeat: 'no-repeat',
-                }}
+                className='h-screen md:flex items-center md:bg-right bg-top relative'
             >
+                <Image src={'/assets/images/about/background-3.webp'} alt='' fill  className='object-scale-down md:object-right object-center'/>
                 <div className='flex md:flex-row-reverse flex-col justify-between md:w-[1250px] md:pl-28 pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
                     <div className='imageTwo md:w-[540px] w-[340px] md:h-[475px] h-[375px] relative z-10'>
                         <Image fill alt='Carolina picture' src={'/assets/images/about/about-4.webp'} className='object-cover'/>

@@ -33,6 +33,9 @@ const MobileMenu = () => {
                 <Link href={'/facial'} className='border-b p-2 text-2xl' onMouseUp={toggleMenu}>
                     Facial
                 </Link>
+                <Link href={'/skin-consultation'} className='border-b p-2 text-2xl' onMouseUp={toggleMenu}>
+                    Skin Consultation
+                </Link>
                 <Link href={'/body'} className='border-b p-2 text-2xl' onMouseUp={toggleMenu}>
                     Body
                 </Link>
