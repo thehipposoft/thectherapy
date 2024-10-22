@@ -19,8 +19,8 @@ const Products = () => {
                             alt='C-Tetra serum'
                             width={220}
                             height={280}
+                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
                             layout='intrinsic'
-                            className='object-contain max-w-[220px] h-[280px] m-auto'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>C-Tetra Serum</p>
                         <p className='text-center'>Lipid Vitamin C Radience Serum</p>
@@ -33,7 +33,7 @@ const Products = () => {
                             alt='C-Tetra Cream'
                             width={220}
                             height={280}
-                            className='object-contain max-w-[220px] h-[280px] m-auto'
+                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
                             layout='intrinsic'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>C-Tetra Cream</p>
@@ -47,7 +47,7 @@ const Products = () => {
                             alt='Crystal Retinal 1- Night Serum'
                             width={220}
                             height={280}
-                            className='object-contain max-w-[220px] h-[280px] m-auto'
+                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
                             layout='intrinsic'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>Crystal Retinal 1- Night Serum</p>
@@ -61,7 +61,7 @@ const Products = () => {
                             alt='Pure C 15'
                             width={220}
                             height={280}
-                            className='object-contain max-w-[220px] h-[280px] m-auto'
+                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
                             layout='intrinsic'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>Pure C 15</p>
