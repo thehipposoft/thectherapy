@@ -14,12 +14,13 @@ const Products = () => {
                 <div className='grid md:grid-cols-4 gap-20 md:gap-0 grid-cols-1 pt-12'>
                     <div className='flex flex-col justify-center gap-4'>
                         <p className='flex justify-end text-sm pb-2 pr-8 md:pr-0'>OUR START PRODUCT</p>
-                        <img
+                        <Image
                             src={'/assets/images/products/products-1.png'}
                             alt='C-Tetra serum'
                             width={220}
                             height={280}
-                            className='object-contain mx-auto w-[220px] h-[280px]'
+                            layout='intrinsic'
+                            className='object-contain max-w-[220px] h-[280px] m-auto'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>C-Tetra Serum</p>
                         <p className='text-center'>Lipid Vitamin C Radience Serum</p>
@@ -27,7 +28,6 @@ const Products = () => {
                     </div>
                     <div className='flex flex-col justify-center gap-4'>
                         <p className='flex justify-end text-sm pb-2 pr-8 md:pr-0'>FEATURED PRODUCT</p>
-
                         <Image
                             src={'/assets/images/products/products-2.png'}
                             alt='C-Tetra Cream'
@@ -36,39 +36,34 @@ const Products = () => {
                             className='object-contain max-w-[220px] h-[280px] m-auto'
                             layout='intrinsic'
                         />
-
                         <p className='font-bold text-center pt-6 arimo-bold'>C-Tetra Cream</p>
                         <p className='text-center'>Lipid Vitamin C Radience Cream</p>
                         <p className='text-center'>50 ml</p>
                     </div>
                     <div className='md:flex hidden flex-col justify-center gap-4 '>
                         <p className='flex justify-end text-sm pb-6'></p>
-
                         <Image
                             src={'/assets/images/products/products-3.png'}
                             alt='Crystal Retinal 1- Night Serum'
                             width={220}
                             height={280}
-                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
-                            layout='responsive'
+                            className='object-contain max-w-[220px] h-[280px] m-auto'
+                            layout='intrinsic'
                         />
-
                         <p className='font-bold text-center pt-6 arimo-bold'>Crystal Retinal 1- Night Serum</p>
                         <p className='text-center'>Gentle Strength Vitamin A</p>
                         <p className='text-center'>30 ml</p>
                     </div>
                     <div className='md:flex hidden flex-col justify-center gap-4'>
                         <p className='flex justify-end text-sm pb-6'></p>
-
                         <Image
                             src={'/assets/images/products/products-4.png'}
                             alt='Pure C 15'
                             width={220}
                             height={280}
-                            sizes='(max-width: 768px) 100vw, 220px'
-                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
+                            className='object-contain max-w-[220px] h-[280px] m-auto'
+                            layout='intrinsic'
                         />
-
                         <p className='font-bold text-center pt-6 arimo-bold'>Pure C 15</p>
                         <p className='text-center'>Vitamin C with Ascorbic Acid</p>
                         <p className='text-center'>15 ml</p>
