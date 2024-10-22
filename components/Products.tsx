@@ -19,8 +19,7 @@ const Products = () => {
                             alt='C-Tetra serum'
                             width={220}
                             height={280}
-                            layout='intrinsic' // Ensures the aspect ratio is maintained
-                            className='mx-auto object-contain' // Keep object-contain but avoid setting fixed width/height
+                            className='object-contain mx-auto w-[220px] h-[280px]'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>C-Tetra Serum</p>
                         <p className='text-center'>Lipid Vitamin C Radience Serum</p>
