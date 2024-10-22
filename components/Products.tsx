@@ -14,9 +14,13 @@ const Products = () => {
                 <div className='grid md:grid-cols-4 gap-20 md:gap-0 grid-cols-1 pt-12'>
                     <div className='flex flex-col justify-center gap-4'>
                         <p className='flex justify-end text-sm pb-2 pr-8 md:pr-0'>OUR START PRODUCT</p>
-                        <div className='relative w-[280px] h-[280px] mx-auto'>
-                            <Image src={'/assets/images/products/products-1.png'} alt='C-Tetra serum' fill className='object-contain' />
-                        </div>
+                        <Image
+                            src={'/assets/images/products/products-1.png'}
+                            alt='C-Tetra serum'
+                            width={220}
+                            height={280}
+                            className='object-contain mx-auto w-[220px] h-[280px]'
+                        />
                         <p className='font-bold text-center pt-6 arimo-bold'>C-Tetra Serum</p>
                         <p className='text-center'>Lipid Vitamin C Radience Serum</p>
                         <p className='text-center'>30 ml</p>
