@@ -17,10 +17,9 @@ const Products = () => {
                         <Image
                             src={'/assets/images/products/products-1.png'}
                             alt='C-Tetra serum'
-                            width={(11 / 14) * 280}
-                            height={280}
-                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
-                            layout='intrinsic'
+                            width={100}
+                            height={160}
+                            className='object-contain m-auto'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>C-Tetra Serum</p>
                         <p className='text-center'>Lipid Vitamin C Radience Serum</p>
@@ -33,8 +32,7 @@ const Products = () => {
                             alt='C-Tetra Cream'
                             width={220}
                             height={280}
-                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
-                            layout='intrinsic'
+                            className='object-contain m-auto'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>C-Tetra Cream</p>
                         <p className='text-center'>Lipid Vitamin C Radience Cream</p>
@@ -58,10 +56,9 @@ const Products = () => {
                         <Image
                             src={'/assets/images/products/products-4.png'}
                             alt='Pure C 15'
-                            width={220}
+                            width={180}
                             height={280}
-                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
-                            layout='intrinsic'
+                            className='object-contain m-auto'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>Pure C 15</p>
                         <p className='text-center'>Vitamin C with Ascorbic Acid</p>
