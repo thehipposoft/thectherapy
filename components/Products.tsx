@@ -17,7 +17,7 @@ const Products = () => {
                         <Image
                             src={'/assets/images/products/products-1.png'}
                             alt='C-Tetra serum'
-                            width={220}
+                            width={(11 / 14) * 280}
                             height={280}
                             className='object-contain max-w-[220px] max-h-[280px] m-auto'
                             layout='intrinsic'
@@ -45,10 +45,9 @@ const Products = () => {
                         <Image
                             src={'/assets/images/products/products-3.png'}
                             alt='Crystal Retinal 1- Night Serum'
-                            width={220}
-                            height={280}
-                            className='object-contain max-w-[220px] max-h-[280px] m-auto'
-                            layout='intrinsic'
+                            width={100}
+                            height={175}
+                            className='object-contain m-auto'
                         />
                         <p className='font-bold text-center pt-6 arimo-bold'>Crystal Retinal 1- Night Serum</p>
                         <p className='text-center'>Gentle Strength Vitamin A</p>
