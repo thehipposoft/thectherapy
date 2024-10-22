@@ -14,7 +14,7 @@ const Products = () => {
                 <div className='grid md:grid-cols-4 gap-20 md:gap-0 grid-cols-1 pt-12'>
                     <div className='flex flex-col justify-center gap-4'>
                         <p className='flex justify-end text-sm pb-2 pr-8 md:pr-0'>OUR START PRODUCT</p>
-                        <Image
+                        <img
                             src={'/assets/images/products/products-1.png'}
                             alt='C-Tetra serum'
                             width={220}
