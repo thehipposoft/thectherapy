@@ -44,9 +44,9 @@ const Nav = () => {
             <Link href={'/'} className='hover:underline'>
                 Home
             </Link>
-            <AnchorLink href={'#products'}>
+            <Link href={'/#products'}>
                 Products
-            </AnchorLink>
+            </Link>
             <Link href={'/about'} className='hover:underline'>
                 About
             </Link>

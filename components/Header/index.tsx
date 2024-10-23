@@ -1,11 +1,25 @@
+'use client'
 import Image from 'next/image';
-import React from 'react';
+import React, {useRef} from 'react';
 import Nav from './Nav';
 import Link from 'next/link';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 const Header = () => {
+
+    const container = useRef(null)
+
+    useGSAP(() => {
+        gsap.from(container.current, {
+            y: '-60',
+            duration: 1,
+            ease: 'power1.inOut'
+        })
+    }, {scope: container})
+
     return (
-        <div className='md:flex items-center justify-between md:w-[1300px] hidden mx-auto bg-[#FBFEFB] py-1'>
+        <div ref={container} className='md:flex items-center justify-between md:w-[1300px] hidden mx-auto bg-[#FBFEFB] py-1'>
             <Nav />
             <Link href={'/'} className='flex items-center gap-2 pr-28'>
                 <div className='bg-nav rounded-full w-16 h-16 flex justify-center relative'>
