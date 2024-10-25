@@ -11,27 +11,27 @@ const ContactForm = () => {
                         name: 'name',
                         type: 'text',
                         label: '',
-                        placeholder: 'Nombre',
+                        placeholder: 'Your Name',
                         validations: [required]
                     },
                     {
                         name: 'customerEmail',
                         type: 'text',
                         label: '',
-                        placeholder: 'Email',
+                        placeholder: 'Email Adress',
                         validations: [required, email]
                     },
                     {
                         name: 'message',
-                        type: 'text',
+                        type: 'textArea',
                         label: '',
-                        placeholder: 'Mensaje',
+                        placeholder: 'Your Message',
                         validations: [required]
                     },
                 ]}
                 onSuccessMessage={'Your message was submited succesfully. We will contact you soon.'}
                 onErrorMessage={'Please, try again in some minutes'}
-                submitButtonLabel={'SEND'}
+                submitButtonLabel={'Send'}
                 emailServiceURL={'https://thehippoapi.netlify.app/.netlify/functions/api/steel-art-mail'} 
             />
         </div>

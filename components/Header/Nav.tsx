@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import AnchorLink from '../commons/AnchorLink';
 
 
 const NAV_DATA =[
@@ -84,14 +83,20 @@ const Nav = () => {
                             </Link>
                         </ul>
                     </div>
-                    <div className='opacity-1 flex items-center text-[#FFFFFF] px-4 cursor-pointer hover:bg-[#cdc6bad5] duration-500'>
-                        <Link href={'/body'} className='flex justify-between w-full py-6'>
+                    <div className='group/body-child  flex items-center text-[#FFFFFF] px-4 cursor-pointer hover:bg-[#cdc6bad5] duration-500'>
+                        <div className='flex justify-between w-full py-6'>
                             <p className='text-[#FFFFFF]'>Body</p>
                             <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
-                        </Link>
-                        <ul className='absolute left-32 opacity-0'>
-                            <li>Body Treatment</li>
-                            <li>Skin & Body relax</li>
+                        </div>
+                        <ul className='absolute duration-500 translate-x-48 w-52 bg-nav group-hover/body-child:z-30 group-hover/body-child:opacity-100 translate-y-28 group-hover/body-child:translate-y-10 opacity-0'>
+                            <Link href={'/body/treatments'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>
+                                <p className='text-[#FFFFFF]'>Body Treatments</p>
+                                <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                            </Link>
+                            <Link href={'/body/relax'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>
+                                <p className='text-[#FFFFFF]'>Skin & Body relax</p>
+                                <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                            </Link>
                         </ul>
                     </div>
                 </div>

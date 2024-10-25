@@ -22,22 +22,21 @@ const CustomInput = (
         value,
         validations,
         errors,
-        size,
         placeholder
     }:InputTypes) => {
     return (
-        <section className={size === 'half' ? `item half w-1/2 mb-4`  : `item mb-4`}>
+        <section className='mb-4'>
             <label className={'contact-label'}>{label}</label>
             <input
                 type={fieldType}
                 name={fieldName}
                 id={fieldName}
-                className={errors && errors[fieldName] ? `input error` : `input`}
+                className={`w-full py-5 px-8 bg-[#FAFAFA] border-[#CDCBC0] border focus-visible:bg-[#F4F5F0] focus-visible:border-[#585858] outline-none ${errors && errors[fieldName] ? `input error` : `input`}`}
                 onChange={(event) => handleChange(event, validations)}
                 value={value}
                 placeholder={placeholder}
             />
-            <span className={'error-message text-red-600'}>{errors ? errors[fieldName] : null}</span>
+            <span className={'error-message text-[#D22B2B]'}>{errors ? errors[fieldName] : null}</span>
         </section>
     )
 };

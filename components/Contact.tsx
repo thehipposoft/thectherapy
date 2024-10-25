@@ -22,7 +22,8 @@ const Contact = () => {
                         </iframe>
                     </div>
                     <div>
-                        <form action="" className='flex flex-col gap-6 md:w-[520px] w-[85vw] mx-auto md:mx-0'>
+                        <ContactForm />
+{/*                         <form action="" className='hidden flex-col gap-6 md:w-[520px] w-[85vw] mx-auto md:mx-0'>
                             <label htmlFor="name">
                                 <input 
                                     type="text" 
@@ -53,12 +54,12 @@ const Contact = () => {
                                 </textarea>
                             </label>
                             <div className='flex w-full justify-end'>
-                                <label htmlFor="" className='group hover:border-[#333333] duration-500 flex bg-[#FAFAFA] py-6 px-8 border-[#CDCBC0] border justify-between w-[210px] cursor-pointer'>
+                                <label htmlFor="" className='group hover:border-[#333333] duration-500 flex bg-[#FAFAFA] py-5 px-8 border-[#CDCBC0] border justify-between w-[210px] cursor-pointer'>
                                     <input className='group-hover:underline' type="submit" value="Send" />
                                     <svg className='group-hover:translate-x-2 duration-500' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#333"><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                                 </label>
                             </div>
-                        </form>
+                        </form> */}
                     </div>
                 </div>
             </div>

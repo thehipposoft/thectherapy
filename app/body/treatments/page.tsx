@@ -63,7 +63,7 @@ const BODY_DATA = {
     ],
 }
 
-export default function BodyPage() {
+export default function BodyTreatmentsPage() {
     return (
         <div>
             <ServicesLayout props={BODY_DATA} />

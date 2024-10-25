@@ -6,7 +6,6 @@ import axios from 'axios';
 import useContactForm from './useContactForm';
 //Component
 import MyInput from './CustomInput';
-import styles from './form.module.scss';
 
 const MyCustomForm = ({
     fields,
@@ -22,7 +21,6 @@ const MyCustomForm = ({
     const initialValues = {
         name: '',
         customerEmail: '',
-        phone: '',
         message: '',
     };
 
@@ -42,7 +40,6 @@ const MyCustomForm = ({
                 {
                     message: values.message,
                     name: values.name,
-                    phone: values.phone,
                     customerEmail: values.customerEmail,
                 },
                 {
@@ -86,7 +83,6 @@ const MyCustomForm = ({
         <form
             className={`form ${customClass} mx-auto mb-16`}
             onSubmit={(event) => handleSubmit(event)}
-            style={{marginTop: '-30px'}}
         >
             {
                 fields.map((field:any)=> {
@@ -110,15 +106,15 @@ const MyCustomForm = ({
                             );
                         case 'textArea':
                             return (
-                                <section className={'item'} key={name}>
+                                <section className={'mb-4'} key={name}>
                                     <label className={'contact-label'}>{label}</label>
                                     <textarea
                                         name={name}
                                         id={name}
                                         value={values[name]}
-                                        rows={10}
+                                        rows={5}
                                         cols={40}
-                                        className={'input_box'}
+                                        className='w-full resize-none py-5 px-8 bg-[#FAFAFA] border-[#CDCBC0] border focus-visible:bg-[#F4F5F0] focus-visible:border-[#585858] outline-none'
                                         placeholder={placeholder}
                                         onChange={(e) => handleChange(e, [])}
                                     />
@@ -151,14 +147,17 @@ const MyCustomForm = ({
                 })
             }
             {renderSentMessage()}
-            <section className={`${styles.item} text-center`}>
-                <input
-                    type={'submit'}
-                    value={submitButtonLabel ? submitButtonLabel : 'SEND'}
-                    className={`contact-input-button button py-4 px-20 text-white cursor-pointer relative bottom-6 ${isAPILoading ? 'opacity-50' : ''}`}
-                    disabled={isAPILoading}
-                />
-            </section>
+            <div className='flex justify-end'>
+                <section className='group hover:border-[#333333] duration-500 flex bg-[#FAFAFA] py-5 px-8 border-[#CDCBC0] border justify-between w-[210px] cursor-pointer'>
+                    <input 
+                        className={`${isAPILoading ? 'opacity-50' : ''} group-hover:underline`} 
+                        type="submit" 
+                        value={submitButtonLabel ? submitButtonLabel : 'Send'} 
+                        disabled={isAPILoading}
+                    />
+                    <svg className='group-hover:translate-x-2 duration-500' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#333"><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
+                </section>
+            </div>
         </form>
     )
 };
