@@ -11,10 +11,10 @@ const Contact = () => {
                 <h1 className='text-4xl'>Let's start to glow</h1>
                 <div className='flex md:flex-row flex-col-reverse justify-between pt-6'>
                     <div className='md:h-[450px] h-[300px] md:w-[525px] w-[85vw] mt-12 md:mt-0'>
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21525.36186154748!2d144.97067559214267!3d-37.85258557435342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6681617a48907%3A0xc9b711cc74badbef!2sK3%20High%20St%2C%20Windsor%20VIC%203181%2C%20Australia!5e0!3m2!1ses-419!2sus!4v1729187488924!5m2!1ses-419!2sus" 
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21525.36186154748!2d144.97067559214267!3d-37.85258557435342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6681617a48907%3A0xc9b711cc74badbef!2sK3%20High%20St%2C%20Windsor%20VIC%203181%2C%20Australia!5e0!3m2!1ses-419!2sus!4v1729187488924!5m2!1ses-419!2sus"
                             className='w-full h-full'
-                            style={{border: '0'}} 
+                            style={{border: '0'}}
                             allowFullScreen={true}
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
@@ -25,29 +25,29 @@ const Contact = () => {
                         <ContactForm />
 {/*                         <form action="" className='hidden flex-col gap-6 md:w-[520px] w-[85vw] mx-auto md:mx-0'>
                             <label htmlFor="name">
-                                <input 
-                                    type="text" 
-                                    name='name' 
-                                    id='name' 
-                                    placeholder='Your Name' 
+                                <input
+                                    type="text"
+                                    name='name'
+                                    id='name'
+                                    placeholder='Your Name'
                                     className='w-full py-6 px-8 bg-[#FAFAFA] border-[#CDCBC0] border focus-visible:bg-[#F4F5F0] focus-visible:border-[#585858] outline-none'
                                 />
                             </label>
                             <label htmlFor="email">
-                                <input 
-                                    type="email" 
-                                    name="email" 
-                                    id="email" 
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
                                     placeholder='Email Adress'
                                     className='w-full py-6 px-8 bg-[#FAFAFA] border-[#CDCBC0] border focus-visible:bg-[#F4F5F0] focus-visible:border-[#585858] outline-none'
                                 />
                             </label>
                             <label htmlFor="message">
-                                <textarea 
-                                    name="message" 
-                                    id="message" 
-                                    cols={30} 
-                                    rows={5} 
+                                <textarea
+                                    name="message"
+                                    id="message"
+                                    cols={30}
+                                    rows={5}
                                     placeholder='Your Message'
                                     className='w-full resize-none py-6 px-8 bg-[#FAFAFA] border-[#CDCBC0] border focus-visible:bg-[#F4F5F0] focus-visible:border-[#585858] outline-none'
                                 >
