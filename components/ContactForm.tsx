@@ -29,7 +29,7 @@ const ContactForm = () => {
             onSuccessMessage={'Your message was submited succesfully. We will contact you soon.'}
             onErrorMessage={'Please, try again in some minutes'}
             submitButtonLabel={'Send'}
-            emailServiceURL={'https://thehippoapi.netlify.app/.netlify/functions/api/steel-art-mail'}
+            emailServiceURL={'https://thehippoapi.netlify.app/.netlify/functions/api//thectherapy-email'}
         />
     );
 };
