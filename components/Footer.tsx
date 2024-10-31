@@ -11,17 +11,18 @@ const Footer = () => {
                 </div>
                 <div className='flex md:gap-32 gap-20 mx-auto md:mx-0 w-[85vw] md:w-auto'>
                     <ul className='flex flex-col gap-4'>
-                        <Link href={'/about'} className='text-[#FFFFFF] text-sm'>About</Link>
+                        <Link href={'/about'} className='text-[#FFFFFF] text-sm hover:underline'>About</Link>
                         <Link href={'/services'} className='text-[#FFFFFF] text-sm hidden'>Main Services</Link>
                         <li className='text-[#FFFFFF] text-sm hidden'>Journal</li>
                     </ul>
                     <ul className='flex flex-col gap-4'>
                         <li className='text-[#FFFFFF] text-sm'>Services</li>
-                        <Link href={'/facial'} className='text-[#FFFFFF] text-sm'>Facial</Link>
-                        <Link href={'/body'} className='text-[#FFFFFF] text-sm'>Body</Link>
+                        <Link href={'/facial'} className='text-[#FFFFFF] text-sm hover:underline'>Facial</Link>
+                        <Link href={'/body/treatments'} className='text-[#FFFFFF] text-sm hover:underline'>Body Treatments</Link>
+                        <Link href={'/body/relax'} className='text-[#FFFFFF] text-sm hover:underline'>Skin & Body Relax</Link>
                     </ul>
                     <ul>
-                        <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='text-[#FFFFFF] text-sm'>TCT Store</Link>
+                        <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='text-[#FFFFFF] text-sm hover:underline'>TCT Store</Link>
                     </ul>
                 </div>
                 <div className='flex md:flex-col flex-row gap-4 w-[85vw] justify-between md:justify-start mx-auto md:w-auto md:mx-0'>

@@ -49,13 +49,13 @@ const MyCustomForm = ({
     const renderSentMessage = () => {
         if (messageSent === 'succeed') {
             return <div className={`message succeed w-full text-center mb-6`}>
-                <h2 className={'mb-4'}>Gracias!</h2>
+                <h2 className={'mb-4'}>Message sent successfully, thanks! </h2>
                 <p>{onSuccessMessage}</p>
             </div>
         }
         if (messageSent === 'error') {
             return <div className={`message error w-full text-center mb-6`}>
-                <h2 className={'mb-4 text-red-500'}>Algo salió mal</h2>
+                <h2 className={'mb-4 text-red-500'}>Something went wrong</h2>
                 <p>{onErrorMessage}</p>
                 <p>{messageDescription}</p>
             </div>
