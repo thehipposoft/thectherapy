@@ -126,6 +126,7 @@ const MyCustomForm = ({
                                         className='w-full resize-none py-5 px-8 bg-[#FAFAFA] border-[#CDCBC0] border focus-visible:bg-[#F4F5F0] focus-visible:border-[#585858] outline-none'
                                         placeholder={placeholder}
                                         onChange={handleChange}
+                                        required={field.required}
                                     />
                                 </section>
                             );
@@ -150,15 +151,14 @@ const MyCustomForm = ({
             }
             {renderSentMessage()}
             <div className='flex justify-end'>
-                <section className='group hover:border-[#333333] duration-500 flex bg-[#FAFAFA] py-5 px-8 border-[#CDCBC0] border justify-between w-[210px] cursor-pointer'>
-                    <input
-                        className={`${isAPILoading ? 'opacity-50' : ''} group-hover:underline`}
-                        type="submit"
-                        value={submitButtonLabel ? submitButtonLabel : 'Send'}
-                        disabled={isAPILoading}
-                    />
+                <button
+                    disabled={isAPILoading}
+                    value={submitButtonLabel ? submitButtonLabel : 'Send'}
+                    type="submit"
+                    className={`${isAPILoading ? 'opacity-50' : ''} group hover:border-[#333333] duration-500 flex bg-[#FAFAFA] py-5 px-8 border-[#CDCBC0] border justify-between w-[210px] cursor-pointer`}>
+                    <p>{submitButtonLabel}</p>
                     <svg className='group-hover:translate-x-2 duration-500' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#333"><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
-                </section>
+                </button>
             </div>
         </form>
     )
