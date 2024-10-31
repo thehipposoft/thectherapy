@@ -49,7 +49,7 @@ const MyCustomForm = ({
     const renderSentMessage = () => {
         if (messageSent === 'succeed') {
             return <div className={`message succeed w-full text-center mb-6`}>
-                <h2 className={'mb-4'}>Message sent successfully, thanks! </h2>
+                <h2 className={'mb-2 text-2xl'}>Thanks! </h2>
                 <p>{onSuccessMessage}</p>
             </div>
         }

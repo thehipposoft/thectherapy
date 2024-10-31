@@ -24,6 +24,7 @@ const ContactForm = () => {
                     type: 'textArea',
                     label: '',
                     placeholder: 'Your Message',
+                    required: true,
                 },
             ]}
             onSuccessMessage={'Your message was submited succesfully. We will contact you soon.'}
