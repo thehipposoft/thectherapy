@@ -20,7 +20,7 @@ const BACKGROUNDS = [
 const BannerSlick = () => {
 
     return (
-        <div className='h-[95vh] relative'>
+        <div className='md:h-[95vh] h-screen relative'>
             <div className='images-container absolute overflow-hidden h-full w-full'>
                 {
                     BACKGROUNDS.map((val, index) => (
@@ -35,11 +35,11 @@ const BannerSlick = () => {
                 }
             </div>
             <div className='absolute w-full h-full left-0 top-0 bg-gradient-to-r to-[#87807D05] from-[#6E646077]' />
-            <div className='max-w-[1300px] w-[75vw] md:w-auto mx-auto relative z-10 flex h-full items-center'>
-                <div className='flex flex-col justify-center gap-6 md:w-[395px]'>
-                    <p className='text-sm text-[#FFFFFF]'>Let's uncover the radiant, confident you that's been waiting to shine.</p>
+            <div className='max-w-[90vw] w-[75vw] md:w-auto mx-auto relative z-10 flex h-full items-center'>
+                <div className='flex flex-col justify-center gap-6'>
+                    <p className='text-[#FFFFFF] md:w-5/12'>Let's uncover the radiant, confident you that's been waiting to glow up.</p>
                     <h3 className='text-4xl text-[#FFFFFF]'>Empower your natural beauty</h3>
-                    <p className='text-[#FFFFFF]'>A combination of nature and advanced technology. The c therapy will guide you on your journey to the best version of yourself.</p>
+                    <p className='text-[#FFFFFF] md:w-5/12 font-light'>A combination of nature and advanced technology. The c therapy will guide you on your journey to the best version of yourself.</p>
                     <AnchorLink href={'#facial-care'}>
                         <div className='group flex justify-between items-center gap-4 border border-[#FFFFFF] hover:border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
                             <p className='text-[#FFFFFF] group-hover:text-[#000000] duration-700 text-sm'>Find your treatment</p>

@@ -5,19 +5,18 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-nav md:h-[400px] flex flex-col justify-between'>
-            <div className='flex md:flex-row flex-col md:w-[1300px] justify-between items-center mx-auto py-12 gap-8 md:gap-0'>
+            <div className='flex md:flex-row flex-col lg:w-[90vw] justify-between items-center mx-auto py-12 gap-8 sm:gap-8 lg:gap-0'>
                 <div className='w-[265px] h-[180px] relative'>
                     <Image src={'/logo-blanco-1.svg'} fill alt='C-therapy logo' />
                 </div>
-                <div className='flex md:gap-32 gap-20 mx-auto md:mx-0 w-[85vw] md:w-auto'>
+                <div className='flex justify-between lg:gap-32 md:gap-24 gap-20 mx-auto md:mx-0 sm:w-[85vw] md:w-auto'>
                     <ul className='flex flex-col gap-4'>
                         <Link href={'/about'} className='text-[#FFFFFF] text-sm hover:underline'>About</Link>
                         <Link href={'/services'} className='text-[#FFFFFF] text-sm hidden'>Main Services</Link>
                         <li className='text-[#FFFFFF] text-sm hidden'>Journal</li>
                     </ul>
                     <ul className='flex flex-col gap-4'>
-                        <li className='text-[#FFFFFF] text-sm'>Services</li>
-                        <Link href={'/facial'} className='text-[#FFFFFF] text-sm hover:underline'>Facial</Link>
+                        <Link href={'/facial'} className='text-[#FFFFFF] text-sm hover:underline'>Facials</Link>
                         <Link href={'/body/treatments'} className='text-[#FFFFFF] text-sm hover:underline'>Body Treatments</Link>
                         <Link href={'/body/relax'} className='text-[#FFFFFF] text-sm hover:underline'>Skin & Body Relax</Link>
                     </ul>

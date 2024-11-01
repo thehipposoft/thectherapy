@@ -41,13 +41,13 @@ const BodyMindSoul = () => {
                 <div className='flex flex-col gap-12 w-[75vw] md:w-auto mx-auto md:mx-0'>
                     <div className='flex flex-col md:w-[420px] gap-4 md:gap-0'>
                         <p>At the.c.therapy, we believe in a holistic approach that goes beyond skin deep. It's about embracing clean beauty, nourishing your body with the right diet and supplements, and fostering a spiritual and mindful lifestyle.</p>
-                        <p> After all, our gut health influences everything from our mood to our energy levels, and even our skin.</p>
+                        <p className='pt-2'> After all, our gut health influences everything from our mood to our energy levels, and even our skin.</p>
                     </div>
                     <p className='text-3xl text-[#6E6460]'>connect</p>
                 </div>
                 <div className='md:w-full flex justify-center w-[75vw] mx-auto md:mx-0'>
                     <h2 className='text-3xl '>
-                        Passion for Natural Healing.
+                        Passion for naturalhealing.
                     </h2>
                 </div>
             </div>

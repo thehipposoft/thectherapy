@@ -5,13 +5,13 @@ import React from 'react';
 const Products = () => {
     return (
         <div className='pt-24 md:pb-32 pb-24'>
-            <div className='md:w-[1300px] mx-auto flex flex-col '>
+            <div className='lg:w-[90vw] px-2 mx-auto flex flex-col '>
                 <div className='info flex flex-col gap-4 w-[75vw] mx-auto md:mx-0 md:w-auto' id='products'>
                     <p className='text-sm'>We take care of your skin naturally</p>
                     <h2 className='text-4xl'>Supreme facial care</h2>
-                    <p className='md:w-[640px]'>Discover our products for total facial care. This is our selection of the best all-natural skincare products, plant-based, ethically conscious skincare.</p>
+                    <p className='md:w-[640px]'>Discover our products for total facial care. This is our selection from the best organic and plant-based skincare products to the ethically conscious and sustainable skincare CSA philosophy to achieve Beautiful skin for life.</p>
                 </div>
-                <div className='grid md:grid-cols-4 gap-20 md:gap-0 grid-cols-1 pt-12'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-20 md:gap-0 grid-cols-1 pt-12'>
                     <div className='flex flex-col justify-center gap-4'>
                         <p className='flex justify-end text-sm pb-2 pr-8 md:pr-0'>OUR START PRODUCT</p>
                         <Image
@@ -66,7 +66,7 @@ const Products = () => {
                     </div>
                 </div>
                 <div className='flex md:justify-end justify-center pt-10'>
-                    <Link rel='noreferrer' target='_blank' className='py-4 px-24 duration-500 text-[#FFFFFF] border bg-nav hover:underline hover:bg-[#ffffff] hover:text-[#333333] hover:border-nav' href={'https://store.thectherapy.com.au/'}>
+                    <Link rel='noreferrer' target='_blank' className='py-4 lg:px-24 md:px-12 px-4 duration-500 text-[#FFFFFF] border bg-nav hover:underline hover:bg-[#ffffff] hover:text-[#333333] hover:border-nav' href={'https://store.thectherapy.com.au/'}>
                         See product in store
                     </Link>
                 </div>

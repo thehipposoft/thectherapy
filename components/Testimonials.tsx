@@ -12,7 +12,7 @@ const Testimonials = () => {
 
     return (
         <div className='md:h-screen my-12 flex justify-center items-center'>
-            <div className='md:w-[1300px] mx-auto'>
+            <div className='md:w-[90vw] w-[75vw] mx-auto'>
                 <div className='flex flex-col md:flex-row justify-between md:h-[80vh] gap-8 md:gap-0 relative'>
                     <div className='flex'>
                         <svg width="178" height="151" viewBox="0 0 178 151" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,9 +22,8 @@ const Testimonials = () => {
                     <button onClick={SwipeFunc} className={`${swipe ? 'block' : 'hidden'} hover:opacity-40 duration-500 absolute top-1/2 md:left-32 -left-12 rotate-180 md:h-8 h-7 md:w-8 w-7`}>
                         <svg viewBox="-4.5 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M.366 19.708c.405.39 1.06.39 1.464 0l8.563-8.264a1.95 1.95 0 0 0 0-2.827L1.768.292A1.063 1.063 0 0 0 .314.282a.976.976 0 0 0-.011 1.425l7.894 7.617a.975.975 0 0 1 0 1.414L.366 18.295a.974.974 0 0 0 0 1.413" fill="#000" fillRule="evenodd"/></svg>
                     </button>
-                        <div className={`flex md:max-w-[720px] max-w-[70vw] overflow-hidden relative`}>
-
-                            <div className={`${swipe ? '-translate-x-full' : ''} duration-1000 flex flex-col justify-center gap-4 md:min-w-[720px] min-w-[70vw] mx-auto md:mx-0 h-full`}>
+                        <div className={`flex md:max-w-[50vw] overflow-hidden relative`}>
+                            <div className={`${swipe ? '-translate-x-full' : ''} duration-1000 flex flex-col justify-center gap-4 min-w-[75vw] md:min-w-[50vw] mx-auto md:mx-0 h-full`}>
                                 <div className='flex gap-1'>
                                     <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M12.908 0.580999C12.828 0.407536 12.6999 0.260629 12.539 0.15766C12.3781 0.0546912 12.191 -3.05176e-05 12 -3.05176e-05C11.809 -3.05176e-05 11.6219 0.0546912 11.461 0.15766C11.3001 0.260629 11.172 0.407536 11.092 0.580999L8.222 6.801L1.421 7.608C1.23125 7.6304 1.05189 7.7067 0.904148 7.82786C0.756406 7.94902 0.646466 8.10996 0.587341 8.29165C0.528216 8.47334 0.522379 8.66817 0.570523 8.85307C0.618666 9.03797 0.718774 9.20521 0.858999 9.335L5.889 13.985L4.554 20.705C4.51692 20.8923 4.53425 21.0864 4.60394 21.2641C4.67364 21.4419 4.79278 21.596 4.94729 21.7083C5.10179 21.8205 5.2852 21.8861 5.47582 21.8974C5.66645 21.9087 5.85632 21.8652 6.023 21.772L12 18.426L17.977 21.772C18.1438 21.8656 18.3339 21.9094 18.5248 21.8982C18.7157 21.887 18.8994 21.8214 19.0542 21.709C19.2089 21.5965 19.3281 21.4421 19.3978 21.264C19.4674 21.0859 19.4845 20.8915 19.447 20.704L18.112 13.986L23.141 9.335C23.2812 9.20521 23.3813 9.03797 23.4295 8.85307C23.4776 8.66817 23.4718 8.47334 23.4127 8.29165C23.3535 8.10996 23.2436 7.94902 23.0958 7.82786C22.9481 7.7067 22.7687 7.6304 22.579 7.608L15.777 6.8L12.908 0.580999Z" fill="#C0BEB3"/>
@@ -48,7 +47,7 @@ const Testimonials = () => {
                                     <p>Maria Helguera</p>
                                 </div>
                             </div>
-                            <div className={`${swipe ? '-translate-x-full' : ''} duration-1000 flex flex-col justify-center gap-4 md:min-w-[720px] min-w-[70vw] mx-auto md:mx-0 h-full`}>
+                            <div className={`${swipe ? '-translate-x-full' : ''} duration-1000 flex flex-col justify-center gap-4 min-w-[75vw] md:min-w-[50vw] mx-auto md:mx-0 h-full`}>
                                 <div className='flex gap-1'>
                                     <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M12.908 0.580999C12.828 0.407536 12.6999 0.260629 12.539 0.15766C12.3781 0.0546912 12.191 -3.05176e-05 12 -3.05176e-05C11.809 -3.05176e-05 11.6219 0.0546912 11.461 0.15766C11.3001 0.260629 11.172 0.407536 11.092 0.580999L8.222 6.801L1.421 7.608C1.23125 7.6304 1.05189 7.7067 0.904148 7.82786C0.756406 7.94902 0.646466 8.10996 0.587341 8.29165C0.528216 8.47334 0.522379 8.66817 0.570523 8.85307C0.618666 9.03797 0.718774 9.20521 0.858999 9.335L5.889 13.985L4.554 20.705C4.51692 20.8923 4.53425 21.0864 4.60394 21.2641C4.67364 21.4419 4.79278 21.596 4.94729 21.7083C5.10179 21.8205 5.2852 21.8861 5.47582 21.8974C5.66645 21.9087 5.85632 21.8652 6.023 21.772L12 18.426L17.977 21.772C18.1438 21.8656 18.3339 21.9094 18.5248 21.8982C18.7157 21.887 18.8994 21.8214 19.0542 21.709C19.2089 21.5965 19.3281 21.4421 19.3978 21.264C19.4674 21.0859 19.4845 20.8915 19.447 20.704L18.112 13.986L23.141 9.335C23.2812 9.20521 23.3813 9.03797 23.4295 8.85307C23.4776 8.66817 23.4718 8.47334 23.4127 8.29165C23.3535 8.10996 23.2436 7.94902 23.0958 7.82786C22.9481 7.7067 22.7687 7.6304 22.579 7.608L15.777 6.8L12.908 0.580999Z" fill="#C0BEB3"/>

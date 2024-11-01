@@ -6,7 +6,7 @@ const SkinConsultation = () => {
     return (
         <div className='relative flex justify-center items-center py-20'>
             <Image src={'/assets/images/firstTimeSection.webp'} alt='Texture background' fill className='object-cover md:object-fill' />
-            <div className='md:w-[1100px] mx-auto flex flex-col relative z-10'>
+            <div className='md:w-[75vw] mx-auto flex flex-col relative z-10'>
                 <div className='flex flex-col w-[85vw] mx-auto md:w-auto md:mx-0'>
                     <div className='flex flex-col gap-2 pb-12 md:pb-0'>
                         <h1 className='text-4xl'>Let's Get Glowing</h1>

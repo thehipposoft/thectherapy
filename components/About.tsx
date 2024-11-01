@@ -38,14 +38,14 @@ const About = ({ aboutPage }:any) => {
                     backgroundRepeat: 'no-repeat',
                 }}
             >
-                <div className='flex md:flex-row flex-col w-full justify-between items-center md:w-[1150px] md:pl-28 gap-12 pt-[10%]'>
+                <div className='flex md:flex-row flex-col w-full justify-between items-center lg:w-[80vw] md:pl-28 gap-12 pt-[10%]'>
                     {
                         aboutPage ? 
-                        <div className='md:w-[520px] w-[320px] md:h-[475px] h-[375px] relative z-10 mt-20 md:mt-0'>
+                        <div className='lg:w-[520px] w-[320px] md:h-[475px] h-[375px] relative z-10 mt-20 md:mt-0'>
                             <Image fill alt='Carolina picture' src={'/assets/images/about/about-2.webp'} className='object-cover'/>
                         </div>
                         :
-                        <div className='md:w-[525px] w-[325px] md:h-[575px] h-[375px] relative z-10'>
+                        <div className='md:w-[40vw] w-[80vw] md:h-[575px] h-[375px] relative z-10'>
                             <Image fill alt='Carolina picture' src={'/assets/images/about/about-1.webp'} className='object-cover'/>
                         </div>
                     }

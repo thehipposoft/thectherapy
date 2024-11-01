@@ -63,8 +63,8 @@ const AboutComponent = () => {
                 className='h-screen md:flex items-center md:bg-right bg-top relative'
             >
                 <Image src={'/assets/images/about/background-2.webp'} alt='' fill  className=' object-contain md:object-right object-top'/>
-                <div  className='flex md:flex-row-reverse flex-col justify-between md:w-[1250px] md:pl-28 pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
-                    <div className='image md:w-[540px] w-[340px] md:h-[475px] h-[375px] relative z-10'>
+                <div  className='flex md:flex-row-reverse flex-col justify-between md:w-[85vw] md:pl-28 pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
+                    <div className='image lg:w-[540px] md:w-[50vw] md:h-[475px] h-[375px] relative z-10'>
                         <Image fill alt='Carolina picture' src={'/assets/images/about/about-3.webp'} className='object-cover' />
                     </div>
                     <div className='flex flex-col justify-center gap-6'>
@@ -85,8 +85,8 @@ const AboutComponent = () => {
                 className='h-screen md:flex items-center md:bg-right bg-top relative'
             >
                 <Image src={'/assets/images/about/background-3.webp'} alt='' fill  className='object-scale-down md:object-right object-center'/>
-                <div className='flex md:flex-row-reverse flex-col justify-between md:w-[1250px] md:pl-28 pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
-                    <div className='imageTwo md:w-[540px] w-[340px] md:h-[475px] h-[375px] relative z-10'>
+                <div className='flex md:flex-row-reverse flex-col justify-between md:w-[85vw] md:pl-28 pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
+                    <div className='imageTwo lg:w-[540px] md:w-[50vw] md:h-[475px] h-[375px] relative z-10'>
                         <Image fill alt='Carolina picture' src={'/assets/images/about/about-4.webp'} className='object-cover'/>
                     </div>
                     <div className='flex flex-col justify-center gap-6'>

@@ -39,7 +39,7 @@ const Nav = () => {
 
 
     return (
-        <div className='flex gap-6 text-sm md:h-20 items-center'>
+        <div className='flex lg:gap-6 md:gap-3 text-sm md:h-20 items-center'>
             <Link href={'/'} className='hover:underline'>
                 Home
             </Link>
