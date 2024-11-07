@@ -12,7 +12,7 @@ const Testimonials = () => {
 
     return (
         <div className='md:h-screen my-12 flex justify-center items-center'>
-            <div className='md:w-[90vw] w-[75vw] mx-auto'>
+            <div className='md:w-[90vw] w-[75vw] 2xl:w-[75vw] mx-auto'>
                 <div className='flex flex-col md:flex-row justify-between md:h-[80vh] gap-8 md:gap-0 relative'>
                     <div className='flex'>
                         <svg width="178" height="151" viewBox="0 0 178 151" fill="none" xmlns="http://www.w3.org/2000/svg">

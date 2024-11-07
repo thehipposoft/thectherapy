@@ -57,16 +57,20 @@ const AboutComponent = () => {
     }, {scope: container})
 
     return (
-        <div ref={container} className='pb-20 flex flex-col md:gap-56'>
+        <div ref={container} className='pb-20 flex flex-col md:gap-12'>
             <div 
                 ref={trigger}
                 className='h-screen md:flex items-center md:bg-right bg-top relative'
             >
                 <Image src={'/assets/images/about/background-2.webp'} alt='' fill  className=' object-contain md:object-right object-top'/>
-                <div  className='flex md:flex-row-reverse flex-col justify-between md:w-[85vw] md:pl-28 pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
-                    <div className='image lg:w-[540px] md:w-[50vw] md:h-[475px] h-[375px] relative z-10'>
-                        <Image fill alt='Carolina picture' src={'/assets/images/about/about-3.webp'} className='object-cover' />
-                    </div>
+                <div  className='flex md:flex-row-reverse flex-col justify-between md:w-[85vw] 2xl:w-[70vw] 2xl:mx-auto 2xl:pl-0 md:pl-28 pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
+                        <Image 
+                            width={1600}
+                            height={1067} 
+                            alt='Carolina picture' 
+                            src={'/assets/images/about/about-3.webp'} 
+                            className='object-cover image h-[400px] md:h-[500px] w-[80vw] md:w-[525px] 2xl:h-[650px] 2xl:w-[650px] relative z-10'
+                        />
                     <div className='flex flex-col justify-center gap-6'>
                         <div className='flex flex-col gap-6'>
                             <div className='flex gap-1 text-[#333333] md:max-w-[400px] flex-wrap'>
@@ -85,10 +89,14 @@ const AboutComponent = () => {
                 className='h-screen md:flex items-center md:bg-right bg-top relative'
             >
                 <Image src={'/assets/images/about/background-3.webp'} alt='' fill  className='object-scale-down md:object-right object-center'/>
-                <div className='flex md:flex-row-reverse flex-col justify-between md:w-[85vw] md:pl-28 pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
-                    <div className='imageTwo lg:w-[540px] md:w-[50vw] md:h-[475px] h-[375px] relative z-10'>
-                        <Image fill alt='Carolina picture' src={'/assets/images/about/about-4.webp'} className='object-cover'/>
-                    </div>
+                <div className='flex md:flex-row-reverse flex-col justify-between md:w-[85vw] md:pl-28 2xl:pl-0 2xl:w-[70vw] 2xl:mx-auto pt-40 md:pt-0 gap-12 w-[75vw] mx-auto md:mx-0'>
+                        <Image 
+                            width={1800} 
+                            height={1200} 
+                            alt='Carolina picture' 
+                            src={'/assets/images/about/about-4.webp'} 
+                            className='object-cover imageTwo h-[400px] md:h-[500px] w-[80vw] md:w-[525px] 2xl:h-[650px] 2xl:w-[650px] relative z-10'
+                        />
                     <div className='flex flex-col justify-center gap-6'>
                         <div className='flex flex-col gap-6'>
                             <div className='flex gap-1 text-[#333333] md:max-w-[420px] flex-wrap'>

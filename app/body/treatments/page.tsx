@@ -6,22 +6,23 @@ const BODY_DATA = {
     title: 'Skin and body',
     category: 'Body',
     textColor: '#FFFFFF',
-    image: '/assets/images/body/bodyBanner.webp',
-    text: 'You can find different massage options, manual lymphatic drainage and physical therapy as postural global re-education massage. Also body scultping treatments like radiofrequency, fat cavitation, compression boots, & electrostimulation.',
+    image: '/assets/images/body/bodytreatmentsbanner.webp',
+    text: 'At The C Therapy, we offer a variety of body treatments to suit your unique needs. Choose from relaxing oil and customized massages, as well as aesthetic options like anti-cellulite and venous return therapies. We also provide manual lymphatic drainage and compression boots to enhance your wellness. Our body sculpting treatments, including radiofrequency, fat cavitation, and electrostimulation, are tailored to help you achieve your desired results.',
     sections: [
         {
             image: '/assets/images/body/boots.webp',
             imagePosition: 'object-bottom',
             title: 'Compression Boots',
             paragraphs: <div className='flex flex-col gap-4'>
+                <p>Feel lighter and renewed with this powerful treatment designed to accelerate muscle recovery and relieve discomfort. This therapy boosts venous return, oxygenates muscles, and helps eliminate metabolic waste responsible for soreness and fatigue. Ideal for anyone experiencing inflammation, edema, tingling, or a heavy sensation in their legs, this treatment reduces swelling, optimizes muscle tissue pressure, and enhances performance, while providing a soothing massage for deep relaxation and overall well-being. Perfect for post-workout recovery or simply to improve circulation and muscle health.Give your legs the care they deserve!</p>
             </div>,
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A17196376&dppub=true&employeeId=1482022&pId=474146'
         },
         {
-            image: '/assets/images/body/relaxing-massage.webp',
+            image: '/assets/images/body/body-relax-banner.webp',
             title: 'Relaxing Oil Massage',
             paragraphs: <div className='flex flex-col gap-4'>
-                <p>Enjoy the relaxing oil massage with acupressure and relaxing music and aromatherapy for the time that you need.</p>
+                <p>Indulge in our Relaxing Oil Massage, featuring acupressure, soothing music, and aromatherapy to create a serene atmosphere. This treatment is tailored to meet your specific needs, allowing for customized massage techniques that ensure a personalized experience focused on your relaxation and rejuvenation.</p>
             </div>,
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A7486313&dppub=true&employeeId=1482022&pId=474146'
 
@@ -36,7 +37,7 @@ const BODY_DATA = {
 
         },
         {
-            image: '/assets/images/body/anticelullite-massage.webp',
+            image: '/assets/images/body/venus-massage.webp',
             title: 'Venus Return- anticelullite massage',
             paragraphs: <div className='flex flex-col gap-4'>
                 <p>A massage to stimulates the blood circulation to boost the flow and help to eliminate toxines and cellulite.</p>

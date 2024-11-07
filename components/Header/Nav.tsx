@@ -1,59 +1,28 @@
+'use client'
 import Link from 'next/link';
 import React from 'react';
-
-
-const NAV_DATA =[
-    {
-        label: 'Products',
-        href: '',
-        subfields: [],
-    },
-    {
-        label: 'About',
-        href: 'about',
-        subfields: [],
-    },
-    {
-        label: 'Journal',
-        href: '',
-        subfields: [],
-    },
-    {
-        label: 'Services',
-        href: 'services',
-        subfields: [],
-    },
-    {
-        label: 'Contact',
-        href: '',
-        subfields: [],
-    },
-    {
-        label: 'More',
-        href: '',
-        subfields: [],
-    },
-]
+import { usePathname } from 'next/navigation';
 
 const Nav = () => {
+    const currentPath = usePathname()
 
-
+    console.log('Path:' , currentPath)
     return (
-        <div className='flex lg:gap-6 md:gap-3 text-sm md:h-20 items-center'>
+        <div className='flex lg:gap-6 md:gap-3 text-base xl:text-sm 2xl:text-base md:h-20 items-center'>
             <Link href={'/'} className='hover:underline'>
                 Home
             </Link>
             <Link href={'/#products'}>
                 Products
             </Link>
-            <Link href={'/about'} className='hover:underline'>
+            <Link href={'/about'} className={`${currentPath === '/about' ? 'underline' : ''} hover:underline`}>
                 About
             </Link>
             <Link href={'/'} className='hidden'>
                 Journal
             </Link>
             <div className='group/nav-father flex flex-col relative h-full justify-center'>
-                <p>Services</p>
+                <p className={`${currentPath === '/facial' || currentPath === '/facial/skin-balance' || currentPath === '/facial/skin-consultation' || currentPath === '/facial/skin-hydration' || currentPath === '/facial/skin-renewal' || currentPath === '/facial/skin-ageless' || currentPath === '/body/treatments' || currentPath === '/body/relax' ? 'underline' : ''}`}>Services</p>
                 <div className='absolute group-hover/nav-father:z-30 w-52 bg-nav translate-y-32 opacity-0 duration-500 group-hover/nav-father:translate-y-24 group-hover/nav-father:opacity-100'>
                     <div className='group/child flex items-center text-[#FFFFFF] cursor-pointer px-4 hover:bg-[#cdc6bad5] duration-500'>
                         <Link href={'/facial'} className='flex justify-between w-full py-6'>
@@ -101,9 +70,26 @@ const Nav = () => {
                     </div>
                 </div>
             </div>
-            <Link href={'/contact'} className='hover:underline'>
+            <Link href={'/contact'} className={`${currentPath === '/contact' ? 'underline' : ''} hover:underline`}>
                 Contact
             </Link>
+            <div className='group/nav-more flex flex-col relative h-full justify-center'>
+                <p>More</p>
+                <div className='absolute group-hover/nav-more:z-30 w-52 bg-nav translate-y-32 opacity-0 duration-500 group-hover/nav-more:translate-y-24 group-hover/nav-more:opacity-100'>
+                    <div className=' flex items-center text-[#FFFFFF] cursor-pointer px-4 hover:bg-[#cdc6bad5] duration-500'>
+                        <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/vouchers?pId=474146'} target='__blank' className='flex justify-between w-full py-6'>
+                            <p className='text-[#FFFFFF] underline'>GIFT CARDS</p>
+                            <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                        </Link>
+                    </div>
+                    <div className='flex items-center text-[#FFFFFF] px-4 cursor-pointer hover:bg-[#cdc6bad5] duration-500'>
+                        <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/paid-plans?share&pId=474146'} target='_blank' className='flex justify-between w-full py-6'>
+                            <p className='text-[#FFFFFF] underline'>Memberships</p>
+                            <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                        </Link>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

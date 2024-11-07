@@ -5,8 +5,8 @@ import React from 'react';
 const SKINAGELESS_DATA = {
     title: 'Skin Ageless',
     category: 'Facials',
-    textColor: '#FFFFFF',
-    image: '/assets/images/facials/skin-relax.webp',
+    textColor: '#333333',
+    image: '/assets/images/facials/skinageless-banner.webp',
     text: 'Stop the time and take your skin another level of glow and plumpness by stimulating & boosting  your own collagen production in a natural way & your skin will waken up & glow up like never before with this facials.',
     sections: [
         {

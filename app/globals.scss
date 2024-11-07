@@ -29,6 +29,10 @@ p, a, li, span, input, textarea {
   color: #333333;
 }
 
+p {
+  text-wrap: pretty;
+}
+
 h1, h2, h3, h4 {
   font-family: $ClassyVogue;
 }

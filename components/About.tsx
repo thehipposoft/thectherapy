@@ -29,25 +29,33 @@ const About = ({ aboutPage }:any) => {
     }, {scope: container})
 
     return (
-        <div className='md:py-20 md:flex md:items-center relative z-10'>
+        <div className='md:pt-20 md:pb-0 py-12 2xl:py-8 md:flex md:items-center relative z-10'>
             <div 
                 ref={container}
-                className='h-[100vh] flex items-start'
+                className='h-[100vh] flex items-start 2xl:w-[75vw] 2xl:mx-auto'
                 style={{
                     backgroundImage: 'url(/assets/images/about/background-1.webp)',
                     backgroundRepeat: 'no-repeat',
                 }}
             >
-                <div className='flex md:flex-row flex-col w-full justify-between items-center lg:w-[80vw] md:pl-28 gap-12 pt-[10%]'>
+                <div className='flex md:flex-row flex-col w-full justify-between items-center lg:w-[80vw] 2xl:w-[65vw] 2xl:pl-0 2xl:gap-0 md:pl-28 gap-12 pt-[10%]'>
                     {
                         aboutPage ? 
-                        <div className='lg:w-[520px] w-[320px] md:h-[475px] h-[375px] relative z-10 mt-20 md:mt-0'>
-                            <Image fill alt='Carolina picture' src={'/assets/images/about/about-2.webp'} className='object-cover'/>
-                        </div>
+                            <Image 
+                                width={1366}
+                                height={2048}
+                                alt='Carolina picture' 
+                                src={'/assets/images/about/about-2.webp'} 
+                                className='object-cover h-[400px] md:h-[500px] w-[80vw] md:w-[525px] 2xl:h-[650px] 2xl:w-[650px]'
+                            />
                         :
-                        <div className='md:w-[40vw] w-[80vw] md:h-[575px] h-[375px] relative z-10'>
-                            <Image fill alt='Carolina picture' src={'/assets/images/about/about-1.webp'} className='object-cover'/>
-                        </div>
+                            <Image 
+                                width={1067}
+                                height={1600} 
+                                alt='Carolina picture' 
+                                src={'/assets/images/about/about-1.webp'} 
+                                className='object-cover md:w-[40vw] w-[80vw] md:h-[575px] 2xl:h-[675px] h-[375px]'
+                            />
                     }
                     {
                         aboutPage ?

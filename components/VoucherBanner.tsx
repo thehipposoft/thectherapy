@@ -4,7 +4,7 @@ import React from 'react';
 
 const VoucherBanner = () => {
     return (
-        <div className='h-[369px] w-full relative flex justify-center items-center'>
+        <div className='h-[369px] 2xl:h-[450px] w-full relative flex justify-center items-center'>
             <Image src={'/assets/images/voucherBanner.png'} alt='Leaf image' fill />
             <div className='bg-[#DBD3C9] absolute left-0 w-full h-full opacity-60' />
             <div className='flex flex-col relative z-10 gap-6'>

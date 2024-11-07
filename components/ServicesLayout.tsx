@@ -14,7 +14,7 @@ const ServicesLayout = ({props} :any) => {
                 </div>
             </div>
             <div className='md:h-[500px] h-[400px] bg-[#F4F5F0] flex justify-center items-center'>
-                <p className='md:w-[650px] w-[75vw] text-center vogue-2'>{props.text}</p>
+                <p className='md:w-[720px] w-[75vw] text-center vogue-2'>{props.text}</p>
             </div>
         </div>
     );

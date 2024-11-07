@@ -6,8 +6,8 @@ const SKINBALANCE_DATA = {
     title: 'Skin Balance',
     category: 'Facials',
     textColor: '#333333',
-    image: '/assets/images/facials/skin-balance.webp',
-    text: 'This are a range of Organic Facials with bare roots Australia skincare. From express, simply to the most luxury bespoke facial experience to choose.',
+    image: '/assets/images/facials/skin-balancegrid.webp',
+    text: 'This are a range of organic facials performed with Bare Roots Australia skincare. From a simple express facial  to the most luxury bespoke facial experience to choose. Great for all compromised skins like dermatitis, acne, sensitive, dryness & dehydration',
     sections: [
         {
             image: '/assets/images/facials/skin-balance/express-plant-peel.webp',

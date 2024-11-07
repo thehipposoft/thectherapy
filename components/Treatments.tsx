@@ -27,7 +27,7 @@ const Treatments = () => {
     }, {scope: container})
 
     return (
-        <div className='h-[575px] relative flex items-center' ref={container}>
+        <div className='h-[575px] 2xl:h-[625px] relative flex items-center' ref={container}>
             <Image src={'/assets/images/treatments/treatments-1.webp'} fill alt='Hands image' className='object-cover object-[center_35%]'/>
             <div className='bg-[#39373433] w-full h-full left-0 absolute' />
             <div className='content flex flex-col gap-6 relative z-10 md:pl-28 w-[75vw] md:w-auto mx-auto md:mx-0' >

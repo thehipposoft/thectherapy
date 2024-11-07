@@ -4,10 +4,10 @@ import "./globals.scss";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import SmoothScroll from "@/components/SmoothScroll";
-import Announcement from "@/components/Announcement";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import SchemaOrg from "@/components/SchemaOrg";
 import MobileMenu from "@/components/commons/MobileMenu";
+import MessageSticky from "@/components/commons/MessageSticky";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,6 +33,7 @@ export default function RootLayout({
             </header>
               {children}
             <footer>
+              <MessageSticky />
               <Footer />
             </footer>
           </SmoothScroll>
