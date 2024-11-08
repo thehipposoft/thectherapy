@@ -4,8 +4,8 @@ import React from 'react';
 
 const FacialGrid = () => {
     return (
-        <div className='grid md:grid-cols-2 grid-cols-1 md:grid-rows-2' id='services'>
-            <div className='md:h-[75vh] h-[500px] relative flex justify-center items-center group '>
+        <div className='grid md:grid-cols-2 grid-cols-1 md:grid-rows-2 gap-6 sm:gap-[1px]' id='services'>
+            <div className='md:h-[75vh] h-[500px] relative flex justify-center items-center group'>
                 <div className='bg-[#3937346f] absolute top-0 left-0 w-full h-full z-10 group-hover:bg-[#ffffff88] duration-700 delay-100' />
                 <Image src={'/assets/images/facials/skin-balancegrid.webp'} fill alt='Facial Service: Skin Balance background' />
                 <div className='flex flex-col gap-6 relative z-10 md:w-[32vw] 2xl:w-7/12 w-[75vw] mx-auto md:mx-0'>
