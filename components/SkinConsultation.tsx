@@ -23,7 +23,7 @@ const SkinConsultation = () => {
                         <p>(Duration: 30 minutes)</p>
                         <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A9004885&pId=474146&dppub=true&employeeId=1482022'} target='_blank' rel='noreferrer' className='flex justify-between items-center gap-4 sm:gap-16 border border-nav w-fit px-5 py-4 mt-4 group duration-500'>
                             <p className='text-[#333333] group-hover:underline'>Book your skin treatment consultation</p>
-                            <svg className='w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
+                            <svg className='w-8 md:w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                         </Link>
                     </div>
                     <div className='flex flex-col gap-4 pb-12 md:pb-0 pt-10'>
@@ -32,7 +32,7 @@ const SkinConsultation = () => {
                         <p>(Duration: 30 minutes)</p>
                         <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A19547690&share&pId=474146'} target='_blank' rel='noreferrer' className='flex justify-between items-center gap-4 sm:gap-16 border border-nav w-fit px-5 py-4 mt-4 group duration-500'>
                             <p className='text-[#333333] group-hover:underline'>Book your skincare product consultation</p>
-                            <svg className='w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
+                            <svg className='w-8 md:w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                         </Link>
                     </div>
                     <div className='flex flex-col gap-4 pb-12 md:pb-0 pt-10'>
@@ -51,7 +51,7 @@ const SkinConsultation = () => {
                         <p>Book your consultation today and let’s work together to achieve your skin and body goals!</p>
                         <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A19547753&share&pId=474146'} target='_blank' rel='noreferrer' className='flex justify-between items-center gap-4 sm:gap-16 border border-nav w-fit px-5 py-4 mt-4 group duration-500'>
                             <p className='text-[#333333] group-hover:underline'>Book your body sculpting consultation</p>
-                            <svg className='w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
+                            <svg className='w-8 md:w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                         </Link>
                     </div>
                     <div className='flex flex-col gap-4'>
@@ -68,7 +68,7 @@ const SkinConsultation = () => {
                         </div>
                         <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A13050313&share&pId=474146'} target='_blank' rel='noreferrer' className='flex justify-around items-center gap-16 border border-nav w-fit px-5 py-4 mt-4 group duration-500'>
                             <p className='text-[#333333] group-hover:underline'>Book here Start Glow 1</p>
-                            <svg className='w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
+                            <svg className='w-8 md:w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                         </Link>
                     </div>
                     <div className='flex flex-col gap-4'>
@@ -80,7 +80,7 @@ const SkinConsultation = () => {
                         </div>
                         <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A19547855&share&pId=474146'} target='_blank' rel='noreferrer' className='flex justify-around items-center gap-16 border border-nav w-fit px-5 py-4 mt-4 group duration-500'>
                             <p className='text-[#333333] group-hover:underline'>Book here Start Glow 2</p>
-                            <svg className='w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
+                            <svg className='w-8 md:w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                         </Link>
                     </div>
                     <p className='uppercase mt-12'>Please note: For better experience, bring your current skincare or photo to<br /> have best customization of your skincare regimen in your skin consultation.</p>

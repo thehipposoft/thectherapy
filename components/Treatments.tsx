@@ -37,7 +37,7 @@ const Treatments = () => {
                 </div>
                 <h2 className='text-4xl text-[#FFFFFF] '>Body, mind and soul</h2>
                 <p className='text-[#FFFFFF] md:w-[580px] '>Learn more about our treatments. At the C therapy we will help you feel better inside and out. </p>
-                <Link href={'/body'} className='group opacity-100 hover:border-[#000000]  flex justify-between items-center gap-6 border border-[#FFFFFF] w-fit px-5 py-4 '>
+                <Link href={'/body/treatments'} className='group opacity-100 hover:border-[#000000]  flex justify-between items-center gap-6 border border-[#FFFFFF] w-fit px-5 py-4 '>
                     <p className='group-hover:text-[#000000] duration-700 text-[#FFFFFF] text-sm'>Our body treatments</p>
                     <svg className='overflow-visible' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff" className='duration-700 group-hover:translate-x-2 group-hover:stroke-[#000000]'><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                 </Link>

@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
 
 .images-container img { 
   animation: carousel 15s infinite linear; 
-} 
+}
 
 .images-container img:nth-child(1) { 
   animation-delay: 0s; 
@@ -63,7 +63,7 @@ h1, h2, h3, h4 {
   0% { 
     opacity: 0; 
   } 
-  20% { 
+  10% { 
     opacity: 1; 
   } 
   33.33% { 

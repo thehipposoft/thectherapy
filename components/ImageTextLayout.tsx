@@ -24,7 +24,7 @@ const ImageTextLayout = ({data}:any) => {
                                     {val.paragraphs}
                                     <Link href={val.href} target='_blank' rel='noreferrer' className='flex justify-between items-center gap-20 border border-nav w-fit px-5 py-4 mt-8 group duration-500'>
                                         <p className='text-[#333333] group-hover:underline'>Book an appointment</p>
-                                        <svg className='w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
+                                        <svg className='lg:w-6 w-8 lg:h-6 h-8 stroke-[#333333] group-hover:translate-x-2 duration-500 self-center' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                                     </Link>
                                 </div>
                             </div>

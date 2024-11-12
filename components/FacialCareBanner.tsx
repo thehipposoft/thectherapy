@@ -7,7 +7,7 @@ const FacialCareBanner = () => {
             <div className='md:w-[90vw] w-[75vw] mx-auto flex flex-col gap-4'>
                 <p>Start glowing with us.</p>
                 <h2 className='text-3xl'>Supreme facial care</h2>
-                <p className='md:w-1/2 2xl:w-5/12'>When it comes to skin and what of all the facials alternative to choose it could be a bit confusing and is natural to be unsure. Specially. If you are a new client to visit the.c.therapy. 
+                <p className=' md:w-3/4 lg:w-1/2 2xl:w-5/12'>When it comes to skin and what of all the facials alternative to choose it could be a bit confusing and is natural to be unsure. Specially. If you are a new client to visit the.c.therapy. 
                     So we recommend you to start with a skin consultation as is the most important part of every treatment to discuss your skin needs and Carolina will advise you on that day the best options whether you need help on your skincare or what facial is right for you.
                 </p>
                 <Link href={'/skin-consultation'} className='flex group justify-between items-center gap-6 border border-[#CDCBC0] hover:border-nav duration-500 w-fit px-5 py-4 bg-[#ffffff2a]'>

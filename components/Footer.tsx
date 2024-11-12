@@ -6,12 +6,12 @@ import AnchorLink from './commons/AnchorLink';
 const Footer = () => {
     return (
         <div className='bg-nav md:h-[400px] flex flex-col justify-between'>
-            <div className='flex md:flex-row flex-col lg:w-[85vw] justify-between items-center mx-auto py-12 gap-8 sm:gap-8 lg:gap-0'>
-                <Image src={'/logo-blanco-1.svg'} width={240} height={180} alt='C-therapy logo' />
-                <div className='flex justify-between lg:gap-24 md:gap-16 gap-20 mx-auto md:mx-0 w-[85vw] md:w-auto'>
+            <div className='flex md:flex-row flex-col md:w-[85vw] justify-between md:justify-start items-center mx-auto py-12 gap-12 sm:gap-8 md:gap-12 xl:gap-40'>
+                <Image src={'/logo-blanco-1.svg'} width={240} height={180} alt='C-therapy logo' className='md:w-1/4 lg:w-1/6' />
+                <div className='flex justify-between lg:gap-24 md:gap-8 gap-12 mx-auto md:mx-0 w-[85vw] md:w-auto'>
                     <ul className='flex flex-col gap-4'>
-                        <Link href={'/about'} className='text-[#FFFFFF] hover:underline'>About</Link>
-                        <AnchorLink textColor={'#FFFFFF'} href={'#services'}>Main Services</AnchorLink>
+                        <Link href={'/about'} className='text-[#FFFFFF] hover:underline text-sm'>About</Link>
+                        <AnchorLink textColor={'#FFFFFF'} textSize={'sm'} href={'#services'} className={'text-sm'}>Main Services</AnchorLink>
                         <li className='text-[#FFFFFF] text-sm hidden'>Journal</li>
                     </ul>
                     <ul className='flex flex-col gap-4'>

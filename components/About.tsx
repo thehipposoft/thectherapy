@@ -29,16 +29,16 @@ const About = ({ aboutPage }:any) => {
     }, {scope: container})
 
     return (
-        <div className='md:pt-20 md:pb-0 py-12 2xl:py-8 md:flex md:items-center relative z-10'>
+        <div className='xl:pt-20 lg:pb-12 xl:pb-16 md:pb-0 py-12 lg:py-0 2xl:py-8 md:flex md:items-center relative z-10'>
             <div 
                 ref={container}
-                className='h-[100vh] flex items-start 2xl:w-[75vw] 2xl:mx-auto'
+                className='xl:h-[100vh] flex items-start 2xl:w-[75vw] 2xl:mx-auto'
                 style={{
                     backgroundImage: 'url(/assets/images/about/background-1.webp)',
                     backgroundRepeat: 'no-repeat',
                 }}
             >
-                <div className='flex md:flex-row flex-col w-full justify-between items-center lg:w-[80vw] 2xl:w-[65vw] 2xl:pl-0 2xl:gap-0 md:pl-28 gap-12 pt-[10%]'>
+                <div className='flex md:flex-row flex-col w-full justify-between items-center lg:w-[80vw] 2xl:w-[65vw] 2xl:pl-0 2xl:gap-0 md:pl-14 lg:pl-28 gap-12 pt-[10%] md:pb-32 lg:pb-0'>
                     {
                         aboutPage ? 
                             <Image 

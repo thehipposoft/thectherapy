@@ -5,7 +5,7 @@ import React from 'react';
 const Products = () => {
     return (
         <div className='pt-24 md:pb-32 pb-24'>
-            <div className='lg:w-[90vw] px-2 mx-auto flex flex-col '>
+            <div className='lg:w-[90vw] md:w-[85vw] px-2 mx-auto flex flex-col '>
                 <div className='info flex flex-col gap-4 w-[75vw] mx-auto md:mx-0 md:w-auto' id='products'>
                     <p className='text-sm'>We take care of your skin naturally</p>
                     <h2 className='text-4xl'>Supreme facial care</h2>

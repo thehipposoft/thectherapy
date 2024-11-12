@@ -1,6 +1,9 @@
-import React from 'react';
+'use client'
+import React, { useRef } from 'react';
 import Image from 'next/image';
 import AnchorLink from './commons/AnchorLink';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 const BACKGROUNDS = [
     {
@@ -19,8 +22,18 @@ const BACKGROUNDS = [
 
 const BannerSlick = () => {
 
+    const container = useRef(null)
+
+    useGSAP(() => {
+        gsap.from(container.current, {
+            opacity: 0,
+            duration: 1.5,
+            ease: 'sine.inOut'
+        })
+    })
+
     return (
-        <div className='md:h-[95vh] h-screen relative'>
+        <div ref={container} className='md:h-[95vh] h-screen relative'>
             <div className='images-container absolute overflow-hidden h-full w-full'>
                 {
                     BACKGROUNDS.map((val, index) => (
@@ -39,7 +52,7 @@ const BannerSlick = () => {
                 <div className='flex flex-col justify-center gap-6'>
                     <p className='text-[#FFFFFF] md:w-5/12'>Let's uncover the radiant, confident you that's been waiting to glow up.</p>
                     <h3 className='text-4xl text-[#FFFFFF]'>Empower your natural beauty</h3>
-                    <p className='text-[#FFFFFF] md:w-5/12 font-light'>A combination of nature and advanced technology. The c therapy will guide you on your journey to the best version of yourself.</p>
+                    <p className='text-[#FFFFFF] md:w-1/2 lg:w-5/12 font-light'>A combination of nature and advanced technology. The c therapy will guide you on your journey to the best version of yourself.</p>
                     <AnchorLink href={'#facial-care'}>
                         <div className='group flex justify-between items-center gap-4 border border-[#FFFFFF] hover:border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
                             <p className='text-[#FFFFFF] group-hover:text-[#000000] duration-700 text-sm'>Find your treatment</p>
