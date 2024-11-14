@@ -7,7 +7,7 @@ const FacialGrid = () => {
         <div className='grid lg:grid-cols-2 grid-cols-1 md:grid-rows-2 gap-6 lg:gap-6 xl:gap-[1px]' id='services'>
             <div className='lg:h-[75vh] md:h-[60vh] h-[500px] relative flex justify-center items-center group'>
                 <div className='bg-[#3937346f] absolute top-0 left-0 w-full h-full z-10 group-hover:bg-[#ffffff88] duration-700 delay-100' />
-                <Image src={'/assets/images/facials/skin-balancegrid.webp'} fill alt='Facial Service: Skin Balance background' />
+                <Image src={'/assets/images/facials/skin-balancegrid.webp'} fill alt='Facial Service: Skin Balance background' className='object-cover lg:object-fill' />
                 <div className='flex flex-col gap-6 relative z-10  md:w-1/2 lg:w-[32vw] 2xl:w-7/12 w-[75vw] mx-auto md:mx-0'>
                     <h2 className='text-4xl text-[#FFFFFF] group-hover:text-[#333333] duration-300'>SKIN BALANCE</h2>
                     <p className='text-[#FFFFFF] leading-6 group-hover:text-[#333333] duration-300'>This are a range of Organic Facials with bare roots Australia skincare. From express, simply to the most luxury bespoke facial experience to choose. </p>
@@ -19,7 +19,7 @@ const FacialGrid = () => {
             </div>
             <div className='lg:h-[75vh] md:h-[60vh] h-[500px] relative flex justify-center items-center group '>
                 <div className='bg-[#3937346f] absolute top-0 left-0 w-full h-full z-10 group-hover:bg-[#ffffffb5] duration-700 delay-100' />
-                <Image src={'/assets/images/facials/skin-hydrationgrid.webp'} fill alt='Facial Service: Skin Hydration' />
+                <Image src={'/assets/images/facials/skin-hydrationgrid.webp'} fill alt='Facial Service: Skin Hydration' className='object-cover lg:object-fill' />
                 <div className='flex flex-col gap-6 relative z-10 md:w-1/2 lg:w-[32vw] w-[75vw] mx-auto md:mx-0'>
                     <h2 className='text-4xl text-[#FFFFFF] group-hover:text-[#333333] duration-300'>SKIN HYDRATION</h2>
                     <p className='text-[#FFFFFF] leading-6 group-hover:text-[#333333] duration-300'>A range of facial treatments to meet your skin's needs, from anti-aging and hydration-boosting LED light therapy, skin detoxifying facial, relaxing facial massages to our Go-to facial treatment for a deep cleansing anti-blemishes, hydrating & sooting one. </p>

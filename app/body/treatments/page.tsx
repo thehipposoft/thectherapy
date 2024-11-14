@@ -31,7 +31,7 @@ const BODY_DATA = {
             image: '/assets/images/body/lymphatic-massage.webp',
             title: 'Lymphatinc Drainage Massage',
             paragraphs: <div className='flex flex-col gap-4'>
-                <p>A LDM is great for boost lymphatic system and remove al the liquid and toxins in between tissue. This will help to eliminate all the liquid accumulated in the body.</p>
+                <p>Our Lymphatic Drainage Massage (LDM) is designed to enhance your lymphatic system and facilitate the removal of excess fluid and toxins from your body. This gentle, rhythmic massage technique helps reduce fluid accumulation, promoting overall wellness and rejuvenation. Experience the benefits of improved circulation and a lighter, more refreshed feeling as you support your body’s natural detoxification process.</p>
             </div>,
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A7490846&dppub=true&employeeId=1482022&pId=474146'
 
@@ -46,7 +46,7 @@ const BODY_DATA = {
 
         },
         {
-            image: '/assets/images/body/body-sculpting.png',
+            image: '/assets/images/body/body-sculpting.webp',
             title: 'Body sculpting: Radiofrequency | Fat cavitation | Electroestimulation',
             paragraphs: 
                 <div className='flex flex-col gap-4'>

@@ -8,8 +8,7 @@ const Header = () => {
         <div  className='w-screen max-w-[100vw] lg:flex hidden bg-[#FBFEFB] py-1'>
             <div className='lg:w-[90vw] md:flex mx-auto gap-6 items-center justify-between'>
                 <Nav />
-                <Link href={'/'} className='flex items-center gap-2 xl:pr-28 md:pr-6'>
-{/*                     <Image src={'/logo_web.png'} alt='' height={120} width={220} /> */}
+                <Link href={'/'} className='flex items-center gap-2 xl:pr-64 md:pr-6'>
                     <div className='bg-nav rounded-full w-16 h-16 flex justify-center items-center relative'>
                         <Image
                             src={'/logo-blanco.svg'}
