@@ -8,7 +8,7 @@ const Nav = () => {
 
     console.log('Path:' , currentPath)
     return (
-        <div className='flex lg:gap-6 md:gap-3 text-base xl:text-sm 2xl:text-base md:h-20 items-center'>
+        <div className='flex xl:gap-6 md:gap-3 text-base lg:text-sm xl:text-sm 2xl:text-base md:h-20 items-center'>
             <Link href={'/'} className='hover:underline'>
                 Home
             </Link>
