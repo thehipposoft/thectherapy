@@ -12,7 +12,7 @@ import MessageSticky from "@/components/commons/MessageSticky";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "The C Theraphy",
+  title: "the.c.therapy",
   description: "A combination of nature and advanced technology. The c therapy will guide you on your journey to the best version of yourself.",
 };
 
