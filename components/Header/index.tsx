@@ -9,14 +9,13 @@ const Header = () => {
             <div className='lg:w-[90vw] md:flex mx-auto gap-6 items-center justify-between'>
                 <Nav />
                 <Link href={'/'} className='flex items-center gap-2 absolute left-0 right-0 mx-auto w-fit'>
-                    <div className='bg-nav rounded-full w-16 h-16 flex justify-center items-center relative'>
-                        <Image
-                            src={'/logo-blanco.svg'}
-                            alt='C-Therapy logo white'
-                            width={45} height={40}
-                            className='object-contain'
-                        />
-                    </div>
+                    <Image
+                        src={'/logo-white.png'}
+                        alt='C-Therapy logo white'
+                        width={80} height={80}
+                        quality={100}
+                        className='object-contain rounded-full'
+                    />
                     <h2 className='font-thin text-2xl text-nav'>the.c.therapy</h2>
                 </Link>
                 <div className='flex justify-between items-center gap-6'>
