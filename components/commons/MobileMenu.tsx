@@ -13,7 +13,7 @@ const MobileMenu = () => {
     return (
         <div className='lg:hidden fixed z-40 right-0 top-0'>
             <div
-                onClick={toggleMenu} 
+                onClick={toggleMenu}
                 className='relative w-12 border border-[#87807040] rounded-md right-7 top-7 z-40 bg-[#fffffff7] py-4'
             >
                 <div className='flex flex-col items-center gap-[5px]'>
@@ -23,7 +23,7 @@ const MobileMenu = () => {
                 </div>
 
             </div>
-            <ul className={`${isToggle ? 'translate-x-0' : 'translate-x-full'} top-0 right-0 w-screen h-screen absolute overflow-hidden p-8 flex flex-col justify-center items-center gap-10 md:gap-14 bg-[#ffffffe8] duration-700`}>
+            <ul className={`${isToggle ? 'translate-x-0' : 'translate-x-full'} top-0 right-0 w-screen h-screen absolute overflow-hidden p-8 flex flex-col justify-center items-center gap-9 md:gap-14 bg-[#ffffffe8] duration-700`}>
                 <Link href={'/'} className='border-b sm:p-2 text-xl' onMouseUp={toggleMenu} >
                     Home
                 </Link>
@@ -44,6 +44,12 @@ const MobileMenu = () => {
                 </Link>
                 <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='border-b sm:p-2 text-xl' onMouseUp={toggleMenu}>
                     STORE
+                </Link>
+                <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/vouchers?pId=474146'} target='_blank' className='border-b sm:p-2 text-xl' onMouseUp={toggleMenu}>
+                    GIFT CARDS
+                </Link>
+                <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/paid-plans?share&pId=474146'} target='_blank' className='border-b sm:p-2 text-xl' onMouseUp={toggleMenu}>
+                    Memberships
                 </Link>
                 <Link href={'/contact'} className='border-b sm:p-2 text-xl' onMouseUp={toggleMenu}>
                     Contact
