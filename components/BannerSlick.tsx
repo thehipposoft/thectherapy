@@ -40,7 +40,8 @@ const BannerSlick = () => {
                         <Image 
                             src={val.src} 
                             alt={val.alt} 
-                            key={index} 
+                            key={index}
+                            priority
                             fill 
                             className={`opacity-0 object-cover first:opacity-100`}
                         />
