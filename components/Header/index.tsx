@@ -15,6 +15,7 @@ const Header = () => {
                         width={80} height={80}
                         quality={100}
                         className='object-contain rounded-full'
+                        priority
                     />
                     <h2 className='font-thin text-2xl text-nav'>the.c.therapy</h2>
                 </Link>

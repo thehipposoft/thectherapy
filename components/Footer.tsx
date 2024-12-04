@@ -27,10 +27,10 @@ const Footer = () => {
                     <p className='text-[#FFFFFF]'>FOLLOW US</p>
                     <div className='flex gap-8 md:gap-4'>
                         <Link rel='noreferrer' target='_blank' href={'https://www.instagram.com/the.c.therapy/'}>
-                            <Image src={'/assets/vectors/Instagram.svg'} alt='Instagram logo' width={30} height={30} className='object-contain'/>
+                            <Image src={'/assets/vectors/Instagram.svg'} alt='Instagram logo' width={30} height={30} className='object-contain w-[30px] h-auto'/>
                         </Link>
                         <Link rel='noreferrer' target='_blank'  href={'https://www.tiktok.com/@the.c.therapy'}>
-                            <Image src={'/assets/vectors/TikTok.svg'} alt='TikTok logo' width={30} height={30} />
+                            <Image src={'/assets/vectors/TikTok.svg'} alt='TikTok logo' width={30} height={30} className='object-contain w-[30px] h-auto' />
                         </Link>
                     </div>
                     <Link href={'/contact'} className='text-[#FFFFFF] text-sm'>Contact</Link>

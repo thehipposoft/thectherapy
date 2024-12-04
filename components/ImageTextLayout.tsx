@@ -15,6 +15,7 @@ const ImageTextLayout = ({data}:any) => {
                                     src={val.image}
                                     alt={val.title} 
                                     fill 
+                                    sizes="(max-width: 1300px) 100vw, 50vw"
                                     className={`object-cover ${val.imagePosition} `}
                                 />
                             </div>

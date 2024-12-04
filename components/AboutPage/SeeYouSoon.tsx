@@ -5,7 +5,13 @@ const SeeYouSoon = () => {
     return (
         <div className='md:h-[560px] flex flex-col md:flex-row items-center'>
             <div className='md:w-[50vw] w-screen relative bg-nav md:h-full h-[250px]'>
-                <Image src={'/assets/images/about/about-heaven.webp'} alt={'Image of a table from the Studio with water and an inciense'} fill className='object-cover object-bottom' />
+                <Image 
+                    src={'/assets/images/about/about-heaven.webp'} 
+                    alt={'Image of a table from the Studio with water and an inciense'} 
+                    fill 
+                    className='object-cover object-bottom'
+                    sizes="(max-width: 1300px) 100vw, 50vw"
+                />
             </div>
             <div className='md:w-1/2 w-[75vw] mx-auto md:mx-0 py-20 md:py-0 justify-center items-center'>
                 <div className='lg:w-[450px] md:w-3/4 mx-auto flex gap-6 flex-col'>

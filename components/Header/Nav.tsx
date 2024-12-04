@@ -5,8 +5,6 @@ import { usePathname } from 'next/navigation';
 
 const Nav = () => {
     const currentPath = usePathname()
-
-    console.log('Path:' , currentPath)
     return (
         <div className='flex xl:gap-6 md:gap-3 text-base lg:text-sm xl:text-sm 2xl:text-base md:h-20 items-center'>
             <Link href={'/'} className='hover:underline'>
@@ -75,7 +73,7 @@ const Nav = () => {
             </Link>
             <div className='group/nav-more flex flex-col relative h-full justify-center'>
                 <p>More</p>
-                <div className='absolute group-hover/nav-more:z-30 w-52 bg-nav translate-y-32 opacity-0 duration-500 group-hover/nav-more:translate-y-24 group-hover/nav-more:opacity-100'>
+                <div className='absolute group-hover/nav-more:z-30 w-52 bg-nav translate-y-48 opacity-0 duration-500 group-hover/nav-more:translate-y-32 group-hover/nav-more:opacity-100'>
                     <div className=' flex items-center text-[#FFFFFF] cursor-pointer px-4 hover:bg-[#cdc6bad5] duration-500'>
                         <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/vouchers?pId=474146'} target='__blank' className='flex justify-between w-full py-6'>
                             <p className='text-[#FFFFFF] underline'>GIFT CARDS</p>
@@ -85,6 +83,12 @@ const Nav = () => {
                     <div className='flex items-center text-[#FFFFFF] px-4 cursor-pointer hover:bg-[#cdc6bad5] duration-500'>
                         <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/paid-plans?share&pId=474146'} target='_blank' className='flex justify-between w-full py-6'>
                             <p className='text-[#FFFFFF] underline'>Memberships</p>
+                            <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                        </Link>
+                    </div>
+                    <div className='flex items-center text-[#FFFFFF] px-4 cursor-pointer hover:bg-[#cdc6bad5] duration-500'>
+                        <Link href={'/terms-and-conditions'} className='flex justify-between w-full py-6'>
+                            <p className='text-[#FFFFFF]'>Terms & Conditions</p>
                             <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
                         </Link>
                     </div>
