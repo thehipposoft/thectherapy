@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import SmoothScroll from "@/components/SmoothScroll";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import SchemaOrg from "@/components/SchemaOrg";
+import Hotjar from "./Hotjar";
 import MobileMenu from "@/components/commons/MobileMenu";
 import MessageSticky from "@/components/commons/MessageSticky";
 import Announcement from "@/components/Announcement";
@@ -26,6 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
           <GoogleAnalytics />
+          <Hotjar />
           <SchemaOrg />
           <SmoothScroll>
             <header>
