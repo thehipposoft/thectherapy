@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Banner = () => {
     return (
         <div  className='md:py-12 relative z-20 bg-[#FBFEFB]'>
-            <Image src={'/assets/images/banner/banner-mobile.jpg'} alt='' width={2245} height={3179} className='md:hidden w-screen h-screen object-contain' />
+            <Image src={'/assets/images/banner/banner-mobile.jpeg'} alt='' width={2245} height={3179} className='hidden w-screen h-screen object-contain' />
             <div className='md:flex hidden w-screen items-end justify-center bg-[#6D6764] h-[500px] gap-20'>
                 <div className='flex flex-col  gap-8 my-auto'>
                     <div className='flex flex-col gap-2'>
