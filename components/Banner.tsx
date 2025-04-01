@@ -15,7 +15,7 @@ const Banner = () => {
                     </div>
                     <div className='flex gap-4'>
                         <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true&offerItems=p%3A1591031'} target='_blank' className='text-[#333333] border-[#FBFEFB] bg-[#FBFEFB] rounded-full border w-fit py-2 px-6 hover:bg-[#ffffff00] duration-300 hover:text-[#FBFEFB]'>ACCESS OUR SPECIAL OFFER</Link>
-                        <Link href={'/facial-bloom-info.pdf'} target='_blank' rel='noreferrer' className='text-[#333333] border-[#FBFEFB] bg-[#FBFEFB] rounded-full border w-fit py-2 px-6 hover:bg-[#ffffff00] duration-300 hover:text-[#FBFEFB]'>LEARN MORE</Link>
+                        <Link href={'/promotions'} className='text-[#333333] border-[#FBFEFB] bg-[#FBFEFB] rounded-full border w-fit py-2 px-6 hover:bg-[#ffffff00] duration-300 hover:text-[#FBFEFB]'>LEARN MORE</Link>
                     </div>
                     <p className='font-bold text-[#FBFEFB]'>Offer on now. Conditions apply. Expires 30/04/2025</p>
                 </div>

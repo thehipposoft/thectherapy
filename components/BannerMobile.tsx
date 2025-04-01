@@ -20,7 +20,7 @@ const BannerMobile = () => {
             <p className='text-center text-[8px] '>The FACIAL BLOOM is an advanced skin treatment is known for its fantastic ability<br /> to generate the growth of colagen and elastin. Skin Needling delivers impressive<br /> results in total skin rejuvenation. Due to the speed of the device, treatments are<br /> fast, reasonably comfortable, and your therapist can treat large or multiple<br/> areas in one appointment.</p>
         </div>
         <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true&offerItems=p%3A1591031'} target='_blank' rel='noreferrer' className=' mt-4 text-[#FFFFFF] border-[#333333] bg-[#333333] rounded-full border w-fit py-2 px-6 hover:bg-[#ffffff00] duration-300 hover:text-[#333333]'>ACCESS OUR SPECIAL OFFER</Link>
-        <Link href={'/facial-bloom-info.pdf'} target='_blank' rel='noreferrer' className=' mt-4 text-[#FFFFFF] border-[#333333] bg-[#333333] rounded-full border w-fit py-2 px-6 hover:bg-[#ffffff00] duration-300 hover:text-[#333333]'>LEARN MORE</Link>
+        <Link href={'/promotions'}  rel='noreferrer' className=' mt-4 text-[#FFFFFF] border-[#333333] bg-[#333333] rounded-full border w-fit py-2 px-6 hover:bg-[#ffffff00] duration-300 hover:text-[#333333]'>LEARN MORE</Link>
         <Image
             src={'/logo-white.png'}
             alt='C-Therapy logo white'

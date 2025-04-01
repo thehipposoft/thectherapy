@@ -7,17 +7,11 @@ const Nav = () => {
     const currentPath = usePathname()
     return (
         <div className='flex xl:gap-6 md:gap-3 text-base lg:text-sm xl:text-sm 2xl:text-base md:h-20 items-center'>
-            <Link href={'/'} className='hover:underline'>
-                Home
-            </Link>
-            <Link href={'/#products'}>
-                Products
-            </Link>
             <Link href={'/about'} className={`${currentPath === '/about' ? 'underline' : ''} hover:underline`}>
                 About
             </Link>
-            <Link href={'/'} className='hidden'>
-                Journal
+            <Link href={'/#products'} className='hover:underline'>
+                Products
             </Link>
             <div className='group/nav-father flex flex-col relative h-full justify-center'>
                 <p className={`${currentPath === '/facial' || currentPath === '/facial/skin-balance' || currentPath === '/facial/skin-consultation' || currentPath === '/facial/skin-hydration' || currentPath === '/facial/skin-renewal' || currentPath === '/facial/skin-ageless' || currentPath === '/body/treatments' || currentPath === '/body/relax' ? 'underline' : ''}`}>Services</p>
@@ -70,6 +64,9 @@ const Nav = () => {
             </div>
             <Link href={'/contact'} className={`${currentPath === '/contact' ? 'underline' : ''} hover:underline`}>
                 Contact
+            </Link>
+            <Link href={'/promotions'} className='hover:underline'>
+                Promotions
             </Link>
             <div className='group/nav-more flex flex-col relative h-full justify-center'>
                 <p>More</p>
