@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function AboutPage() {
+export default function PromotionsPage() {
     return (
-        <div className="flex flex-col md:w-[850px] w-[90vw] mx-auto relative z-20">
+        <div className="flex flex-col md:w-[800px] w-[90vw] mx-auto relative z-20">
             <div>
-                <h1 className="uppercase garet text-center md:text-6xl text-5xl md:py-16 pt-28 pb-8">promotions</h1>
+                <h1 className="uppercase garet text-center md:text-6xl text-5xl md:py-16 pt-28 pb-4">promotions</h1>
             </div>
+            <Image src={'/assets/images/promotions/0.png'} width={1280} height={1172} alt="" />
             <Image src={'/assets/images/promotions/1.png'} width={1280} height={837} alt="" />
             <Image src={'/assets/images/promotions/2.png'} width={1280} height={1192} alt="" />
             <Image src={'/assets/images/promotions/3.png'} width={1280} height={364} alt="" />
