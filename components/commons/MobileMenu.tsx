@@ -42,6 +42,9 @@ const MobileMenu = () => {
                 <Link href={'/body/relax'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
                     Skin & Body Relax
                 </Link>
+                <Link href={'/body/relax'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                    Promotions
+                </Link>
                 <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
                     STORE
                 </Link>
