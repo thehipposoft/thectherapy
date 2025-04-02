@@ -23,7 +23,7 @@ const MobileMenu = () => {
                 </div>
 
             </div>
-            <ul className={`${isToggle ? 'translate-x-0' : 'translate-x-full'} top-0 right-0 w-screen h-screen absolute overflow-hidden p-8 flex flex-col justify-center items-center gap-8 md:gap-14 bg-[#ffffffe8] duration-700`}>
+            <ul className={`${isToggle ? 'translate-x-0' : 'translate-x-full'} top-0 right-0 w-screen h-screen absolute overflow-hidden p-8 flex flex-col justify-center items-center gap-7 md:gap-14 bg-[#ffffffe8] duration-700`}>
                 <Link href={'/'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu} >
                     Home
                 </Link>
