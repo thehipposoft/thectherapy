@@ -5,7 +5,7 @@ export default function PromotionsPage() {
     return (
         <div className="flex flex-col md:w-[800px] w-[90vw] mx-auto relative z-20">
             <div>
-                <h1 className="uppercase garet text-center md:text-6xl text-5xl md:py-16 pt-28 pb-4">promotions</h1>
+                <h1 className="uppercase garet text-center md:text-6xl text-5xl md:py-8 pt-28 pb-4">promotions</h1>
             </div>
             <div className="flex flex-col gap-16">
                  <Image src={'/assets/images/promotions/6.webp'} width={1280} height={1172} alt="" />
