@@ -8,14 +8,14 @@ export default function PromotionsPage() {
                 <h1 className="uppercase garet text-center md:text-6xl text-5xl md:py-8 pt-28 pb-4">promotions</h1>
             </div>
             <div className="flex flex-col gap-16">
-                 <Image src={'/assets/images/promotions/6.webp'} width={1280} height={1172} alt="" />
+                 <Image src={'/assets/images/promotions/6.jpeg'} width={1280} height={1600} alt="" className="w-5/6 mx-auto" />
                  <div className="flex flex-col gap-4 mb-12 justify-center items-center">
                     <h2 className="uppercase text-5xl arimo-bold ">Mother's day specials</h2>
                     <h3 className="text-3xl  ">Celebrate her glow. Nature her spirit</h3>
                     <p className="md:pt-8">Mother's Day is around the corner-and this year, we're making it extra expecial with 4 esclusive self-care experiences designed to pamper, restore and uplift every kind of mum.</p>
                     <p>Whether you're gifting someone special or booking a moment just for you-these luxurios treatments are the perfect way to say "you deserve this"</p>
                     <p className="text-lg font-bold">Explore our Promotion area and choose from our Limited-Edition Mother's Day Packages:</p>
-                    <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true'} target="_blank" className='group flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e] mt-6 md:mt-0'>
+                    <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/all-offer?menu=true&pId=474146'} target="_blank" className='group flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e] mt-6 md:mt-0'>
                         <p className='text-[#000000] duration-700 text-sm group-hover:underline'>BOOK YOUR FAVOURITE HERE</p>
                     </Link>
                  </div>
@@ -24,7 +24,7 @@ export default function PromotionsPage() {
                     <div className="flex flex-col gap-3 md:w-[350px] w-[310px] pt-5 md:pt-0 text-justify">
                         <h4 className="arimo-bold text-xl">Express Glow up - $111 <br/>(Valued at $145) </h4>
                         <p>A radiant reset for busy mums who need an hour of peace. Includes our organic plant peel facial, scalp massage, and a free hydrojelly mask</p>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true#modal-details'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
+                        <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=p%3A1614442&share&pId=474146'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
                             <p className='text-[#000000] duration-700 text-sm group-hover:underline'>Book Now</p>
                         </Link>
                     </div>
@@ -34,7 +34,7 @@ export default function PromotionsPage() {
                     <div className="flex flex-col gap-3 md:w-[350px] w-[310px] pt-5 md:pt-0 text-justify">
                         <h4 className="arimo-bold text-xl">Mom's me time retreat -<br/>$222 (Valued at $275) </h4>
                         <p>Designed for mums-to-be or anyone needing a deep nutring. Gentle facial, baby bump mask, and relaxing massage.</p>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true#modal-details'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
+                        <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=p%3A1614443&share&pId=474146'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
                             <p className='text-[#000000] duration-700 text-sm group-hover:underline'>Book Now</p>
                         </Link>
                     </div>
@@ -44,7 +44,7 @@ export default function PromotionsPage() {
                     <div className="flex flex-col gap-3 md:w-[350px] w-[310px] pt-5 md:pt-0 text-justify">
                         <h4 className="arimo-bold text-xl">Body Detox & Debloat -<br/>$272 (Valued at $335) </h4>
                         <p>Lymphatic drainage and compression boots-perfect for tired legs, fluid retention, and a lighter, re-energised body.</p>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true#modal-details'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
+                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=p%3A1614444&pId=474146&dppub=true&employeeId=1482022'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
                             <p className='text-[#000000] duration-700 text-sm group-hover:underline'>Book Now</p>
                         </Link>
                     </div>
@@ -54,7 +54,7 @@ export default function PromotionsPage() {
                     <div className="flex flex-col gap-3 md:w-[350px] w-[310px] pt-5 md:pt-0 text-justify">
                         <h4 className="arimo-bold text-xl">The Facial Massage Deluxe -<br/>$333 (Valued at $395) </h4>
                         <p>The ultimate 2-hour ritual of facial massage, buccal massage, LED light therapy, cryosticks & skin tools massage, hydrojelly mask and compression boots for a full-body renewal.</p>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true#modal-details'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
+                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=p%3A1614446&pId=474146&dppub=true&employeeId=1482022'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
                             <p className='text-[#000000] duration-700 text-sm group-hover:underline'>Book Now</p>
                         </Link>
                     </div>
@@ -67,13 +67,13 @@ export default function PromotionsPage() {
                     <p>These offers are available <strong className="underline bold">Until - May 11 only</strong></p>
                     <h4 className="text-lg">Celebrate her flow. Nurture her soul. Or simply treat yourself-you deserve it too.</h4>
                     <div className="flex flex-col items-center gap-6 mt-12">
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/all-offer?menu=true'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
+                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/all-offer?menu=true&pId=474146'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
                             <p className='text-[#000000] duration-700 text-sm group-hover:underline'>BOOK NOW</p>
                         </Link>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/all-offer?menu=true'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
+                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/vouchers?pId=474146&locale=es&menu=true'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
                             <p className='text-[#000000] duration-700 text-sm group-hover:underline'>SEND A GIFT VOUCHER</p>
                         </Link>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/all-offer?menu=true'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
+                        <Link href={'https://wa.me/message/GN2QZXZSQJXUE1'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
                             <p className='text-[#000000] duration-700 text-sm group-hover:underline'>ORDER PHYSICAL GIFTCARDS</p>
                         </Link>
                     </div>
