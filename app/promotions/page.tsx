@@ -1,80 +1,81 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { useRef } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger)
 
 export default function PromotionsPage() {
+
+    const container = useRef(null)
+
+    useGSAP(()=> {
+        gsap.from('.image__one', {
+            scrollTrigger: '.image__one',
+            opacity: 0,
+            yPercent: 20,
+            ease: 'power2.inOut',
+            duration: 1,
+        })
+        gsap.from('.text__one', {
+            scrollTrigger: {
+                trigger: '.text__one',
+                start: 'top 80%',
+            },
+            opacity: 0,
+            yPercent: 20,
+            ease: 'power2.inOut',
+            duration: 1,
+        })
+        gsap.from('.image__two', {
+            scrollTrigger: {
+                trigger: '.image__two',
+                start: 'top 80%',
+            },
+            opacity: 0,
+            yPercent: 20,
+            ease: 'power2.inOut',
+            duration: 1,
+        })
+        gsap.from('.container > *', {
+            scrollTrigger: {
+                trigger: '.container',
+                start: 'top 80%',
+            },
+            opacity: 0,
+            yPercent: 20,
+            ease: 'power2.inOut',
+            duration: 1,
+            stagger: .2,
+        })
+    }, {scope: container})
+
     return (
         <div className="flex flex-col md:w-[800px] w-[90vw] mx-auto relative z-20">
             <div>
                 <h1 className="uppercase garet text-center md:text-6xl text-5xl md:py-8 pt-28 pb-4">promotions</h1>
             </div>
-            <div className="flex flex-col gap-16">
-                 <Image src={'/assets/images/promotions/6.jpeg'} width={1280} height={1600} alt="" className="w-5/6 mx-auto" />
-                 <div className="flex flex-col gap-4 mb-12 justify-center items-center">
-                    <h2 className="uppercase text-5xl arimo-bold ">Mother's day specials</h2>
-                    <h3 className="text-3xl  ">Celebrate her glow. Nature her spirit</h3>
-                    <p className="md:pt-8">Mother's Day is around the corner-and this year, we're making it extra expecial with 4 esclusive self-care experiences designed to pamper, restore and uplift every kind of mum.</p>
-                    <p>Whether you're gifting someone special or booking a moment just for you-these luxurios treatments are the perfect way to say "you deserve this"</p>
-                    <p className="text-lg font-bold">Explore our Promotion area and choose from our Limited-Edition Mother's Day Packages:</p>
-                    <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/all-offer?menu=true&pId=474146'} target="_blank" className='group flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e] mt-6 md:mt-0'>
-                        <p className='text-[#000000] duration-700 text-sm group-hover:underline'>BOOK YOUR FAVOURITE HERE</p>
-                    </Link>
-                 </div>
-                 <div className="flex flex-col md:flex-row items-center justify-between">
-                    <Image src={'/assets/images/facials/skin-balance/express-plant-peel.webp'} alt="" width={1640} height={1930} className="object-cover w-[320px] h-[300px]" />
-                    <div className="flex flex-col gap-3 md:w-[350px] w-[310px] pt-5 md:pt-0 text-justify">
-                        <h4 className="arimo-bold text-xl">Express Glow up - $111 <br/>(Valued at $145) </h4>
-                        <p>A radiant reset for busy mums who need an hour of peace. Includes our organic plant peel facial, scalp massage, and a free hydrojelly mask</p>
-                        <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=p%3A1614442&share&pId=474146'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
-                            <p className='text-[#000000] duration-700 text-sm group-hover:underline'>Book Now</p>
+            <div ref={container} className="flex flex-col gap-16 ">
+                 <Image src={'/assets/images/promotions/promo-1.png'} width={1280} height={1600} alt="" className="md:w-4/6 mx-auto image__one" />
+                 <p className="text__one arimo-bold text-nav text-center text-xl italic md:w-5/6 mx-auto">This May, we celebrate four years of skin transformation, holistic beauty, and soulful rituals — all thanks to you.</p>
+                 <Image src={'/assets/images/promotions/promo-2.png'} width={1280} height={1600} alt="" className="md:w-4/6 mx-auto image__two" />
+                 <div className="container flex flex-col gap-6 pb-16 px-4 md:px-0">
+                    <p className="element text-lg text-center md:text-left">Join us for 4 days only and enjoy:</p>
+                    <p className="element mx-auto text-lg text-center md:text-left">22% OFF all facials, body treatments, and holistic skin rituals.</p>
+                    <p className="element arimo-bold text-nav text-center w-5/6 mx-auto text-lg md:text-left">[Book your discounted appointment for any date until 5 June, 2025]</p>
+                    <p className="element mx-auto text-lg text-center md:text-left"><strong className="arimo-bold">Bonus:</strong> A <strong className="arimo-bold">free LED add-on or compression boots </strong>with treatments over <strong className="arimo-bold">$222</strong></p>
+                    <p className="element mx-auto text-lg text-center md:text-left">22% OFF our curated skincare collection online and in-studio.</p>
+                    <p className="element mx-auto text-lg text-center md:text-left"><strong className="arimo-bold">Bonus:</strong> A <strong className="arimo-bold">full-size SPF gift</strong> with product orders over <strong className="arimo-bold">$222</strong></p>
+                    <p className="element mx-auto text-xl pt-12 text-center md:text-left">Use code: <strong className="arimo-bold">TCTURNS4</strong> at checkout</p>
+                    <h4 className="mx-auto text-xl pt-6">Offer Valid  until May 14-17</h4>
+                    <div className="flex gap-8 justify-center">
+                        <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&share&pId=474146'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit md:px-5 px-2 py-4 bg-[#ffffff0e]'>
+                            <p className='text-[#000000] duration-700  group-hover:underline'>Book your ritual</p>
                         </Link>
-                    </div>
-                 </div>
-                 <div className="flex flex-col md:flex-row items-center justify-between">
-                    <Image src={'/assets/images/promotions/9.webp'} alt="" width={1640} height={1930} className="object-cover w-[320px] h-[300px]" />
-                    <div className="flex flex-col gap-3 md:w-[350px] w-[310px] pt-5 md:pt-0 text-justify">
-                        <h4 className="arimo-bold text-xl">Mom's me time retreat -<br/>$222 (Valued at $275) </h4>
-                        <p>Designed for mums-to-be or anyone needing a deep nutring. Gentle facial, baby bump mask, and relaxing massage.</p>
-                        <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=p%3A1614443&share&pId=474146'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
-                            <p className='text-[#000000] duration-700 text-sm group-hover:underline'>Book Now</p>
-                        </Link>
-                    </div>
-                 </div>
-                 <div className="flex flex-col md:flex-row items-center justify-between">
-                    <Image src={'/assets/images/promotions/7.webp'} alt="" width={1640} height={1930} className="object-cover w-[320px] h-[300px]" />
-                    <div className="flex flex-col gap-3 md:w-[350px] w-[310px] pt-5 md:pt-0 text-justify">
-                        <h4 className="arimo-bold text-xl">Body Detox & Debloat -<br/>$272 (Valued at $335) </h4>
-                        <p>Lymphatic drainage and compression boots-perfect for tired legs, fluid retention, and a lighter, re-energised body.</p>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=p%3A1614444&pId=474146&dppub=true&employeeId=1482022'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
-                            <p className='text-[#000000] duration-700 text-sm group-hover:underline'>Book Now</p>
-                        </Link>
-                    </div>
-                 </div>
-                 <div className="flex flex-col md:flex-row items-center justify-between">
-                    <Image src={'/assets/images/promotions/8.jpg'} alt="" width={1640} height={1930} className="object-cover w-[320px] h-[300px]" />
-                    <div className="flex flex-col gap-3 md:w-[350px] w-[310px] pt-5 md:pt-0 text-justify">
-                        <h4 className="arimo-bold text-xl">The Facial Massage Deluxe -<br/>$333 (Valued at $395) </h4>
-                        <p>The ultimate 2-hour ritual of facial massage, buccal massage, LED light therapy, cryosticks & skin tools massage, hydrojelly mask and compression boots for a full-body renewal.</p>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=p%3A1614446&pId=474146&dppub=true&employeeId=1482022'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
-                            <p className='text-[#000000] duration-700 text-sm group-hover:underline'>Book Now</p>
-                        </Link>
-                    </div>
-                 </div>
-                 <div className="flex flex-col gap-2 justify-center items-center mb-16 mt-8">
-                    <h3 className="arimo-bold text-2xl">Plus, don't miss these bonus gifts:</h3>
-                    <p className="underline mt-4">Spend $200 on any treatment and get 5% OFF skincare on the day</p>
-                    <p className="underline">Spend $300 on gift vouchers and receive a FREE mineral sunscreen + 10% OFF skincare</p>
-                    <h3 className="arimo-bold text-2xl pt-12">Hurry, spots are limited!</h3>
-                    <p>These offers are available <strong className="underline bold">Until - May 11 only</strong></p>
-                    <h4 className="text-lg">Celebrate her flow. Nurture her soul. Or simply treat yourself-you deserve it too.</h4>
-                    <div className="flex flex-col items-center gap-6 mt-12">
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/all-offer?menu=true&pId=474146'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
-                            <p className='text-[#000000] duration-700 text-sm group-hover:underline'>BOOK NOW</p>
-                        </Link>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/vouchers?pId=474146&locale=es&menu=true'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
-                            <p className='text-[#000000] duration-700 text-sm group-hover:underline'>SEND A GIFT VOUCHER</p>
-                        </Link>
-                        <Link href={'https://wa.me/message/GN2QZXZSQJXUE1'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit px-5 py-4 bg-[#ffffff0e]'>
-                            <p className='text-[#000000] duration-700 text-sm group-hover:underline'>ORDER PHYSICAL GIFTCARDS</p>
+                        <Link href={'https://store.thectherapy.com.au/shop/'} target="_blank" className='group mt-4 flex justify-between items-center gap-4 border border-[#000000] duration-700 w-fit md:px-5 px-2 py-4 bg-[#ffffff0e]'>
+                            <p className='text-[#000000] duration-700  group-hover:underline'>Shop the glow</p>
                         </Link>
                     </div>
                  </div>

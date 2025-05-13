@@ -2,6 +2,12 @@ import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'the.c.therapy | Facials - Skin Renewal',
+  description: "Find a range of mechanical and chemical peels such as Dermaplaning and a range of chemical peels from the brand Medik8, perfect for renewing your skin and keeping it glowy and youthful.",
+}
 
 const SKINRENEWAL_DATA = {
     title: 'Skin Renewal',

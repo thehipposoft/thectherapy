@@ -1,6 +1,12 @@
 import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'the.c.therapy | Facials - Skin Hydration',
+  description: "Explore our tailored facial treatments designed to boost hydration and revitalize your skin. From anti-aging and hydration-focused LED light therapy to deeply relaxing facial massages, we address a variety of skin needs. Try our signature Go-To facial for a deep cleanse that targets blemishes, hydrates, and soothes. Each treatment is crafted to enhance your skin’s natural glow and restore balance. Perfect for anyone seeking extra moisture, clarity, and soothing effect in their skin.",
+}
 
 const SKINHYDRATION_DATA = {
     title: 'Skin Hydration',

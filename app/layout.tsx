@@ -9,7 +9,6 @@ import SchemaOrg from "@/components/SchemaOrg";
 import Hotjar from "./Hotjar";
 import MobileMenu from "@/components/commons/MobileMenu";
 import MessageSticky from "@/components/commons/MessageSticky";
-import Announcement from "@/components/Announcement";
 
 const inter = Inter({ subsets: ["latin"] });
 

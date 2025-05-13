@@ -1,5 +1,11 @@
 import ImageTextLayout from "@/components/ImageTextLayout";
 import ServicesLayout from "@/components/ServicesLayout";
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'the.c.therapy | Body Relax',
+  description: 'You can enjoy of our spa packages of facial and massage for retreat yourself with a indulgence spa day.',
+}
 
 
 const BODY_DATA = {

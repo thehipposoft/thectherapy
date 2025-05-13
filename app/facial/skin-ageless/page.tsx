@@ -1,6 +1,12 @@
 import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'the.c.therapy | Facials - Skin Ageless',
+  description: "Stop the time and take your skin another level of glow and plumpness by stimulating & boosting  your own collagen production in a natural way & your skin will waken up & glow up like never before with this facials.",
+}
 
 const SKINAGELESS_DATA = {
     title: 'Skin Ageless',

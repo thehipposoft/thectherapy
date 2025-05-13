@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const BannerMobile = () => {
   return (
-    <div className='lg:hidden flex flex-col justify-center items-center my-24'>
+    <div className='hidden flex-col justify-center items-center my-24'>
         <div className='flex flex-col text-center items-center relative w-full'>
             <div className='rounded-full bg-nav flex justify-center items-center w-[150px] h-[150px] absolute -top-20'>
                 <Image src={'/logo-blanco-1.svg'} width={240} height={180} alt='C-therapy logo' className='w-[125px]' />

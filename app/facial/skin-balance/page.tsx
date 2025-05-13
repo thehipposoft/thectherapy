@@ -1,6 +1,12 @@
 import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'the.c.therapy | Facials - Skin Balance',
+  description: "This are a range of organic facials performed with Bare Roots Australia skincare. From a simple express facial  to the most luxury bespoke facial experience to choose. Great for all compromised skins like dermatitis, acne, sensitive, dryness & dehydration",
+}
 
 const SKINBALANCE_DATA = {
     title: 'Skin Balance',
