@@ -57,7 +57,11 @@ export default function PromotionsPage() {
             <div>
                 <h1 className="uppercase garet text-center md:text-6xl text-5xl md:py-8 pt-28 pb-4">promotions</h1>
             </div>
-            <div ref={container} className="flex flex-col gap-16 ">
+            <div className="w-full flex flex-col text-center gap-4 h-[400px] items-center justify-center">
+                <p>There's nothing to see here right now...</p>
+                <p>We'll be back with new promotions soon!</p>
+            </div>
+  {/*           <div ref={container} className="flex flex-col gap-16 ">
                  <Image src={'/assets/images/promotions/promo-1.png'} width={1280} height={1600} alt="" className="md:w-4/6 mx-auto image__one" />
                  <p className="text__one arimo-bold text-nav text-center text-xl italic md:w-5/6 mx-auto">This May, we celebrate four years of skin transformation, holistic beauty, and soulful rituals — all thanks to you.</p>
                  <Image src={'/assets/images/promotions/promo-2.png'} width={1280} height={1600} alt="" className="md:w-4/6 mx-auto image__two" />
@@ -79,7 +83,7 @@ export default function PromotionsPage() {
                         </Link>
                     </div>
                  </div>
-            </div>
+            </div> */}
 {/*             <Image src={'/assets/images/promotions/0.png'} width={1280} height={1172} alt="" />
             <Image src={'/assets/images/promotions/1.png'} width={1280} height={837} alt="" />
             <Image src={'/assets/images/promotions/2.png'} width={1280} height={1192} alt="" />
