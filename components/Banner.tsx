@@ -1,29 +1,39 @@
 import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 import BannerSlick from './BannerSlick';
+
 const Banner = () => {
     return (
-        <div>
+/*         <div>
             <BannerSlick />
-        </div>
-/*         <div className='md:py-12 relative z-20 bg-[#FBFEFB]'>
-            <Image src={'/assets/images/banner/banner-mobile.jpeg'} alt='' width={2245} height={3179} className='hidden w-screen h-screen object-contain' />
-            <div className='md:flex hidden w-screen items-end justify-center bg-[#6D6764] h-[500px] gap-20'>
-                <div className='flex flex-col  gap-8 my-auto'>
-                    <div className='flex flex-col gap-2'>
-                        <h2 className='text-[#FBFEFB] text-5xl tracking-tight'>Look the way you feel with</h2>
-                        <h2 className='text-[#FBFEFB] text-5xl tracking-tight'>THE FACIAL BLOOM</h2>
-                        <h2 className='text-[#FBFEFB] text-5xl tracking-tight'>Skin Needling!</h2>
-                    </div>
-                    <div className='flex gap-4'>
-                        <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true&offerItems=p%3A1591031'} target='_blank' className='text-[#333333] border-[#FBFEFB] bg-[#FBFEFB] rounded-full border w-fit py-2 px-6 hover:bg-[#ffffff00] duration-300 hover:text-[#FBFEFB]'>ACCESS OUR SPECIAL OFFER</Link>
-                        <Link href={'/promotions'} className='text-[#333333] border-[#FBFEFB] bg-[#FBFEFB] rounded-full border w-fit py-2 px-6 hover:bg-[#ffffff00] duration-300 hover:text-[#FBFEFB]'>LEARN MORE</Link>
-                    </div>
-                    <p className='font-bold text-[#FBFEFB]'>Offer on now. Conditions apply. Expires 30/04/2025</p>
-                </div>
-                <Image src={'/assets/images/banner/cara.png'} alt='' width={731} height={680} className='h-[400px] w-[450px] object-cover' />
-            </div>
         </div> */
+        <div className='md:py-12 relative z-20 bg-[#FBFEFB]'>
+            <div className='md:hidden w-screen h-screen object-contain relative'>
+                <Image src={'/assets/images/promotions/promojunio-mob.jpeg'} alt='' width={900} height={1600} className='md:hidden w-screen h-screen object-contain' />
+                <div className='flex gap-1 absolute items-center bottom-[45%] right-16 2xl:bottom-44 2xl:right-40'>
+                    <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true&offerItems=p%3A1591031'} target='_blank' className='text-[#FFFFFF] hover:text-[#333333] duration-500  underline py-2 '>Book Now</Link>
+                    <p className='text-[#FFFFFF] py-2 text-lg'>|</p>
+                    <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='text-[#FFFFFF] hover:text-[#333333] duration-500 underline py-2 '>Shop Skin Care</Link>
+                </div>
+            </div>
+            <div className='md:flex relative hidden w-screen items-end justify-center bg-[#6D6764] gap-20 h-[500px] 2xl:h-[650px]'>
+                <Image src={'/assets/images/promotions/promojunio.jpeg'} alt='' width={1600} height={544} className='h-[500px] 2xl:h-[650px] 2xl:object-contain md:object-contain xl:object-fill' />
+                <div className='flex absolute items-center bottom-8 md:bottom-8 xl:bottom-28 right-20 2xl:bottom-44 2xl:right-52'>
+                    <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true&offerItems=p%3A1591031'} target='_blank' className='text-[#FFFFFF] hover:text-[#333333] duration-500 text-2xl underline py-2 px-6'>Book Now</Link>
+                    <p className='text-[#FFFFFF] py-2 text-2xl'>|</p>
+                    <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='text-[#FFFFFF] hover:text-[#333333] duration-500 underline text-2xl py-2 px-6'>Shop Skin Care</Link>
+                </div>
+            </div>
+        </div>
     );
 };
 
 export default Banner;
+
+/*
+                <div className='flex flex-col  gap-8 my-auto'>
+
+                    <p className='font-bold text-[#FBFEFB]'>Offer on now. Conditions apply. Expires 30/04/2025</p>
+                </div>
+*/
