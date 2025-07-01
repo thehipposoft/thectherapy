@@ -1,14 +1,12 @@
 import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
 import BannerSlick from './BannerSlick';
 
 const Banner = () => {
     return (
-/*         <div>
+        <div>
             <BannerSlick />
-        </div> */
-        <div className='md:py-12 relative z-20 bg-[#FBFEFB]'>
+        </div>
+/*         <div className='md:py-12 relative z-20 bg-[#FBFEFB]'>
             <div className='md:hidden w-screen h-screen object-contain relative'>
                 <Image src={'/assets/images/promotions/promojunio-mob.jpeg'} alt='' width={900} height={1600} className='md:hidden w-screen h-screen object-contain' />
                 <div className='flex gap-1 absolute items-center bottom-[45%] right-16 2xl:bottom-44 2xl:right-40'>
@@ -25,15 +23,8 @@ const Banner = () => {
                     <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='text-[#FFFFFF] hover:text-[#333333] duration-500 underline text-2xl py-2 px-6'>Shop Skin Care</Link>
                 </div>
             </div>
-        </div>
+        </div> */
     );
 };
 
 export default Banner;
-
-/*
-                <div className='flex flex-col  gap-8 my-auto'>
-
-                    <p className='font-bold text-[#FBFEFB]'>Offer on now. Conditions apply. Expires 30/04/2025</p>
-                </div>
-*/
