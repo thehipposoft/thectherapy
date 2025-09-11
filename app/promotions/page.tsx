@@ -12,50 +12,25 @@ export default function PromotionsPage() {
     const container = useRef(null)
 
     useGSAP(()=> {
-        gsap.from('.image__one', {
-            scrollTrigger: '.image__one',
+        gsap.from('.title', {
             opacity: 0,
             yPercent: 20,
             ease: 'power2.inOut',
             duration: 1,
         })
-        gsap.from('.text__one', {
-            scrollTrigger: {
-                trigger: '.text__one',
-                start: 'top 80%',
-            },
+        gsap.from('.content', {
             opacity: 0,
-            yPercent: 20,
+            y: 20,
             ease: 'power2.inOut',
             duration: 1,
-        })
-        gsap.from('.image__two', {
-            scrollTrigger: {
-                trigger: '.image__two',
-                start: 'top 80%',
-            },
-            opacity: 0,
-            yPercent: 20,
-            ease: 'power2.inOut',
-            duration: 1,
-        })
-        gsap.from('.container > *', {
-            scrollTrigger: {
-                trigger: '.container',
-                start: 'top 80%',
-            },
-            opacity: 0,
-            yPercent: 20,
-            ease: 'power2.inOut',
-            duration: 1,
-            stagger: .2,
+            delay: .5,
         })
     }, {scope: container})
 
     return (
-        <div className="flex flex-col md:w-[800px] w-screen mx-auto relative z-20">
+        <div ref={container} className="flex flex-col md:w-[800px] w-screen mx-auto relative z-20">
             <div>
-                <h1 className="uppercase garet text-center md:text-6xl text-5xl md:py-8 pt-28 pb-4">promotions</h1>
+                <h1 className="title uppercase garet text-center md:text-6xl text-5xl md:py-8 pt-28 pb-4">promotions</h1>
             </div>
 {/*             <div className="w-full flex flex-col text-center gap-4 h-[400px] items-center justify-center">
                 <p>There's nothing to see here right now...</p>
@@ -84,7 +59,7 @@ export default function PromotionsPage() {
                     </div>
                  </div>
             </div> */}
-            <div className="md:flex flex-col hidden">
+            <div  className="content md:flex flex-col hidden">
                 <Image src={'/assets/images/promotions/0.png'} width={1280} height={1172} alt="" />
                 <Image src={'/assets/images/promotions/1.png'} width={1280} height={837} alt="" />
                 <Image src={'/assets/images/promotions/2.png'} width={1280} height={1192} alt="" />
@@ -111,7 +86,7 @@ export default function PromotionsPage() {
                 </div>
                 <Image src={'/assets/images/promotions/5.png'} width={1280} height={274} alt="" />
             </div>
-            <div className="flex flex-col md:hidden">
+            <div  className="content flex flex-col md:hidden">
                 <Image src={'/assets/images/promotions/1-mobile.png'} width={1280} height={1172} alt="" />
                 <Image src={'/assets/images/promotions/2-mobile.png'} width={1280} height={1172} alt="" />
                 <div className="flex justify-center items-center h-20 my-4">
