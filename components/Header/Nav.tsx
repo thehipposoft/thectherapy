@@ -65,7 +65,7 @@ const Nav = () => {
             <Link href={'/contact'} className={`${currentPath === '/contact' ? 'underline' : ''} hover:underline`}>
                 Contact
             </Link>
-            <Link href={'/promotions'} className='hover:underline hidden'>
+            <Link href={'/promotions'} className='hover:underline'>
                 Promotions
             </Link>
             <div className='group/nav-more flex flex-col relative h-full justify-center'>
