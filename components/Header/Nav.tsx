@@ -21,9 +21,13 @@ const Nav = () => {
                             <p className='text-[#FFFFFF]'>Facials</p>
                             <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
                         </Link>
-                        <ul className='absolute duration-500 translate-x-48 w-52 bg-nav group-hover/child:z-30 group-hover/child:opacity-100 translate-y-44 group-hover/child:translate-y-36 opacity-0'>
+                        <ul className='absolute duration-500 translate-x-48 w-52 bg-nav group-hover/child:z-30 group-hover/child:opacity-100 translate-y-44 group-hover/child:translate-y-44 opacity-0'>
                             <Link href={'/skin-consultation'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>
                                 <p className='text-[#FFFFFF]'>Skin Consultation</p>
+                                <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
+                            </Link>
+                            <Link href={'/facial/express-facial'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>
+                                <p className='text-[#FFFFFF]'>Express Facials</p>
                                 <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#fff"><path d="M3.125 10.5h13.75M10 3.625v13.75"/></g></svg>
                             </Link>
                             <Link href={'/facial/skin-balance'} className='flex justify-between duration-500 w-full px-4 py-6 hover:bg-[#cdc6bad5]'>

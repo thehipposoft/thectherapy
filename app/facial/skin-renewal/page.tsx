@@ -16,15 +16,7 @@ const SKINRENEWAL_DATA = {
     image: '/assets/images/facials/skin-renewal.webp',
     text: 'Find a range of mechanical and chemical peels such as Dermaplaning and a range of chemical peels from the brand Medik8, perfect for renewing your skin and keeping it glowy and youthful.',
     sections: [
-        {
-            image: '/assets/images/facials/skin-renewal/express-dermaplaning.webp',
-            title: 'Express Dermaplaning',
-            paragraphs: <div className='flex flex-col gap-4'>
-                <p>Enjoy the professional Dermaplaning treatment. Removing dead skin cells and vellus hair leaves you with instant glowing results. Reduce the signs of fine lines, wrinkles, pigmentation, and dullness with this express renewal facial.</p>
-                <p>Includes: Double cleanse | Skin prep | Dermaplaning | Cream treatment mask | Skincare & SPF</p>
-            </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16830042&dppub=true&employeeId=1482022&pId=474146'
-        },
+
         {
             image: '/assets/images/facials/skin-renewal/dermaplaning-facial.webp',
             title: 'The Dermaplaning Facial',
@@ -36,6 +28,55 @@ const SKINRENEWAL_DATA = {
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16830095&dppub=true&employeeId=1482022&pId=474146'
         },
         {
+            image: '/assets/images/facials/skin-renewal/chemical-peels.webp',
+            title: 'NEW TO PEELS OR SENSITIVE SKIN',
+            paragraphs: <div className='flex flex-col gap-4'>
+                <p>Experience a transformative skin treatment at The C Therapy, with our range of Medik8 chemical peels that deliver powerful, multi-action treatments to tackle stubborn skin issues and reveal your healthiest complexion.</p>
+                <p>Each peel is meticulously formulated to address specific concerns, from aging and pigmentation to blemishes and sensitivity.</p>
+                <p>Whether you're looking for a gentle refresh or a deeper transformation, we customize each peel to meet your unique skin needs.</p>
+                <p>Discover the ideal peel for your skin and unlock your natural radiance today! Ready to transform your skin? <br/> <strong>Carolina will choose what suits you better on that day.</strong></p>
+                <p>Double cleanse| skin pre-peel solution | chemical peel chosen by Carolina for you | neutralise peeling application | calming cleanse & serum application | bio-cellulose collagen mask | skincare & SPF application </p>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>LEVEL 1 - SUPERFACIAL Enzyme peel</p>
+                    <p>A mild enzyme peel that gently resurfaces your skin. Great for beginners or those maintaining results from previous peels.</p>
+                    <p>Duration: 45 min</p>
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>LEVEL 1 - Sensitive PHA Peel|Sensitive,redness skin</p>
+                    <p>Sensitive, Redness-Prone Skin Ideal for sensitive skin types, this peel contains hydrating gluconolactone to visibly smooth skin texture, strengthen the skin barrier, and promote a luminous complexion</p>
+                    <p>Duration: 45 min</p>
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>LEVEL 1 - Universal AHA Peel-New clients/maintenance</p>
+                    <p>A mild peel suitable for all skin types, perfect for first-time peel clients or as a maintenance treatment for those who have completed a course of stronger peels. Gently resurfaces & leaves skin glow</p>
+                    <p>Duration: 45 min</p>
+                </div>
+            </div>,
+            href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A23226739&share=true&pId=474146'
+        },
+        {
+            image: '/assets/images/facials/skin-renewal/chemical-peels-2.jpg',
+            title: 'ACNE/OILY SKIN PEELS',
+            paragraphs: <div className='flex flex-col gap-4'>
+                <p>Experience a transformative skin treatment at The C Therapy, with our range of Medik8 chemical peels that deliver powerful, multi-action treatments to tackle stubborn skin issues and reveal your healthiest complexion.</p>
+                <p>Each peel is meticulously formulated to address specific concerns, from aging and pigmentation to blemishes and sensitivity.</p>
+                <p>Whether you're looking for a gentle refresh or a deeper transformation, we customize each peel to meet your unique skin needs.</p>
+                <p>Discover the ideal peel for your skin and unlock your natural radiance today! Ready to transform your skin? <br/> <strong>Carolina will choose what suits you better on that day.</strong></p>
+                <p>Treatment details:<br /> Recommended: • 6 sessions for optimal results • 2 weeks between each session • Requires 2 weeks of skin prep before your first treat <br/> Double cleanse | skin pre-peel solution | chemical peel chosen by Carolina for you | neutralise peeling application | calming cleanse & serum application | bio-cellulose collagen mask | skincare & SPF application</p>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>MONO- Mandelic TR Peel | Blemish-Prone skin</p>
+                    <p>Ideal for blemish-prone skin, this peel helps prevent breakouts, minimises the appearance of pores, and enhances skin clarity.</p>
+                    <p>Duration: 45 min</p>
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>LEVEL 2- Clarity Peel | Oily, congested skin</p>
+                    <p>A powerful peel designed for blemish-prone and congested skin. It unclogs pores, minimises blemishes, and normalises cell turnover for clearer, healthier-looking skin.</p>
+                    <p>Duration: 45 min</p>
+                </div>
+            </div>,
+            href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A23226742&share=true&pId=474146'
+        },
+/*         {
             image: '/assets/images/facials/skin-renewal/chemical-peels.webp',
             title: 'Chemical Peels',
             paragraphs: <div className='flex flex-col gap-12'>
@@ -60,8 +101,66 @@ const SKINRENEWAL_DATA = {
                 </div>
             </div>,
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A19180064&dppub=true&employeeId=1482022&pId=474146'
+        }, */
+        {
+            image: '/assets/images/facials/skin-renewal/chemical-peels.webp',
+            title: 'DEPIGMENTATION PEEL- Target dark spots, dullness & uneven tone',
+            paragraphs: <div className='flex flex-col gap-4'>
+                <p>This advanced depigmentation peel helps fade dark spots, sun damage, and uneven skin tone by accelerating skin renewal.</p>
+                <p>It’s ideal for anyone struggling with pigmentation, freckles, or dull skin caused by sun exposure or hormonal changes. The result? A more even, radiant and luminous complexion.</p>
+                <p>Perfect for: <br/>• Superficial pigmentation & melasma <br/>• Uneven skin tone or dull complexion <br/>• Mild sunspots and freckles</p>
+                <p>Treatment details: <br/>• Recommended: 6 sessions for optimal results <br/>• 2 weeks between each session <br/>• Requires 2 weeks of skin prep before your first treatment (we’ll guide you!) <br/>• Includes a personalised skincare plan with 2 home care products</p>
+                <p>No downtime, but visible improvement after a few sessions. A progressive, gentle, and effective approach to brighter skin.</p>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>MESOESTETIC- Pigmentation, melasma</p>
+                    <p>Double cleanse | pre-peel solution degrease | protect delicate areas | melanostop tranex peel application | anti-stress or crystal fiber mask | fast sk</p>
+                    <p>Duration: 45 min</p>
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>MEDIK8-Lactic TR Peel | Pigmentation & Dehydration</p>
+                    <p>Perfect for hydrating the skin and brightening pigmentation, this lactic acid peel restores a healthy, radiant glow.</p>
+                    <p>Duration: 45 min</p>
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>MEDIK8 LEVEL 2- Even Peel | Pigmentation</p>
+                    <p>A brightening peel that targets hyperpigmentation, age spots, and post-inflammatory discoloration, leaving the skin with improved clarity, an even tone, and a natural glow.</p>
+                    <p>Duration: 45 min</p>
+                </div>
+            </div>,
+            href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A23219068&share=true&pId=474146'
         },
         {
+            image: '/assets/images/facials/skin-renewal/chemical-peels-2.jpg',
+            title: 'ANTIAGE- WRINKLES PEELS',
+            paragraphs: <div className='flex flex-col gap-4'>
+                <p>Experience a transformative skin treatment at The C Therapy, with our range of Medik8 chemical peels that deliver powerful, multi-action treatments to tackle stubborn skin issues and reveal your healthiest complexion.</p>
+                <p>Each peel is meticulously formulated to address specific concerns, from aging and pigmentation to blemishes and sensitivity.</p>
+                <p>Whether you're looking for a gentle refresh or a deeper transformation, we customize each peel to meet your unique skin needs.</p>
+                <p>Discover the ideal peel for your skin and unlock your natural radiance today! Ready to transform your skin? <br/> <strong>Carolina will choose what suits you better on that day.</strong></p>
+                <p>Treatment details:<br />• 6 sessions for optimal results <br />• 2 weeks between each session <br />• Requires 2 weeks of skin prep before your first treatment (we’ll guide you!)</p>
+                <p>Double cleanse | skin pre-peel solution | chemical peel chosen by Carolina for you | neutralise peeling application | calming cleanse & serum application | bio-cellulose collagen mask | skincare & SPF application</p>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>LEVEL 2-Rewind Peel | Fine lines & wrinkles</p>
+                    <p>One of Medik8’s most powerful formulations, specifically designed to target premature aging. This peel helps reduce fine lines, wrinkles, and imperfections, leaving the skin smooth and rejuvenated.</p>
+                    <p>Duration: 45 min</p>
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <p className='text-black text-lg font-bold'>MONO- Glycolic TR Peel | Best for aging skin</p>
+                    <p>A powerful anti-aging peel using glycolic acid to soften fine lines, reduce pigmentation, and improve texture. Ideal for aging skin.</p>
+                    <p>Duration: 45 min</p>
+                </div>
+            </div>,
+            href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A23226857&share=true&pId=474146'
+        },
+        {
+            image: '/assets/images/facials/skin-renewal/chemical-peels.webp',
+            title: 'ADVANCED PEELS- Layering for Enhanced Results',
+            paragraphs: <div className='flex flex-col gap-4'>
+                <p>For clients looking to enhanced results, peel layering offers a customizable approach. This treatment combines multiple acids to intensify results, allowing precise treatment of localized skin concern.</p>
+            </div>,
+            href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A23226857&share=true&pId=474146'
+        },
+/*         {
             image: '/assets/images/facials/skin-renewal/chemical-peels-2.jpg',
             paragraphs: <div className='flex flex-col gap-2'>
                 <p>• Mono Peels – Single Acid Treatments for Focused Results: </p>
@@ -80,7 +179,7 @@ const SKINRENEWAL_DATA = {
                 </div>
             </div>,
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A19206139&dppub=true&employeeId=1482022&pId=474146'
-        },
+        }, */
     ],
 }
 

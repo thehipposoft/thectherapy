@@ -15,7 +15,7 @@ const SKINAGELESS_DATA = {
     image: '/assets/images/facials/skinageless-banner.webp',
     text: 'Stop the time and take your skin another level of glow and plumpness by stimulating & boosting  your own collagen production in a natural way & your skin will waken up & glow up like never before with this facials.',
     sections: [
-        {
+   /*      {
             image: '/assets/images/facials/skin-ageless/infusion-facial.webp',
             title: 'The Infusion Facial',
             paragraphs: <div className='flex flex-col gap-2'>
@@ -24,7 +24,7 @@ const SKINAGELESS_DATA = {
                 <p className='pt-4'>Double cleanse | enzyme peel | nano infusion on face and neck with actives serums | Hydrojelly mask | scalp or neck & arms massage | Skincare & SPF.</p>
             </div>,
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16830214&dppub=true&employeeId=1482022&pId=474146'
-        },
+        }, */
         {
             image: '/assets/images/facials/skin-ageless/radiofrecuency.webp',
             title: 'Radiofrequency',
@@ -39,7 +39,7 @@ const SKINAGELESS_DATA = {
             title: 'The Facial Bloom',
             paragraphs: <div className='flex flex-col gap-4'>
                 <p>Our Collagen Therapy Induction treatment is a cutting-edge medical procedure designed to visibly reduce wrinkles and treat acne scarring. Through a series of controlled micro-injuries created by microneedles, this therapy stimulates the skin's natural healing process, resulting in a fresher, more radiant complexion.</p>
-                <p>The benefits of The Facial Bloom are numerous:</p>
+                <p className='underline'>The benefits of The Facial Bloom are numerous:</p>
                 <ul>
                     <li>Reduction of acne scarring</li>
                     <li>Strenghtening of the skin structure</li>
@@ -48,9 +48,10 @@ const SKINAGELESS_DATA = {
                     <li>Reduction of pore size and improvement of skin texture.</li>
                 </ul>
                 <p>Unveil the transformative effects of this facial with a revitalized & glowing complexion.</p>
+                <p>Plus an extra boost to your microneedling session to enhance the microneedling results by using ampoules serum to targeting different concerns.</p>
                 <p>Double cleanse | enzyme peel | microneedling on face & neck with actives serums| Collagen Sheet mask | scalp or neck & arms massage | Skincare & SPF.</p>
             </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16830346&pId=474146&dppub=true&employeeId=1482022'
+            href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A16830345&share=true&pId=474146'
         },
 
     ],

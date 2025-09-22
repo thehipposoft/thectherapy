@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex justify-center py-5'>
-                <Link href={'https://www.thehipposoft.com/'} target='_blank' rel='noreferrer' className='text-[#FFFFFF] hover:underline'>Created by <strong>HippoSoft</strong> | All Right Reserved</Link>
+                <Link href={'https://www.thehipposoft.com/'} target='_blank' rel='noreferrer' className='text-[#FFFFFF] hover:underline'>Created by HippoSoft | All Right Reserved</Link>
             </div>
         </div>
     );

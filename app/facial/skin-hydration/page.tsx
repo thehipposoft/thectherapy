@@ -15,18 +15,7 @@ const SKINHYDRATION_DATA = {
     image: '/assets/images/facials/skin-relax.webp',
     text: `Explore our tailored facial treatments designed to boost hydration and revitalize your skin. From anti-aging and hydration-focused LED light therapy to deeply relaxing facial massages, we address a variety of skin needs. Try our signature Go-To facial for a deep cleanse that targets blemishes, hydrates, and soothes. Each treatment is crafted to enhance your skin’s natural glow and restore balance. Perfect for anyone seeking extra moisture, clarity, and soothing effect in their skin.`,
     sections: [
-        {
-            image: '/assets/images/facials/skin-hydration/express-glow.webp',
-            title: 'Express Glow',
-            paragraphs: <div className='flex flex-col gap-4'>
-                <p>Dermalux LED Phototherapy is a non-invasive treatment that uses clinically proven therapeutic light energy to activate the skin’s natural rejuvenation and repair processes without pain or downtime.</p>
-                <p>Dermalux combines unique wavelengths of Blue, Red, and Near-Infrared light to boost collagen production, increase hydration, calm redness and irritation, and target blemish-causing bacteria.</p>
-                <p>As the light initiates a series of skin-enhancing processes, the benefits continue even after the treatment has finished.</p>
-                <p className='pt-4'>Includes: Double cleanse | exfoliation | hydrating mask | dermalux led | scalp massage | SPF</p>
-            </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16828109&dppub=true&employeeId=1482022&pId=474146'
-            
-        },
+
         {
             image: '/assets/images/facials/skin-hydration/glass-facial.webp',
             title: 'The Glass Skin Facial',
@@ -37,15 +26,6 @@ const SKINHYDRATION_DATA = {
             </div>,
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16828141&dppub=true&employeeId=1482022&pId=474146'
         },
-/*         {
-            image: '/assets/images/facials/skin-hydration/detox-facial.webp',
-            title: 'The Detox Facial',
-            paragraphs: <div className='flex flex-col gap-4'>
-                <p>This a great Lymphatic drainage facial that treats holistically the skin concerns from inside out creating a tightening effect on the skin. This constricted function stimulates internal skin processes such as reversal osmosis; bringing nutrients to the upper layers of the skin while promoting beneficial fluid excess clearing and blockages within the circulatory system. Giving you a dewy effect and contoured face look!</p>
-                <p>Doble cleanse | exfoliation | argilerine mask | scalp & arm massage | Hot towel | hydrojelly mask | Skincare & SPF application</p>
-            </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?allOffer=true&menu=true'
-        }, */
         {
             image: '/assets/images/facials/skin-hydration/facial-massage.webp',
             title: 'The Facial Massage',
@@ -57,6 +37,16 @@ const SKINHYDRATION_DATA = {
                 <p>Please note: not recommended for active rosacea, cystic acne, or broken/injured skin.</p>
             </div>,
             href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A8360839&dppub=true&employeeId=1482022&pId=474146'
+        },
+        {
+            image: '/assets/images/facials/skin-ageless/infusion-facial.webp',
+            title: 'The Infusion Facial',
+            paragraphs: <div className='flex flex-col gap-2'>
+                <p>A rejuvenating treatment that delivers a custom blend of active ingredients directly into your skin for maximum effectiveness. Using a specialized nano infusion device, we apply a custom blend of hyaluronic acid, DMAE, vitamin C+E, Argilerine, stem cells, peptides, and epidermal growth factors to your skin. These potent ingredients are delivered through microneedle channels, gently created by pyramid-shaped silicone or steel needles ensure the deep penetration of these powerful serums. Also provides gentle exfoliation to reveal smoother, more radiant skin. Say goodbye to fine lines, wrinkles, and dullness as your skin is revitalized from within.</p>
+                <p>Experience the transformative power of our Nano Infusion Facial and uncover a more youthful, glowing complexion. </p>
+                <p className='pt-4'>Double cleanse | enzyme peel | nano infusion on face and neck with actives serums | Hydrojelly mask | scalp or neck & arms massage | Skincare & SPF.</p>
+            </div>,
+            href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A16830214&share=true&pId=474146'
         },
     ],
 }

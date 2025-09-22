@@ -66,7 +66,7 @@ const Products = () => {
                     </div>
                 </div>
                 <div className='flex md:justify-end justify-center pt-10'>
-                    <Link rel='noreferrer' target='_blank' className='py-4 lg:px-24 md:px-12 px-4 duration-500 text-[#FFFFFF] border bg-nav hover:underline hover:bg-[#ffffff] hover:text-[#333333] hover:border-nav' href={'https://store.thectherapy.com.au/'}>
+                    <Link rel='noreferrer' target='_blank' className='py-4 lg:px-24 md:px-12 px-4 duration-500 text-[#FFFFFF] border bg-nav hover:underline hover:bg-[#ffffff] hover:text-[#333333] hover:border-nav' href={'https://store.thectherapy.com.au/products'}>
                         See product in store
                     </Link>
                 </div>
