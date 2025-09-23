@@ -150,7 +150,7 @@ const SKINRENEWAL_DATA = {
                     <p>Duration: 45 min</p>
                 </div>
             </div>,
-            href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A23226857&share=true&pId=474146'
+            href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A23226743&share=true&pId=474146'
         },
         {
             image: '/assets/images/facials/skin-renewal/chemical-peels.webp',
@@ -160,26 +160,6 @@ const SKINRENEWAL_DATA = {
             </div>,
             href: 'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=sv%3A23226857&share=true&pId=474146'
         },
-/*         {
-            image: '/assets/images/facials/skin-renewal/chemical-peels-2.jpg',
-            paragraphs: <div className='flex flex-col gap-2'>
-                <p>• Mono Peels – Single Acid Treatments for Focused Results: </p>
-                <p>Our Mono Peels use single acids to target specific skin concerns, delivering potent, focused results.</p>
-                <p>+ Mono Glycolic TR Peel: A powerful anti-aging peel using glycolic acid to soften fine lines, reduce pigmentation, and improve texture. Ideal for aging skin. Duration: 45 minutes.</p>
-                <p>+ Mono Lactic TR Peel: Perfect for hydrating the skin and brightening pigmentation, this lactic acid peel restores a healthy, radiant glow. Duration: 45 minutes.</p>
-                <p>+ Mono Mandelic TR Peel: Ideal for blemish-prone skin, this peel prevents breakouts, minimizes pores, and improves skin clarity. Duration: 45 minutes. </p>
-                <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A19206142&dppub=true&employeeId=1482022&pId=474146'} target='_blank' rel='noreferrer' className='group flex justify-between items-center gap-20 border border-nav w-fit px-5 py-4 mt-2'>
-                    <p className='text-[#333333] group-hover:underline'>Book an appointment</p>
-                    <svg className='w-6 h-6 stroke-[#333333] group-hover:translate-x-2 duration-500' fill='none' xmlns="http://www.w3.org/2000/svg"><g className=''><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
-                </Link>
-                <div className='flex flex-col gap-2 mt-12'>
-                    <p>• Level 3 Peels – Advanced Peel Layering:  </p>
-                    <p>For clients looking for enhanced results, peel layering offers a customizable approach. This treatment combines multiple acids to intensify results, allowing for precise treatment of localized skin concerns or a full-face rejuvenation.</p>
-                    <p> Explore our range of Medik8 peels and find the perfect treatment for your unique skin needs. Book your peel today and take the next step towards healthier, more radiant skin!.</p>
-                </div>
-            </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A19206139&dppub=true&employeeId=1482022&pId=474146'
-        }, */
     ],
 }
 

@@ -13,8 +13,10 @@ const ServicesLayout = ({props} :any) => {
                     <h2 className={`text-4xl uppercase text-[${props.textColor}]`}>{props.title}</h2>
                 </div>
             </div>
-            <div className='md:h-[500px] h-[400px] bg-[#F4F5F0] flex justify-center items-center'>
+            <div className='md:h-[500px] h-auto py-12 md:py-0 bg-[#F4F5F0] flex flex-col justify-center items-center'>
                 <p className='md:w-[720px] w-[75vw] text-center vogue-2'>{props.text}</p>
+                { props.text2 && <p className='md:w-[720px] w-[75vw] text-center vogue-2 pt-4'>{props.text2}</p> }
+                { props.text3 && <p className='md:w-[720px] w-[75vw] text-center vogue-2 pt-4'>{props.text3}</p> }
             </div>
         </div>
     );

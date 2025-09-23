@@ -2,6 +2,7 @@ import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
 import type { Metadata } from 'next'
+import { text } from 'stream/consumers';
  
 export const metadata: Metadata = {
   title: 'the.c.therapy | Express Facials',
@@ -13,18 +14,10 @@ const EXPRESSFACIALS_DATA = {
     category: 'Facials',
     textColor: '#FFFFFF',
     image: '/assets/images/facials/express-facials.jpg',
-    text: 'Stop the time and take your skin another level of glow and plumpness by stimulating & boosting  your own collagen production in a natural way & your skin will waken up & glow up like never before with this facials.',
+    text: 'Pressed for time but still want glowing, healthy skin? Our Express Facials are designed for busy women who need visible results in just 30 minutes. Each treatment is tailored to restore, refresh and rejuvenate your complexion, so you can step back into your day feeling radiant and confident.',
+    text2: 'Whether you’re looking to smooth texture, calm irritation, or revive dull skin, our express treatments combine professional techniques with powerful actives to deliver instant results—without downtime.',
+    text3: 'Each express facial includes a double cleanse, targeted treatment, hydrating mask, scalp massage and SPF application—so you walk out protected, polished and glowing.',
     sections: [
-   /*      {
-            image: '/assets/images/facials/skin-ageless/infusion-facial.webp',
-            title: 'The Infusion Facial',
-            paragraphs: <div className='flex flex-col gap-2'>
-                <p>A rejuvenating treatment that delivers a custom blend of active ingredients directly into your skin for maximum effectiveness. Using a specialized nano infusion device, we apply a custom blend of hyaluronic acid, DMAE, vitamin C+E, Argilerine, stem cells, peptides, and epidermal growth factors to your skin. These potent ingredients are delivered through microneedle channels, gently created by pyramid-shaped silicone or steel needles ensure the deep penetration of these powerful serums. Also provides gentle exfoliation to reveal smoother, more radiant skin. Say goodbye to fine lines, wrinkles, and dullness as your skin is revitalized from within.</p>
-                <p>Experience the transformative power of our Nano Infusion Facial and uncover a more youthful, glowing complexion. </p>
-                <p className='pt-4'>Double cleanse | enzyme peel | nano infusion on face and neck with actives serums | Hydrojelly mask | scalp or neck & arms massage | Skincare & SPF.</p>
-            </div>,
-            href: 'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A16830214&dppub=true&employeeId=1482022&pId=474146'
-        }, */
         {
             image: '/assets/images/facials/skin-balance/express-plant-peel.webp',
             title: 'Express Plant Peel',

@@ -23,38 +23,41 @@ const MobileMenu = () => {
                 </div>
 
             </div>
-            <ul className={`${isToggle ? 'translate-x-0' : 'translate-x-full'} top-0 right-0 w-screen h-screen absolute overflow-hidden p-8 flex flex-col justify-center items-center gap-7 md:gap-14 bg-[#ffffffe8] duration-700`}>
-                <Link href={'/'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu} >
+            <ul className={`${isToggle ? 'translate-x-0' : 'translate-x-full'} top-0 right-0 w-screen h-screen absolute overflow-hidden p-8 flex flex-col justify-center items-center gap-6 md:gap-14 bg-[#ffffffe8] duration-700`}>
+                <Link href={'/'} className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu} >
                     Home
                 </Link>
-                <Link href={'/about'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'/about'} className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     About
                 </Link>
-                <Link href={'/facial'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'/facial'} className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     Facials
                 </Link>
-                <Link href={'/skin-consultation'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'/facial/express-facial'} className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
+                    EXPRESS FACIAL
+                </Link>
+                <Link href={'/skin-consultation'} className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     Skin Consultation
                 </Link>
-                <Link href={'/body/treatments'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'/body/treatments'} className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     Body Treaments
                 </Link>
-                <Link href={'/body/relax'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'/body/relax'} className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     Skin & Body Relax
                 </Link>
                 <Link href={'/promotions'} className='border-b sm:p-2 md:text-xl uppercase' onMouseUp={toggleMenu}>
                     Promotions
                 </Link>
-                <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     STORE
                 </Link>
-                <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/vouchers?pId=474146'} target='_blank' className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/vouchers?pId=474146'} target='_blank' className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     GIFT CARDS
                 </Link>
-                <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/paid-plans?share&pId=474146'} target='_blank' className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/paid-plans?share&pId=474146'} target='_blank' className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     Memberships
                 </Link>
-                <Link href={'/terms-and-conditions'} className='border-b sm:p-2 md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'/terms-and-conditions'} className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     Terms & Conditions
                 </Link>
                 <Link href={'https://wa.link/8pvodq'} target='_blank' rel='noreferrer' className='group'>
