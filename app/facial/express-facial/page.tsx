@@ -2,7 +2,6 @@ import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
 import type { Metadata } from 'next'
-import { text } from 'stream/consumers';
  
 export const metadata: Metadata = {
   title: 'the.c.therapy | Express Facials',

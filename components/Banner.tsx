@@ -19,10 +19,10 @@ const Banner = () => {
     }, []);
 
     return (
-/*         <div>
+        <div>
             <BannerSlick />
-        </div> */
-        <div className='container w-screen'>
+        </div>
+/*         <div className='container w-screen'>
             <div className='relative hidden xl:block w-screen'>
                 <Image src={'/assets/images/promotions/banner-sep.webp'} className='w-screen pt-12' alt='' width={2000} height={680}  /> 
                 <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=p%3A1669320&share=true&pId=474146'} target='_blank'className="absolute md:gap-4 gap-2 bg-[#E1DED6] xl:bottom-[27%] 2xl:left-[22%] md:left-[20%]
@@ -39,7 +39,7 @@ const Banner = () => {
                     BOOK HERE
                 </Link>
             </div>
-        </div>
+        </div> */
 
         
 /*         <div className='md:py-12 relative z-20 bg-[#FBFEFB]'>
