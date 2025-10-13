@@ -9,7 +9,7 @@ import { useGSAP } from '@gsap/react';
 const Banner = () => {
 
     useGSAP(() => {
-        gsap.from('.container', {
+        gsap.from('.container-b', {
             opacity: 0,
             y: 50,
             duration: 1,
@@ -19,8 +19,25 @@ const Banner = () => {
     }, []);
 
     return (
-        <div>
+/*         <div>
             <BannerSlick />
+        </div> */
+        <div>
+            <div className='container-b hidden md:block relative w-screen h-[600px] 2xl:h-[700px]'>
+                <Image src={'/assets/images/banner/hallowen.jpg'} alt='Banner Halloween promotion' fill className='object-cover' />
+                <Link style={{color: 'white'}} href={'/promotions'} className='bg-[#352d27] hover:scale-105 hover:underline duration-500 px-4 rounded-lg arimo-bold py-2 bottom-6 left-16 absolute z-10 uppercase w-52 text-center text-xl'>
+                    book now
+                </Link>
+            </div>
+            <div className='container-b md:hidden relative w-screen h-screen'>
+                <Image src={'/assets/images/banner/hallowenmobile.jpg'} alt='Banner Halloween promotion' fill className='object-contain' />
+                <Link 
+                    style={{color: 'white'}} 
+                    href={'/promotions'} 
+                    className='bg-[#352d27] hover:scale-105 hover:underline duration-500 px-4 rounded-lg arimo-bold py-2 bottom-1/3 left-6 absolute z-10 uppercase w-52 text-center text-xl'>
+                    book now
+                </Link>
+            </div>
         </div>
 /*         <div className='container w-screen'>
             <div className='relative hidden xl:block w-screen'>

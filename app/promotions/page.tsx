@@ -59,18 +59,30 @@ export default function PromotionsPage() {
                     </div>
                  </div>
             </div> */}
-            <div  className="content md:flex flex-col hidden">
-                <Image src={'/assets/images/promotions/0.png'} width={1280} height={1172} alt="" />
-                <Image src={'/assets/images/promotions/1.png'} width={1280} height={837} alt="" />
-                <Image src={'/assets/images/promotions/2.png'} width={1280} height={1192} alt="" />
-                <Image src={'/assets/images/promotions/3.png'} width={1280} height={364} alt="" />
-                <div className="flex justify-center items-center h-20 mb-12">
-                    <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&oiid=p%3A1669320&share=true&pId=474146'} target='_blank'className="flex md:gap-4 gap-2 bg-[#383838] arimo-bold md:tracking-widest shadow-lg md:px-12 px-4 py-3 rounded-3xl text-[#FFFFFF] hover:scale-105 duration-500 hover:underline">
+            <div  className="content flex flex-col ">
+                <Image src={'/assets/images/promotions/promoh.png'} width={1280} height={1172} alt="" />
+                <Image src={'/assets/images/promotions/promoh2.png'} width={1280} height={837} alt="" />
+                <div className="flex justify-center items-center h-20 md:mb-12 mb-6">
+                    <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A13076180&pId=474146&dppub=true&employeeId=1482022'} target='_blank'className="flex md:gap-4 gap-2 bg-[#383838] arimo-bold md:tracking-widest shadow-lg md:px-12 px-4 py-3 rounded-3xl text-[#FFFFFF] hover:scale-105 duration-500 hover:underline">
                             <svg className="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 3.5V2M5.06066 5.06066 4 4m1.06066 9L4 14.0607m9-9.00004L14.0607 4M3.5 9H2m6.5-.5 4.1111 12.7778L15.5 18.3889 19.1111 22 22 19.1111 18.3889 15.5l2.8889-2.8889L8.5 8.5Z" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                             BOOK HERE
                     </Link>
                 </div>
-                <Image src={'/assets/images/promotions/4.png'} width={1280} height={954} alt="" />
+                <Image src={'/assets/images/promotions/promoh3.png'} width={1280} height={837} alt="" />
+                <div className="flex justify-center items-center h-20 md:mb-12 mb-6">
+                    <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A10264566&pId=474146&dppub=true&employeeId=1482022&cartId=4c513ea8-855f-40a9-8b9b-a67806c117de6'} target='_blank'className="flex md:gap-4 gap-2 bg-[#383838] arimo-bold md:tracking-widest shadow-lg md:px-12 px-4 py-3 rounded-3xl text-[#FFFFFF] hover:scale-105 duration-500 hover:underline">
+                            <svg className="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 3.5V2M5.06066 5.06066 4 4m1.06066 9L4 14.0607m9-9.00004L14.0607 4M3.5 9H2m6.5-.5 4.1111 12.7778L15.5 18.3889 19.1111 22 22 19.1111 18.3889 15.5l2.8889-2.8889L8.5 8.5Z" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            BOOK HERE
+                    </Link>
+                </div>
+                <Image src={'/assets/images/promotions/promoh4.png'} width={1280} height={837} alt="" />
+                <div className="flex justify-center items-center h-20 md:mb-12 mb-6">
+                    <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/booking?menu=true&offerItems=sv%3A23219068&pId=474146&dppub=true&employeeId=1482022&cartId=7e66a570-18c1-4ec5-96fc-0c13a123c4c7'} target='_blank'className="flex md:gap-4 gap-2 bg-[#383838] arimo-bold md:tracking-widest shadow-lg md:px-12 px-4 py-3 rounded-3xl text-[#FFFFFF] hover:scale-105 duration-500 hover:underline">
+                            <svg className="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 3.5V2M5.06066 5.06066 4 4m1.06066 9L4 14.0607m9-9.00004L14.0607 4M3.5 9H2m6.5-.5 4.1111 12.7778L15.5 18.3889 19.1111 22 22 19.1111 18.3889 15.5l2.8889-2.8889L8.5 8.5Z" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            BOOK HERE
+                    </Link>
+                </div>
+{/*                 <Image src={'/assets/images/promotions/4.png'} width={1280} height={954} alt="" />
                 <div className="flex flex-col gap-8 justify-center items-center h-48 my-4">
                     <h2 className="uppercase md:text-xl text-xl text-center text-nav arimo-bold tracking-wider">Book a free consultation if you think this is right for you, Contact us Today if you have questions!</h2>
                     <div className="flex md:gap-8 gap-4">
@@ -83,10 +95,9 @@ export default function PromotionsPage() {
                             0450409553
                         </Link>
                     </div>
-                </div>
-                <Image src={'/assets/images/promotions/5.png'} width={1280} height={274} alt="" />
+                </div> */}
             </div>
-            <div  className="content flex flex-col md:hidden">
+{/*             <div  className="content flex flex-col md:hidden">
                 <Image src={'/assets/images/promotions/0.png'} width={1280} height={1172} alt="" />
                 <Image src={'/assets/images/promotions/2-mobile.png'} width={1280} height={1172} alt="" />
                 <div className="flex justify-center items-center h-20 my-4">
@@ -110,7 +121,7 @@ export default function PromotionsPage() {
                     </div>
                 </div>
                 <Image src={'/assets/images/promotions/3-mobile.png'} width={1280} height={1172} alt="" />
-            </div>
+            </div> */}
         </div>
     );
 }
