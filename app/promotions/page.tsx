@@ -32,10 +32,10 @@ export default function PromotionsPage() {
             <div>
                 <h1 className="title uppercase garet text-center md:text-6xl text-5xl md:py-8 pt-28 pb-4">promotions</h1>
             </div>
-{/*             <div className="w-full flex flex-col text-center gap-4 h-[400px] items-center justify-center">
+            <div className="w-full flex flex-col text-center gap-4 h-[400px] items-center justify-center">
                 <p>There's nothing to see here right now...</p>
                 <p>We'll be back with new promotions soon!</p>
-            </div> */}
+            </div>
   {/*           <div ref={container} className="flex flex-col gap-16 ">
                  <Image src={'/assets/images/promotions/promo-1.png'} width={1280} height={1600} alt="" className="md:w-4/6 mx-auto image__one" />
                  <p className="text__one arimo-bold text-nav text-center text-xl italic md:w-5/6 mx-auto">This May, we celebrate four years of skin transformation, holistic beauty, and soulful rituals — all thanks to you.</p>
@@ -59,7 +59,7 @@ export default function PromotionsPage() {
                     </div>
                  </div>
             </div> */}
-            <div  className="content flex flex-col ">
+{/*             <div  className="content flex flex-col ">
                 <Image src={'/assets/images/promotions/promoh.png'} width={1280} height={1172} alt="" />
                 <Image src={'/assets/images/promotions/promoh2.png'} width={1280} height={837} alt="" />
                 <div className="flex justify-center items-center h-20 md:mb-12 mb-6">
@@ -81,7 +81,7 @@ export default function PromotionsPage() {
                             <svg className="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 3.5V2M5.06066 5.06066 4 4m1.06066 9L4 14.0607m9-9.00004L14.0607 4M3.5 9H2m6.5-.5 4.1111 12.7778L15.5 18.3889 19.1111 22 22 19.1111 18.3889 15.5l2.8889-2.8889L8.5 8.5Z" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                             BOOK HERE
                     </Link>
-                </div>
+                </div> */}
 {/*                 <Image src={'/assets/images/promotions/4.png'} width={1280} height={954} alt="" />
                 <div className="flex flex-col gap-8 justify-center items-center h-48 my-4">
                     <h2 className="uppercase md:text-xl text-xl text-center text-nav arimo-bold tracking-wider">Book a free consultation if you think this is right for you, Contact us Today if you have questions!</h2>
@@ -96,7 +96,7 @@ export default function PromotionsPage() {
                         </Link>
                     </div>
                 </div> */}
-            </div>
+           {/*  </div> */}
 {/*             <div  className="content flex flex-col md:hidden">
                 <Image src={'/assets/images/promotions/0.png'} width={1280} height={1172} alt="" />
                 <Image src={'/assets/images/promotions/2-mobile.png'} width={1280} height={1172} alt="" />

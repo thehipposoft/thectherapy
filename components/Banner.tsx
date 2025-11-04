@@ -19,10 +19,10 @@ const Banner = () => {
     }, []);
 
     return (
-/*         <div>
-            <BannerSlick />
-        </div> */
         <div>
+            <BannerSlick />
+        </div>
+/*         <div>
             <div className='container-b hidden md:block relative w-screen h-[600px] 2xl:h-[700px]'>
                 <Image src={'/assets/images/banner/hallowen.jpg'} alt='Banner Halloween promotion' fill className='object-cover' />
                 <Link style={{color: 'white'}} href={'/promotions'} className='bg-[#352d27] hover:scale-105 hover:underline duration-500 px-4 rounded-lg arimo-bold py-2 bottom-6 left-16 absolute z-10 uppercase w-52 text-center text-xl'>
@@ -38,7 +38,7 @@ const Banner = () => {
                     book now
                 </Link>
             </div>
-        </div>
+        </div> */
 /*         <div className='container w-screen'>
             <div className='relative hidden xl:block w-screen'>
                 <Image src={'/assets/images/promotions/banner-sep.webp'} className='w-screen pt-12' alt='' width={2000} height={680}  /> 
