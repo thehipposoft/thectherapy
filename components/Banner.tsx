@@ -93,7 +93,7 @@ const Banner = () => {
                                 early access:<br /> get the code here
                             </div>
                         </Link>
-                        <Link rel='noreferrer' target='_blank' href={'https://store.thectherapy.com.au/products/'} className='flex group justify-between items-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-2 '>
+                        <Link rel='noreferrer' target='_blank' href={'https://store.thectherapy.com.au'} className='flex group justify-between items-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-2 '>
                             <svg className='group-hover:translate-x-2 duration-700' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF"><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
                             <div className='bg-[#edf0f2] group-hover:bg-[#ffffff00] duration-500 group-hover:text-[#FFFFFF] border border-[#edf0f2] uppercase font-semibold text-xs text-center rounded-md px-4 py-2'>
                                 shop online store<br /> w/20%OFF
