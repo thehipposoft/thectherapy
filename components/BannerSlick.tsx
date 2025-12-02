@@ -27,8 +27,8 @@ const BannerSlick = () => {
     useGSAP(() => {
         gsap.from(container.current, {
             opacity: 0,
-            duration: 1.5,
-            ease: 'sine.inOut'
+            duration: 2,
+            delay: .5,
         })
     })
 

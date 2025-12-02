@@ -9,7 +9,7 @@ import FacialCareBanner from "@/components/FacialCareBanner";
 import FacialGrid from "@/components/FacialGrid";
 import BannerMobile from "@/components/BannerMobile";
 
-export default function Home({}) {
+export default function Home() {
   return (
       <div>
         <Banner />

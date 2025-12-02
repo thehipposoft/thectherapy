@@ -1,10 +1,14 @@
 'use client'
 import Link from 'next/link';
-import React from 'react';
+import React, {useRef} from 'react';
 import { usePathname } from 'next/navigation';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 const Nav = () => {
-    const currentPath = usePathname()
+
+    const currentPath = usePathname();
+
     return (
         <div className='flex xl:gap-6 md:gap-3 text-base lg:text-sm xl:text-sm 2xl:text-base md:h-20 items-center'>
             <Link href={'/about'} className={`${currentPath === '/about' ? 'underline' : ''} hover:underline`}>
@@ -69,9 +73,9 @@ const Nav = () => {
             <Link href={'/contact'} className={`${currentPath === '/contact' ? 'underline' : ''} hover:underline`}>
                 Contact
             </Link>
-            <Link href={'/promotions'} className='hover:underline'>
+           {/*  <Link href={'/promotions'} className='hover:underline'>
                 Promotions
-            </Link>
+            </Link> */}
             <div className='group/nav-more flex flex-col relative h-full justify-center'>
                 <p>More</p>
                 <div className='absolute group-hover/nav-more:z-30 w-52 bg-nav translate-y-48 opacity-0 duration-500 group-hover/nav-more:translate-y-32 group-hover/nav-more:opacity-100'>
