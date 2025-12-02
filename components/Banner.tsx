@@ -16,7 +16,7 @@ const Banner = () => {
             ease: 'power2.InOut',
             delay: 0.3
         })
-        
+
         const animation = () => {
             if(xPercent <= -100 ) {xPercent = 0}
             gsap.set(LoopText.current, {xPercent: xPercent})
@@ -33,25 +33,12 @@ const Banner = () => {
         <div>
             <BannerSlick />
         </div> 
+    )}
 
-/*         <div>
-            <div className='container-b hidden md:block relative w-screen h-[600px] 2xl:h-[700px]'>
-                <Image src={'/assets/images/banner/hallowen.jpg'} alt='Banner Halloween promotion' fill className='object-cover' />
-                <Link style={{color: 'white'}} href={'/promotions'} className='bg-[#352d27] hover:scale-105 hover:underline duration-500 px-4 rounded-lg arimo-bold py-2 bottom-6 left-16 absolute z-10 uppercase w-52 text-center text-xl'>
-                    book now
-                </Link>
-            </div>
-            <div className='container-b md:hidden relative w-screen h-screen'>
-                <Image src={'/assets/images/banner/hallowenmobile.jpg'} alt='Banner Halloween promotion' fill className='object-contain' />
-                <Link 
-                    style={{color: 'white'}} 
-                    href={'/promotions'} 
-                    className='bg-[#352d27] hover:scale-105 hover:underline duration-500 px-4 rounded-lg arimo-bold py-2 bottom-1/3 left-6 absolute z-10 uppercase w-52 text-center text-xl'>
-                    book now
-                </Link>
-            </div>
-        </div> */
-   /* BLACK FRIDAY PROMOTIONS: 
+export default Banner;
+
+
+/* BLACK FRIDAY PROMOTIONS: 
         <div className='bg-[#000000] container-b md:p-8 p-4 flex md:h-screen justify-center items-center'>
             <div className='w-full h-full relative'>
                 <Image src={"/assets/images/promotions/banner-nov.jpg"} alt='Banner image' fill className='object-cover rounded-sm' />
@@ -62,9 +49,9 @@ const Banner = () => {
                             <h5>BLACK FRIDAYS at The.c.therapy</h5>
                             <h5>SAVE the Date: ACTIVE from 21 to 30 Nov.</h5>
                         </div>
-                        <div className='relative overflow-hidden flex flex-nowrap max-w-72'>
-                            <h2 ref={LoopText} className='uppercase loop text-4xl min-w-72 arimo-bold '>coming soon -</h2>
-                            <h2 ref={LoopTextTwo} className='uppercase loop text-4xl min-w-72 arimo-bold '>coming soon -</h2>
+                        <div className='relative overflow-hidden flex flex-nowrap max-w-[28rem]'>
+                            <h2 ref={LoopText} className='uppercase loop text-4xl min-w-[28rem] arimo-bold '>Black Friday is here -</h2>
+                            <h2 ref={LoopTextTwo} className='uppercase loop text-4xl min-w-[28rem] arimo-bold '>Black Friday is here -</h2>
                         </div>
                     </div>
                     <div className='flex flex-col gap-6 md:gap-0 lg:flex-row justify-between lg:items-end'>
@@ -73,33 +60,34 @@ const Banner = () => {
                             <h4 className='uppercase text-[#FFFFFF] md:text-2xl'>15% OFF - Facials / skin & body relax</h4>
                             <h4 className='uppercase text-[#FFFFFF] md:text-2xl'>20% OFF - memberships & online store</h4>
                             <div className='flex flex-col lg:pl-36 pt-4'>
-                                <h6 className='font-semibold text-xl'>EARLY ACCESS on 11/11</h6>
-                                <p className='text-[#FFFFFF] leading-4'>GET THE CODE! <br />by sign up in our broadcast Channel<br />and enjoy our discounts before anyone.</p>
-                                <p className='pt-2 text-[#FFFFFF]'>T&C* Applied.</p>
+                                <h6 className='font-semibold text-xl hidden'>EARLY ACCESS on 11/11</h6>
+                                <p className='text-[#FFFFFF] leading-4 hidden'>GET THE CODE! <br />by sign up in our broadcast Channel<br />and enjoy our discounts before anyone.</p>
+                                <p className='pt-2 text-[#FFFFFF] hidden'>T&C* Applied.</p>
                             </div>
                         </div>
                     </div>
                     <div className='lg:grid flex flex-col lg:grid-cols-3 gap-4 justify-between'>
-                        <div className='w-full border h-full min-h-16 flex items-center justify-center'>
-                            Your Smart Skin Glow Era begins Now
-                        </div>
-                        <Link href={'https://wa.me/message/GN2QZXZSQJXUE1'} rel='noreferrer' target='_blank' className='flex group justify-between items-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-2 '>
+                        <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/services?lid=507601&eid=1482022&share=true&pId=474146'} rel='noreferrer' target='_blank' className='flex group justify-between items-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-2'>
                             <svg className='group-hover:translate-x-2 duration-700' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF"><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
-                            <div className='bg-[#edf0f2] group-hover:bg-[#ffffff00] duration-500 group-hover:text-[#FFFFFF] border border-[#edf0f2] uppercase font-semibold text-xs text-center rounded-md px-4 py-2'>
-                                early access:<br /> get the code here
+                            <div className='bg-[#edf0f2] group-hover:bg-[#ffffff00] duration-500 group-hover:text-[#FFFFFF] border border-[#edf0f2] uppercase font-semibold text-xs text-center rounded-md px-4 py-2 lg:w-fit w-1/2'>
+                                Book online<br /> Use Code: TCTBF15
                             </div>
                         </Link>
-                        <Link rel='noreferrer' target='_blank' href={'https://store.thectherapy.com.au'} className='flex group justify-between items-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-2 '>
+                        <Link rel='noreferrer' target='_blank' href={'https://www.fresha.com/book-now/the-c-therapy-macid731/paid-plans?share=true&pId=474146'} className='flex group justify-between items-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-2 '>
                             <svg className='group-hover:translate-x-2 duration-700' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF"><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
-                            <div className='bg-[#edf0f2] group-hover:bg-[#ffffff00] duration-500 group-hover:text-[#FFFFFF] border border-[#edf0f2] uppercase font-semibold text-xs text-center rounded-md px-4 py-2'>
-                                shop online store<br /> w/20%OFF
+                            <div className='bg-[#edf0f2] group-hover:bg-[#ffffff00] duration-500 group-hover:text-[#FFFFFF] border border-[#edf0f2] uppercase font-semibold text-xs text-center rounded-md px-4 py-2 lg:w-fit w-1/2'>
+                                Buy<br /> Memberships
+                            </div>
+                        </Link>
+                        <Link rel='noreferrer' target='_blank' href={'https://store.thectherapy.com.au/'} className='flex group justify-between items-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-2 '>
+                            <svg className='group-hover:translate-x-2 duration-700' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF"><path d="M3.75 12h16.5M13.5 5.25 20.25 12l-6.75 6.75"/></g></svg>
+                            <div className='bg-[#edf0f2] group-hover:bg-[#ffffff00] duration-500 group-hover:text-[#FFFFFF] border border-[#edf0f2] uppercase font-semibold text-xs text-center rounded-md px-4 py-2 lg:w-fit w-1/2'>
+                                Shop <br /> Online
                             </div>
                         </Link>
                     </div>
                 </div>
             </div>
-        </div> */
-    );
-};
+        </div>
 
-export default Banner;
+    */
