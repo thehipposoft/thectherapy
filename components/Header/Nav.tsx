@@ -10,7 +10,7 @@ const Nav = () => {
     const currentPath = usePathname();
 
     return (
-        <div className='flex xl:gap-6 md:gap-3 text-base lg:text-sm xl:text-sm 2xl:text-base md:h-20 items-center'>
+        <div className='flex xl:gap-6 md:gap-3 text-base lg:text-sm xl:text-sm 2xl:text-base md:h-16 items-center'>
             <Link href={'/about'} className={`${currentPath === '/about' ? 'underline' : ''} hover:underline`}>
                 About
             </Link>

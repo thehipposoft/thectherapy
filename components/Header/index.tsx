@@ -26,7 +26,7 @@ const Header = () => {
                     <Image
                         src={'/logo-white.png'}
                         alt='C-Therapy logo white'
-                        width={80} height={80}
+                        width={65} height={80}
                         quality={100}
                         className='object-contain rounded-full'
                         priority
