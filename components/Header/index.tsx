@@ -13,13 +13,13 @@ const Header = () => {
     useGSAP(() => {
         gsap.from(container.current , {
             y: "-100%",
-            duration: .8,
+            duration: 1,
             ease: "power1.inOut"
         })
     })
 
     return (
-        <div ref={container} className='w-screen max-w-[100vw] lg:flex hidden bg-[#FBFEFB] py-1 relative'>
+        <div ref={container} className='w-[100vw] lg:flex hidden bg-[#FBFEFB] py-1 fixed top-0 z-50'>
             <div className='lg:w-[90vw] md:flex mx-auto gap-6 items-center justify-between'>
                 <Nav />
                 <Link href={'/'} className='flex items-center gap-2 absolute left-0 right-0 mx-auto w-fit'>

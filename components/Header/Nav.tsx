@@ -17,7 +17,7 @@ const Nav = () => {
             <Link href={'/#products'} className='hover:underline'>
                 Products
             </Link>
-            <div className='group/nav-father flex flex-col relative h-full justify-center'>
+            <div className='group/nav-father overflow-hidden hover:overflow-visible flex flex-col relative h-full justify-center'>
                 <p className={`${currentPath === '/facial' || currentPath === '/facial/skin-balance' || currentPath === '/facial/skin-consultation' || currentPath === '/facial/skin-hydration' || currentPath === '/facial/skin-renewal' || currentPath === '/facial/skin-ageless' || currentPath === '/body/treatments' || currentPath === '/body/relax' ? 'underline' : ''}`}>Services</p>
                 <div className='absolute group-hover/nav-father:z-30 w-52 bg-nav translate-y-32 opacity-0 duration-500 group-hover/nav-father:translate-y-24 group-hover/nav-father:opacity-100'>
                     <div className='group/child flex items-center text-[#FFFFFF] cursor-pointer px-4 hover:bg-[#cdc6bad5] duration-500'>
@@ -76,7 +76,7 @@ const Nav = () => {
            {/*  <Link href={'/promotions'} className='hover:underline'>
                 Promotions
             </Link> */}
-            <div className='group/nav-more flex flex-col relative h-full justify-center'>
+            <div className='group/nav-more overflow-hidden hover:overflow-visible flex flex-col relative h-full justify-center'>
                 <p>More</p>
                 <div className='absolute group-hover/nav-more:z-30 w-52 bg-nav translate-y-48 opacity-0 duration-500 group-hover/nav-more:translate-y-32 group-hover/nav-more:opacity-100'>
                     <div className=' flex items-center text-[#FFFFFF] cursor-pointer px-4 hover:bg-[#cdc6bad5] duration-500'>

@@ -33,7 +33,7 @@ const BannerSlick = () => {
     })
 
     return (
-        <div ref={container} className='md:h-[95vh] h-screen relative'>
+        <div ref={container} className=' h-screen relative'>
             <div className='images-container absolute overflow-hidden h-full w-full'>
                 {
                     BACKGROUNDS.map((val, index) => (
