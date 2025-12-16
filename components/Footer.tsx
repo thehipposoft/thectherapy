@@ -20,7 +20,7 @@ const Footer = () => {
                         <Link href={'/body/relax'} className='text-[#FFFFFF] text-sm hover:underline'>Skin & Body Relax</Link>
                     </ul>
                     <ul>
-                        <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='text-[#FFFFFF] text-sm hover:underline'>TCT Store</Link>
+                        <Link href={'https://www.fresha.com/es/store/the-c-therapy-store-yhbo595r?share=true&pId=474146'} target='_blank' className='text-[#FFFFFF] text-sm hover:underline'>TCT Store</Link>
                     </ul>
                 </div>
                 <div className='flex md:flex-col flex-row gap-4 w-[85vw] justify-between md:justify-start mx-auto md:w-auto md:mx-0'>

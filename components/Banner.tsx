@@ -66,7 +66,7 @@ const Banner = () => {
                         <Link href={'https://www.fresha.com/es/a/the-c-therapy-melbourne-k3-high-street-b0pgn0xk/vouchers?pId=474146'} rel='noreferrer' target='_blank' className='flex group justify-center items-center hover:text-[#333333] hover:text-xl hover:border-[#ffffff00] hover:bg-[#ffffff34] text-[#FFFFFF] arimo-bold text-lg text-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-4'>
                             BUY GIFTCARDS 15% OFF
                         </Link>
-                        <Link href={'https://store.thectherapy.com.au/products/'} rel='noreferrer' target='_blank' className='flex group justify-center items-center hover:text-[#333333] hover:text-xl hover:border-[#ffffff00] hover:bg-[#ffffff34] text-[#FFFFFF] arimo-bold text-lg text-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-4'>
+                        <Link href={'https://www.fresha.com/es/store/the-c-therapy-store-yhbo595r?share=true&pId=474146'} rel='noreferrer' target='_blank' className='flex group justify-center items-center hover:text-[#333333] hover:text-xl hover:border-[#ffffff00] hover:bg-[#ffffff34] text-[#FFFFFF] arimo-bold text-lg text-center gap-6 border border-[#FFFFFF] duration-500 px-5 py-4'>
                             SHOP ONLINE 15% OFF
                         </Link>
                     </div>

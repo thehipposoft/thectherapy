@@ -99,6 +99,9 @@ const Nav = () => {
                     </div>
                 </div>
             </div>
+            <Link href={'https://www.fresha.com/es/store/the-c-therapy-store-yhbo595r?share=true&pId=474146'} rel='noreferrer' target='_blank' className={`uppercase hover:underline font-semibold`}>
+                store
+            </Link>
         </div>
     );
 };

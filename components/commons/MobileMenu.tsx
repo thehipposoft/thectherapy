@@ -48,7 +48,7 @@ const MobileMenu = () => {
 {/*                 <Link href={'/promotions'} className='border-b sm:p-2 md:text-xl uppercase' onMouseUp={toggleMenu}>
                     Promotions
                 </Link> */}
-                <Link href={'https://store.thectherapy.com.au/'} target='_blank' className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
+                <Link href={'https://www.fresha.com/es/store/the-c-therapy-store-yhbo595r?share=true&pId=474146'} target='_blank' className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
                     STORE
                 </Link>
                 <Link href={'https://www.fresha.com/book-now/the-c-therapy-macid731/vouchers?pId=474146'} target='_blank' className='border-b sm:p-2 text-sm md:text-xl' onMouseUp={toggleMenu}>
