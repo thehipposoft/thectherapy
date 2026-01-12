@@ -48,7 +48,7 @@ const BannerSlick = () => {
                     ))
                 }
             </div>
-            <div className='absolute w-full h-full left-0 top-0 bg-gradient-to-r to-[#87807D05] from-[#6E646077]' />
+            <div className='absolute w-full h-full left-0 top-0 bg-gradient-to-r md:to-[#87807D05] md:from-[#6E646077] from-[#23201e77] to-[#4c484605]' />
             <div className='max-w-[90vw] w-[75vw] md:w-auto mx-auto relative z-10 flex h-full items-center'>
                 <div className='flex flex-col justify-center gap-6'>
                     <p className='text-[#FFFFFF] md:w-5/12'>Let's uncover the radiant, confident you that's been waiting to glow up.</p>

@@ -36,10 +36,10 @@ const Banner = () => {
     }, []);
 
     return (
-       /*  <div>
+        <div>
             <BannerSlick />
-        </div> */
-        <div className='container-b md:mt-[75px] flex md:h-[92vh] h-screen w-screen relative justify-center items-center'>
+        </div>
+/*         <div className='container-b md:mt-[75px] flex md:h-[92vh] h-screen w-screen relative justify-center items-center'>
             <div className='w-full h-full relative p-4'>
             <Image src={"/assets/images/promotions/promotions.webp"} fill alt='Christmas promotions banner' className='object-cover object-right md:object-center'  />
                 <div className='flex flex-col gap-6 md:gap-0 h-full justify-between p-6 relative z-10 text-[#FFFFFF]'>
@@ -72,7 +72,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */
     )}
 
 export default Banner;
