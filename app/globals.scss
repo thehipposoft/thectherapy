@@ -24,8 +24,6 @@ html.lenis, html.lenis body {
     --color-brand-cream: #CDCBC0;
 }
 
-
-
 p, a, li, span, input, textarea, .garet {
   font-family: $Garet;
   color: #333333;
@@ -94,5 +92,24 @@ strong {
   } 
 } 
 
-//Testimonials
+//Animation promotion text
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content; 
+  animation: marquee 10s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
 
