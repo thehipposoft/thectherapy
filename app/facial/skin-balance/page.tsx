@@ -1,12 +1,15 @@
 import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
+import { generateSeoMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
  
-export const metadata: Metadata = {
-  title: 'the.c.therapy | Facials - Skin Balance',
-  description: "This are a range of organic facials performed with Bare Roots Australia skincare. From a simple express facial  to the most luxury bespoke facial experience to choose. Great for all compromised skins like dermatitis, acne, sensitive, dryness & dehydration",
-}
+export const metadata: Metadata = generateSeoMetadata({
+  title: 'the.c.therapy | Skin Balance - Organic Facials for Sensitive Skin',
+  description: 'Experience organic facial treatments with Bare Roots Australia skincare designed for compromised skin including dermatitis, acne, sensitivity, and dehydration. From express to luxury facials.',
+  keywords: ['organic facial', 'sensitive skin', 'acne facial', 'dermatitis treatment', 'skin balance', 'Bare Roots Australia'],
+  url: 'https://thectherapy.com.au/facial/skin-balance',
+})
 
 const SKINBALANCE_DATA = {
     title: 'Skin Balance',

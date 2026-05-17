@@ -1,11 +1,14 @@
 import ImageTextLayout from "@/components/ImageTextLayout";
 import ServicesLayout from "@/components/ServicesLayout";
+import { generateSeoMetadata } from "@/lib/seo";
 import type { Metadata } from 'next'
  
-export const metadata: Metadata = {
-  title: 'the.c.therapy | Body Treatments',
-  description: 'At The C Therapy, we offer a variety of body treatments to suit your unique needs. Choose from relaxing oil and customized massages, as well as aesthetic options like anti-cellulite and venous return therapies. We also provide manual lymphatic drainage and compression boots to enhance your wellness. Our body sculpting treatments, including radiofrequency, fat cavitation, and electrostimulation, are tailored to help you achieve your desired results.',
-}
+export const metadata: Metadata = generateSeoMetadata({
+  title: 'the.c.therapy | Body Treatments - Massage & Aesthetic Therapy',
+  description: 'Explore our comprehensive body treatments including relaxing massages, lymphatic drainage, compression boots, anti-cellulite therapy, and body sculpting with radiofrequency and cavitation.',
+  keywords: ['body treatments', 'body massage', 'lymphatic drainage', 'compression boots', 'anti-cellulite', 'body sculpting', 'radiofrequency'],
+  url: 'https://thectherapy.com.au/body/treatments',
+})
 
 const BODY_DATA = {
     title: 'Skin and body',

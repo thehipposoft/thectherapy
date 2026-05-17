@@ -1,10 +1,13 @@
 import TermsAndConditions from "@/components/terms-and-conditions";
+import { generateSeoMetadata } from "@/lib/seo";
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = generateSeoMetadata({
     title: 'the.c.therapy | Terms & Conditions',
-    description: "GIFTCARDS/ E-VOUCHERS. Terms and Conditions: Please note that the following Terms and Conditions apply to our gift cards, e-vouchers, and any current discounts or promotions:",
-  }
+    description: 'Read our Terms and Conditions regarding gift cards, e-vouchers, discounts, and promotions at The C Therapy.',
+    keywords: ['terms and conditions', 'gift cards', 'vouchers', 'promotions'],
+    url: 'https://thectherapy.com.au/terms-and-conditions',
+  })
 
 export default function TermsAndConditionsPage() {
     return (

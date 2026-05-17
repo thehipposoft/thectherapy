@@ -1,11 +1,14 @@
 import ImageTextLayout from "@/components/ImageTextLayout";
 import ServicesLayout from "@/components/ServicesLayout";
+import { generateSeoMetadata } from "@/lib/seo";
 import type { Metadata } from 'next'
  
-export const metadata: Metadata = {
-  title: 'the.c.therapy | Body Relax',
-  description: 'You can enjoy of our spa packages of facial and massage for retreat yourself with a indulgence spa day.',
-}
+export const metadata: Metadata = generateSeoMetadata({
+  title: 'the.c.therapy | Spa Packages - Body Relax & Facial Treatments',
+  description: 'Indulge in our luxurious spa packages combining rejuvenating facials and relaxing massages. Perfect for a complete wellness retreat and self-care experience.',
+  keywords: ['spa packages', 'spa day', 'facial massage', 'relaxation', 'wellness retreat', 'self-care'],
+  url: 'https://thectherapy.com.au/body/relax',
+})
 
 
 const BODY_DATA = {

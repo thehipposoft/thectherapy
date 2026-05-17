@@ -13,8 +13,47 @@ import MessageSticky from "@/components/commons/MessageSticky";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "the.c.therapy",
-  description: "A combination of nature and advanced technology. The c therapy will guide you on your journey to the best version of yourself.",
+    title: "the.c.therapy | Premium Facial & Body Treatments Melbourne",
+    description: "Experience the best of nature and advanced technology. Discover premium facial treatments, body therapies, skincare consultations, and holistic wellness services at The C Therapy in Melbourne.",
+    keywords: [
+      "facial treatments",
+      "body massage",
+      "skincare",
+      "holistic therapy",
+      "beauty treatments",
+      "Melbourne",
+      "K3 High Street",
+    ],
+    alternates: {
+      canonical: "https://thectherapy.com.au",
+    },
+    openGraph: {
+      title: "the.c.therapy | Premium Facial & Body Treatments Melbourne",
+      description: "Experience the best of nature and advanced technology. Discover premium facial treatments, body therapies, and holistic wellness services.",
+      type: "website",
+      url: "https://thectherapy.com.au",
+      siteName: "The C Therapy",
+      locale: "en_AU",
+      images: [
+        {
+          url: "https://thectherapy.com.au/assets/images/commons/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "The C Therapy - Premium Facial & Body Treatments",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "the.c.therapy | Premium Facial & Body Treatments Melbourne",
+      description: "Experience the best of nature and advanced technology.",
+      images: ["https://thectherapy.com.au/assets/images/commons/og-image.png"],
+      creator: "@the.c.therapy",
+    },
+    metadataBase: new URL("https://thectherapy.com.au"),
+    authors: [{ name: "The C Therapy" }],
+    creator: "The C Therapy",
+    publisher: "The C Therapy",
 };
 
 export default function RootLayout({

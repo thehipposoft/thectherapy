@@ -1,12 +1,15 @@
 import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
+import { generateSeoMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
  
-export const metadata: Metadata = {
-  title: 'the.c.therapy | Express Facials',
-  description: "Stop the time and take your skin another level of glow and plumpness by stimulating & boosting  your own collagen production in a natural way & your skin will waken up & glow up like never before with this facials.",
-}
+export const metadata: Metadata = generateSeoMetadata({
+  title: 'the.c.therapy | Express Facials - Quick 30-Minute Treatments',
+  description: 'Get glowing skin in just 30 minutes with our Express Facials. Professional treatments designed for busy women seeking visible results and radiant skin without downtime.',
+  keywords: ['express facials', 'quick facial', '30 minute facial', 'collagen boost', 'skin glow', 'facial treatment'],
+  url: 'https://thectherapy.com.au/facial/express-facial',
+})
 
 const EXPRESSFACIALS_DATA = {
     title: 'Express Facials',

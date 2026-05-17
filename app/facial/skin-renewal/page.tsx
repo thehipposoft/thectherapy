@@ -1,13 +1,15 @@
 import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
-import Link from 'next/link';
+import { generateSeoMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
- 
-export const metadata: Metadata = {
-  title: 'the.c.therapy | Facials - Skin Renewal',
-  description: "Find a range of mechanical and chemical peels such as Dermaplaning and a range of chemical peels from the brand Medik8, perfect for renewing your skin and keeping it glowy and youthful.",
-}
+
+export const metadata: Metadata = generateSeoMetadata({
+  title: 'the.c.therapy | Skin Renewal - Dermaplaning & Chemical Peels',
+  description: 'Renew your skin with our Skin Renewal treatments including dermaplaning and Medik8 chemical peels. Professional peels for all skin types designed to keep your skin glowing and youthful.',
+  keywords: ['dermaplaning', 'chemical peel', 'skin renewal', 'Medik8', 'mechanical peel', 'skin resurfacing'],
+  url: 'https://thectherapy.com.au/facial/skin-renewal',
+})
 
 const SKINRENEWAL_DATA = {
     title: 'Skin Renewal',

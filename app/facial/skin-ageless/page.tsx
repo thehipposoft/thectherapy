@@ -1,12 +1,15 @@
 import ServicesLayout from '@/components/ServicesLayout';
 import ImageTextLayout from '@/components/ImageTextLayout';
 import React from 'react';
+import { generateSeoMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
  
-export const metadata: Metadata = {
-  title: 'the.c.therapy | Facials - Skin Ageless',
-  description: "Stop the time and take your skin another level of glow and plumpness by stimulating & boosting  your own collagen production in a natural way & your skin will waken up & glow up like never before with this facials.",
-}
+export const metadata: Metadata = generateSeoMetadata({
+  title: 'the.c.therapy | Anti-Aging Facial Treatments - Skin Ageless',
+  description: 'Discover our Skin Ageless collection featuring radiofrequency, collagen therapy, and advanced anti-aging treatments to boost collagen production and achieve youthful, glowing skin.',
+  keywords: ['anti-aging facial', 'collagen treatment', 'radiofrequency', 'skin renewal', 'age defying', 'wrinkle reduction'],
+  url: 'https://thectherapy.com.au/facial/skin-ageless',
+})
 
 const SKINAGELESS_DATA = {
     title: 'Skin Ageless',
